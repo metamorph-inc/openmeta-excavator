@@ -1,0 +1,8 @@
+0x00000000
+11/14/2017 14:28:56.498 [172]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\36155dfb203a9fecc5f57b6f1ba1ac82\System.Windows.Forms.ni.dll /noroot /LegacyServiceBehavior 
+11/14/2017 14:28:56.935 [172]: Native image used by one or more roots, cannot be uninstalled
+11/14/2017 14:28:56.951 [172]: ngen returning 0x00000000
+11/14/2017 14:28:56.951 [3832]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Xml\47e48522d864c9a65d9d3c9104db8698\System.Xml.ni.dll /noroot /LegacyServiceBehavior 
+11/14/2017 14:28:57.185 [3832]: Native image used by one or more roots, cannot be uninstalled
+11/14/2017 14:28:57.185 [3832]: ngen returning 0x00000000
+11/14/2017 14:28:57.201 [3160]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Win

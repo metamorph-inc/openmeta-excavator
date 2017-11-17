@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4048958" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4048958" creationTimeStamp="2017-10-31T18:55:20Z" lastUpdateTimeStamp="2017-10-31T18:55:20Z">
+	<assemblyIdentity name="Package_46_for_KB4048958" version="6.3.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4048958" releaseType="Security Update" restart="possible" psfName="Windows8.1-KB4048958-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-CommonFoundation-LanguagePack-Package" language="ja-JP" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="4048958-60_neutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="distribution">
+					<assemblyIdentity name="Microsoft-Windows-TCPIP-MinWin.Resources" version="6.3.9600.18725

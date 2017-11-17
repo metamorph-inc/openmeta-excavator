@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{d6a855d7-cc41-4571-93f6-f7523f1b7f65}") = "SimulinkWrapper", "SimulinkWrapper.vcxproj", "{ef5eca16-bbb4-4eb1-b9ca-c84388192fdc}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ef5eca16-bbb4-4eb1-b9ca-c84388192fdc}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ef5eca16-bbb4-4eb1-b9ca-c84388192fdc}.Debug|Win32.Build.0 = Debug|Win32
+		{ef5eca16-bbb4-4eb1-b9ca-c84388192fdc}.Release|Win32.ActiveCfg = Release|Win32
+		{ef5eca16-bbb4-4eb1-b9ca-c84388192fdc}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

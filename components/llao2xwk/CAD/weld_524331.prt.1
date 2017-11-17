@@ -1,0 +1,751 @@
+Ihrem Protokoll, die den aktuelle produktiven Stand darstellt, und initialisieren Sie dann erneut.(Zuerst einen Produktion-Branch erstellenLÃ¶schen erzwingenPush erzwingenŞGit Flow konnte nicht installiert werden. Wenn du dein eigenes Git System hast, versichere dich bitte, dass Sourcetree alle Rechte im Installierungsverzeichnis hat, damit die git-flow files installiert werden kÃ¶nnen. Wenn du Sourcetree keinen zugriff auf diesen Ort geben kannst, musst du zur Embedded Version von Git wechseln Tools > Options > Git.(Installation von Git Flow fehlgeschlagenKSie mÃ¼ssen eine Erweiterung eingeben oder auswÃ¤hlen um sie hinzuzufÃ¼gen.Leere Erweiterung5Diese Erweiterung wird bereits in Git LFS beobachtet.Bereits beobachtet!DDateien mit der Dateierweiterung {0} werden nun in Git LFS verfolgt.In Git LFS beobachtenGIst das eine Dateierweiterung? Soll Sourcetree das als {0} hinzufÃ¼gen?Als {0} hinzufÃ¼gen?CSind Sie sich sicher, dass diese Erweiterung gelÃ¶scht werden soll?BestÃ¤tige Entfernen—Dieses Projektarchiv schein Git LFS zu verwenden aber Ihrer lokalen Konfiguration fehlen einige benÃ¶tigte Elemente.
+Sourcetree kann dies bereinigen, indem 'git lfs install' auf dem Projektverzeichnis ausgefÃ¼hrt wird. Soll diese (empfohlene) Aktion jetzt durchgefÃ¼hrt werden ?"Git LFS: Installation erforderlichÜIch habe festgestellt, Sie verwenden Git LFS und Bitbucket! Sourcetree kann Ihre Uploads und Downloads zu Bitbucket mit einem speziellen Git LFS Adapter beschleunigen.
+
+Wollen Sie diesen jetzt installieren? (empfohlen)%Git LFS + Bitbucket = noch schneller!JGit LFS wird fÃ¼r diese Operation benÃ¶tigt, aber wurde nicht installiert.&Warnung: Git LFS ist nicht installiertÛDas Projektarchiv "{0}" verwendet Git LFS. Aber anscheinend wurde der binÃ¤re Dateiinhalt bis jetzt noch nicht heruntergeladen.
+
+MÃ¶chten Sie die fÃ¼r Ihren aktuellen Checkout erforderlichen LFS Dateien herunterladen? 'git lfs pull' jetzt ausfÃ¼hren?ŸDie folgenden Dateien sind {0} MB groÃŸ oder grÃ¶ÃŸer und werden derzeit nicht von Git LFS verfolgt. Sind Sie sicher, dass Sie diese Dateien zu Git hinzufÃ¼gen mÃ¶chten?
+
+Wir empfehlen Ihnen den Vorgang abzubrechen und diese Dateien zuerst der Git LFS Verfolgung hinzuzufÃ¼gen. 
+
+{1}zGit ist derzeit nicht aktiviert. Bitte Ã¶ffnen Sie Tools > Optionen und navigieren Sie zum Git-Reiter um es zu aktivieren.Git ist nicht aktiviertrErneut Ã¼berprÃ¼fen (sollten Sie eine vollstÃ¤ndige Version von Git manuell herunterladen und installieren wollen)Ich mÃ¶chte Git nicht verwendenXEine eingebettete Version von Git, nur fÃ¼r die Verwendung durch Sourcetree downloaden ?qWir konnten keine Git-Installation auf Ihrem System finden. Es gibt 3 MÃ¶glichkeiten, wie wir das lÃ¶sen kÃ¶nnen:gGeben Sie den Ordner Ihrer Git-Installation manuell an (falls wir ihn nicht automatisch finden konnten)&Sourcetree : Git wurde noicht gefunden¥Sie haben einen UNC-Pfad eingegeben aber Git unterstÃ¼tzt  solche Pfade nicht von Haus aus. Um ihn verwenden zu kÃ¶nnen verwenden Sie bitte entweder einen SchrÃ¤gstrich ('/') anstatt der Backslashes oder verwenden Sie 4 Backslashes anstatt 2.
+
+MÃ¶chten Sie zurÃ¼ckgehen und den Pfad Ã¤ndern?Dies ist ein Git Projektarchiv+Das Untermodul konnte nicht entfernt werden¹Nachdem du ein Subversion Projektarchiv verfolgst, wÃ¼rdest Du gerne einen Subversion Branch, oder einfach einen lokalen Git Branch erstellen? Behalte im Kopf, dass du keine Commits vom lokalen Branch zurÃ¼ck zur Subversion pushen kannst. Du wirst sie spÃ¤ter einzeln in den Subversion Branch Ã¼bernehmen mÃ¼ssen.Subversion Branch erstellen?ŠEinen Merge auf ein Projektarchiv auszufÃ¼hren, das gerade mit Subversion synchronisiert, ist nicht empfohlen. Zum einen ist die Information des Subversion-Merge elementar.  Zum anderen kann der Mechanismus, den Git-SVN benutzt, um zu verfolgen, wo ein commit an Subversion erforderlich ist, durch mehrere Merges durcheinander kommen. Die einzige Situation, in der dies funktioniert, ist ein Merge der Ã„nderungen eines Branches, der noch nie zu Subversion gepusht wurde, in einen verfolgten Subversion Branch.
+
+Aus SicherheitsgrÃ¼nden wird empfohlen, nicht fortzufahren und stattdessen Branch-Ã¼bergreifende Commits via cherry-pick oder mithilfe eines Patches anzuwenden. Falls Sie sich entscheiden, trotzdem fortzufahren, sind Sie dafÃ¼r verantwortlich, dies zu bewÃ¤ltigen.JDas ZusammenfÃ¼hren in einem Subversion-Projektarchiv wird nicht empfohlen»Diese Aktion holt die aktuellsten Ã„nderungen aus Subversion. Falls notwendig, werden Ihre Ã„nderung auf alle bisher nicht vorhandenen Revisionen angewendet (Rebase). AnschlieÃŸend werden Ihre Commits an Subversion hochgeladen. Diese Aktion wird nur auf dem aktuellen Branch ausgefÃ¼hrt.
+
+MÃ¶chten Sie fortfahren?!Push nach Subversion bestÃ¤tigen?ÉSoll ein Subversion Tag erstellt werden, da einem Subversion Projektarchiv gefolgt wird, oder ein Git Tag, das lokal gehalten wird? Achtung: Git Tags kÃ¶nnen spÃ¤ter nicht zu Subversion gepusht werden.Subversion Tag erstellen?~Sie haben fÃ¼r dieses Repository noch kein globales ignore-file konfiguriert. MÃ¶chten Sie jetzt eine Standarddatei erstellen?Globale Ignorierdatei erstellenGraft abbrechenGraft fortsetzenıEs scheint so, als ob ein Ãœbertragungsvorgang durch einen Konflikt unterbrochen worden. Wenn Sie die Konflikte in Ihrer Arbeitskopie gelÃ¶st haben, wÃ¤hlen Sie bitte, ob Sie den Vorgang fortsetzen oder Ihre Ã„nderungen abbrechen und verwerfen mÃ¶chten.Graft wird ausgefÃ¼hrtGraft:Hallo Welt!HgAttic Shelf anwendenHgAttic Shelf lÃ¶schenHgAttic Shelf InhaltŒSourcetree unterstÃ¼tzt HgAttic Shelves nicht mehr direkt.
+
+Minimale UnterstÃ¼tzung wird noch im 'Shelves - HgAttic' MenÃ¼ bereitgestellt.-Nicht unterstÃ¼tzte HgAttic Shelves gefunden.†Mercurial ist derzeit nicht aktiviert. Bitte Ã¶ffnen Sie Tools > Optionen und navigieren Sie zum Mercurial-Reiter um es zu aktivieren.Hg ist nicht aktiviertxErneut Ã¼berprÃ¼fen (sollten Sie eine vollstÃ¤ndige Version von Mercurial manuell herunterladen und installieren wollen)%Ich mÃ¶chte Mercurial nicht verwenden_Eine eingebettete Version von Mercurial, nur fÃ¼r die Verwendung durch Sourcetree, downloaden ?gWir konnten keine Mercurial-Installation auf Ihrem System finden. Es gibt 3 mÃ¶gliche ProblemlÃ¶sungen:mGeben Sie den Ordner Ihrer Mercurial-Installation manuell an (falls wir ihn nicht automatisch finden konnten)*Sourcetree: Mercurial wurde nicht gefunden¾Dieses Repository verfolgt ein Subversion Projektarchiv, und Sie kÃ¶nnen keine neuen Branches auf Subversion mit dieser Bridge (hgsubversion) erstellen. Wenn Sie einen neuen Mercurial Brnach erstellen kÃ¶nnen Sie keine Ã„nderungssÃ¤tze direkt von diesem Branch zu Subversion pushen -
+ Sie mÃ¼ssen Ã„nderungen manuell in einen bestehenden Subversion Branch Ã¼berfÃ¼hren und diesen pushen (hgsubversion unterstÃ¼tzt auch keine ZusammenfÃ¼hrungen).
+
+Wenn Sie einen permanenten Subversion Branch wÃ¼nschen, erstellen Sie den Zweig mit 'svn copy' und ziehen Sie ihn in dieses Projektarchiv. Wenn Sie nur einen temporÃ¤ren Branch wollen, ist es mÃ¶glicherweise besser, in einer separaten Kopie zu arbeiten.
+
+Wenn Sie sich dennoch dafÃ¼r entscheiden, einen Branch zu erstellen, sind Sie selbst fÃ¼r dessen Verwaltung verantwortlich.=Das Erstellen von Subversion-Branches wird nicht unterstÃ¼tztÆDieses Projektarchiv folgt einem Subversion Projektarchiv und die hgsubversion bridge kann keine Merges abwickeln; mergen kÃ¶nnte dazu fÃ¼hren, dass der aktuelle Branch nicht mehr zu Subversion gepusht werden kann. Daher wird empfohlen, NICHT zu mergen und stattdessen mithilfe der 'Transplant'-Funktion Branch-Ã¼bergreifende Ã„nderungen anzuwenden.
+
+Falls Sie dennoch auf 'Fortfahren' klicken und mergen, sind Sie fÃ¼r die Konsequenzen verantwortlich!CDas ZusammenfÃ¼hren von Subversion-Branches wird nicht unterstÃ¼tzt­Dieses Projektarchiv folgt einem Subversion Projektarchiv und die hgsubversion bridge kann keine Tags hinzufÃ¼gen oder entfernen; dies kÃ¶nnte dazu fÃ¼hren, dass der aktuelle Branch nicht mehr zu Subversion gepusht werden kann. Daher wird empfohlen, NICHT fortzufahren und stattdessen Tags mithilfe eines Subversion-Tools zu erstellen.
+
+Falls Sie dennoch auf 'Fortfahren' klicken, sind Sie fÃ¼r die Konsequenzen verantwortlich!<Die Tag-Modifizierung von Subversion wird nicht unterstÃ¼tztHDie angegebene Host-URL scheint nicht gÃ¼ltig zu sein, bitte korrigierenUngÃ¼ltige Host-URLEBitte den Bitbucket/Git Benutzernamen statt der Email-Adresse angebenUngÃ¼ltiger BenutzernameSSie haben noch keine Bitbucket Projekte ausgewÃ¤hlt, mÃ¶chten Sie wirklich beenden?Keine Projekte ausgewÃ¤hltLBitte den Bitbucket-/GitHub-Benutzernamen eingeben und keine E-Mail-Adresse.EDas Login schlug fehl fÃ¼r Ihren {0} Account.
+{1}
+Die Details dazu:Fehler bei der Anmeldung‚Das Einloggen ins Konto ist fehlgeschlagen, daher wird dieses Konto nicht richtig funktionieren. MÃ¶chten Sie wirklich fortfahren?%Anmeldung fehlgeschlagen, fortsetzen?3Bitte fÃ¼llen Sie alle Felder Ihres {0}-Kontos aus.Details unvollstÃ¤ndighDer lokale relative Pfad muss relativ zu Ihrem Repository sein. Bitte geben Sie einen gÃ¼ltigen Pfad an./UngÃ¼ltiger lokaler relativer Pfad spezifiziertÔDu hast derzeit keine Globale Ignore Datei konfiguriert. Soll eine Default Datei  automatisch installiert werden?
+
+Das installieren der Default globalen ignore Datei wird die Dateien ignorieren, die du normalerweise nicht zum Source Control hinzufÃ¼gen willst, wie .exe, .dll, .obj, .suo und Ã¼bliche Unterordner wie 'Debug'.
+
+Solltest Du bevorzugen, alle Dateien per Default zu sehen, antworte mit 'Nein'. Du kannst die Option spÃ¤ter in Tools > Optionen Ã¤ndern."Globale Ignorierdatei installierenDie Email-Adresse ist ungÃ¼ltig4Die angegebene E-Mail-Adresse war im falschen FormatUngÃ¼ltiges E-Mail-FormatÅDas angegebene Passwort war falsch.
+
+Wenn Sie sich nicht mehr an Ihr Passwort erinnern kÃ¶nnen, benutzen Sie bitte die 'Passwort vergessen?'-VerknÃ¼pfung im Anmelde-Dialog, um es zurÃ¼ckzusetzen.UngÃ¼ltiges Passwort$Der spezifizierte Pfad war ungÃ¼ltigUngÃ¼ltiger PfadEUngÃ¼ltiger Pfad zum Klone. Der Ordner muss existieren und leer sein.cGeben Sie einen vollstÃ¤ndigen oder teilweisen Commit-SHA ein, um im Protokoll dorthin zu springen.Zu Commit springenSie mÃ¼ssen den Lizenzbedingungen von Sourcetree zustimmen bevor Sie das Programm benutzen kÃ¶nnen. Wenn Sie diesen zustimmen, kreuzen Sie bitte das Feld an.{Sie haben den Lizenzbedingungen von Sourcetree nicht zugestimmt. Damit wird Sourcetree jetzt beendet. Sind Sie sich sicher?Lizenzzustimmung erforderlichDie ausgewÃ¤hlte Lizenz ist fehlerhaft. Bitte importieren Sie eine gÃ¼ltige Lizenz-Datei oder klicken Sie auf Registrieren, um eine neue Lizenz zu erstellen.UngÃ¼ltige LizenzLaden...'Verschobenes Projektarchiv lokalisieren¾Das Mercurial Team empfiehlt mit Nachdruck allen Benutzern auf Version 3.7.3 oder neuer zu aktualisieren wegen einer SicherheitslÃ¼cke.
+
+Ihre aktuelle Konfiguration verwendet Mercurial {0}IIhre ausgewÃ¤hlte Version von Mercurial ist Ã¤lter als die Version 3.7.3.$Dies ist ein Mercurial ProjektarchivMerge:$Es muss ein Vorname angegeben werden%Es muss ein Nachname angegeben werden&Es muss ein Passwort festgelegt werdenneuProblem mit Zielverzeichnis¥Zielpfad {0} existiert bereits und ist kein leerer Ordner. Ein leerer oder neuer Ordner muss ausgewÃ¤hlt werden, in dem ein neues Projektarchiv erstellt werden kann.hDer Zielpfad {0} existiert schon. Wollen Sie fortfahren und ein Projektarchiv in diesem Ordner anlegen ?DErstellen eines Projektarchivs in nicht-leeren Ordner nicht mÃ¶glich&Bitte mindestens eine Datei auswÃ¤hlenKeine Dateien ausgewÃ¤hltNichts zum Committen!>Bitte wÃ¤hlen Sie zunÃ¤chst Dateien aus, bevor Sie fortfahren.°Es wurden keine Ã„nderungen vorgemerkt.
+MÃ¶chten Sie Ihre Ã„nderungen zum Commit hinzufÃ¼gen?
+Neue Dateien, die bisher nicht verfolgt werden, werden dabei nicht hinzugefÃ¼gt.;Keine vorgemerkten Ã„nderungen vorhanden - alles committen?4Keine vorgemerkten ("staged") Ã„nderungen vorhanden.ÍEs wurden keine Ã„nderungen fÃ¼r einen Commit vorgemerkt.
+Wollen Sie einfach alle Ihre Ã„nderungen zum Commit hinzufÃ¼gen?
+Neue Dateien, die bisher nicht verfolgt werden, werden dabei nicht hinzugefÃ¼gt.üDiese Operation kann nur auf einer zusammenhÃ¤ngenden Auswahl an Zeilen ausgefÃ¼hrt werden, bitte eine einzige umfassende Auswahl an Zeilen auswÃ¤hlen oder diese Aktion einzeln auf den einzelnen Bereichen ausfÃ¼hren, falls cherry-picking notwendig ist.Nicht zusammenhÃ¤ngende AuswahlADer Pfad '{0}' ist kein gÃ¼ltiges Git- oder Mercurial-Repository.Kein gÃ¼ltiges Projektarchiv'Dies ist kein gÃ¼ltiger Quellpfad / URL4Dies ist kein gÃ¼ltiger Pfad fÃ¼r eine Arbeitskopie.HBitte bearbeiten Sie Ihren Account, um Ihr OAuth Token zu aktualisieren.FSourcetree konnte kein OAth Token fÃ¼r Benutzer '{0}' in '{1}' finden.:Erkannt und konfiguriert fÃ¼r das vorinstallierte {0} v{1}%Download von {0} wurde abgeschlossen.7Download von {0} von {1} ist fehlgeschlagen, weil:
+{2}Downloaden {0} : {1}%Entpacken von {0} beendet. Entpacken von {0} fehlgeschlagen+Das Werkzeug wurde erfolgreich installiert.-Das Werkzeug konnte nicht installiert werden.\WÃ¤hlen Sie ein Arbeitsverzeichnis eines Projektarchives aus, um es in Sourcetree anzuzeigenšDer OpenSSH-Agent lÃ¤uft aber der Server verweigert die Verbindung. Sie mÃ¼ssen eventuell den richtigen SchlÃ¼ssel zu Ihrem Agent Ã¼ber das MenÃ¼ 'Tools > SSH-SchlÃ¼ssel hinzufÃ¼gen' hinzufÃ¼gen.
+
+Bedenken Sie, dass OpenSSH ein manuelles Einloggen mit Benutzername und Passwort nicht unterstÃ¼tzt. Verwenden Sie stattdessen eine HTTPS Url oder wÃ¤hlen Sie statt OpenSSH PuTTY/Plink in 'Tools > Optionen' aus.Ã–ffne QuellpfadˆDer SSH-SchlÃ¼sselagent (ssh-agent) wurde gestartet und lÃ¤uft im Hintergrund. Bitte klicken Sie auf "Wiederholen" wenn Sie bereit sind.ŒAuthentifizierung mittels SSH-SchlÃ¼ssel fehlgeschlagen. MÃ¶chten Sie den SSH-SchlÃ¼sselagenten (ssh-agent) starten und es erneut versuchen?CNicht mÃ¶glich '{0}' zu Ã¶ffnen. Ist ein Standardbrowser definiert?Arbeitskopie Ã¶ffnen¸Authentifizierung Ã¼ber SSH-SchlÃ¼ssel ist fehlgeschlagen. MÃ¶chten Sie den SSH-SchlÃ¼sselagent (Pageant) starten und es erneut versuchen?
+
+(Wenn Sie noch keinen SSH-SchlÃ¼ssel haben kÃ¶nnen Sie einen importieren oder erstellen. Verwenden Sie dazu das MenÃ¼ 'Tools > SSH-SchlÃ¼ssel importieren oder erstellen')µDer SSH-SchlÃ¼sselagent (Pageant) wurde gestartet und befindet sich nun im Infobereich der Taskleiste. Klick Sie bitte auf 'Wiederholen' sobald Sie ihre(n) SchlÃ¼ssel geladen haben.ôIhr SSH-Agent (Pageant) lÃ¤uft aber der Server verweigert die Verbindung. Sie mÃ¼ssen eventuell den richtigen SchlÃ¼ssel laden indem Sie auf das Pageant-Symbol im Infobereich der Taskleiste doppelklicken und 'SchlÃ¼ssel hinzufÃ¼gen' auswÃ¤hlen.&Die PasswÃ¶rter stimmen nicht Ã¼berein.strip/base Pfad Optionen erfolgreich ermitteltTKonnte die strip/base Optionen nicht aus dem Eintrag in der Patchdatei erkennen: {0}ŠProbelauf dieses Patches war erfolgreich. WÃ¤hlen Sie die 'Probelauf' -Option ab und starten Sie neu, um diesen Patch wirklich anzuwenden.	Patch OK!»Die Anwendung des Patches auf Ihr Arbeitsverzeichnis schlug fehl. Meistens ist der Grund hierfÃ¼r, dass sich der Status der Datei(en) in Ihrem Arbeitsverzeichnis zu sehr geÃ¤ndert hat, so dass der Patch nicht mehr erfolgreich angewendet werden konnte.
+
+ Bitte fÃ¼hren Sie statt dessen die Ã„nderungen manuell aus.Patch fehlgeschlagen*Der Patch ist im Arbeitskopie diff-Format.TDer Patch enthÃ¤lt erweiterte diff Informationen (kopieren, umbenennen, binÃ¤r usw.) Patch enthÃ¤lt einen Git commit.-Patch enthÃ¤lt einen Mercurial Ã„derungssatz.#Dies ist keine gÃ¼ltige Patch-DateisEs gibt mehrere Branches, die auf den gewÃ¤hlten Commit zeigen. Bitte wÃ¤hlen den aus, der ausgecheckt werden soll:Branch auswÃ¤hlen¦Aufgrund einer ausstehenden ZusammenfÃ¼hrung hat Ihre Arbeitsversion einen Ã¼bergeordneten Commit. Bitte wÃ¤hlen Sie den Commit, welcher als Base genutzt werden soll:Parent-Commit wÃ¤hlenFEs ist wÃ¤hrend der Installation der Lizenz {0} ein Fehler aufgetreten&Lizenz konnte nicht installiert werdenErfolgreich abgeschlossen.&Mit Fehlern abgeschlossen, siehe oben.±Der Commit konnte erfolgreich durchgefÃ¼hrt werden, aber der Push ist fehlgeschlagen. Bitte benutzen Sie den Push Button aus der Toolbar um den Push-Vorgang erneut zu versuchen.Push fehlgeschlagenRebase abbrechenRebase fortsetzen€Es scheint, als finde ein Rebase statt, das eventuell aufgrund eines Konflikts unterbrochen wurde. Falls die Konflikte in der Arbeitskopie aufgelÃ¶st wurden, kann zwischen Fortfahren des Rebase und Abbruch des Vorgangs  an dieser Stelle entschieden werden.Rebase wird ausgefÃ¼hrtRebase:¡Sourcetree konnte den Registrierungsserver aus unbekannten GrÃ¼nden nicht erreichen. Sollte dieses Problem bestehen bleiben, kÃ¶nnen Sie sich Ã¼ber den Browser registrieren. Verwenden Sie dazu den 'MyAtlassian'-Link und klicken Sie dann auf 'Lizenz importieren...' im Registrierungsdialog.FEs konnte keine Verbindung zum Registrierungsserver hergestellt werdenVersionshinweise Bitte Ã¼berprÃ¼fen Sie die Host URL Details fÃ¼r diesen Account. Es ist wahrscheinlich, dass Sourcetree versucht hat, einen unbekannten Service zu kontaktieren.EHost Root URL ist ungÃ¼ltig - muss ein gÃ¼ltiges http[s]:// URL sein.mBitte geben Sie eine Host Root URL fÃ¼r dieses Projektarchiv an um die verbesserte Integration zu aktivieren.¼In dem von Ihnen ausgewÃ¤hlten Repository ist kein entfernter Ort definiert, der mit den eingehenden Remoteprojekt-Details Ã¼bereinstimmt. Wenn Sie dieses Repository definitiv mit diesem Remote-Link verknÃ¼pfen mÃ¶chten, dann bearbeiten Sie bitte die Remote-Details auf Ihrem Repository, damit diese Ã¼bereinstimmen.%Remote-Details stimmen nicht Ã¼berein@Der ausgewÃ¤hlte Ordner ist kein gÃ¼ltiges lokales ProjektarchivKein gÃ¼ltiges ProjektarchivLesezeichen lÃ¶schenLesezeichen entfernen-Die folgenden Fehler sind aufgetreten:
+
+{0}Es sind Fehler aufgetretenProjektarchiv fehltµDieses Projektarchiv scheint im Dateisystem gelÃ¶scht oder verschoben worden zu sein.
+
+MÃ¶chten Sie das Lesezeichen zu entfernen oder die Pfadangabe zum Projektarchiv korrigieren?,Der angeforderte Pfad '{0}' existiert nicht.CDas Abholen der Mitgliedschaften vom RemoteHost ist fehlgeschlagen.&Bitte Netzwerkverbindung Ã¼berprÃ¼fen.$Bitte prÃ¼fen Sie Ihre Anmeldedaten.1Die URL '{1}' lieferte den Returncode '{2}'.
+{2}oSie haben keine Berechtigung auf die URL '{0}' zuzugreifen. Die Anfrage wurde mit Status Code '{1}' abgewiesen.ƒKonnte Ã„nderungen der Datei '{0}' nicht verwerfen - bitte Ã¼berprÃ¼fen Sie ob die Datei von einem anderen Programm verwendet wird.ZurÃ¼cksetzen fehlgeschlagen%Alle Ã„nderungen zwischen {0} und {1}$SSH Authentifizierung fehlgeschlagen;Problem beim Akzeptieren des ServerschlÃ¼ssels.
+{0}
+
+{1}.Problem beim Akzeptieren des ServerschlÃ¼ssels‹Der SSH ServerschlÃ¼ssel fÃ¼r '{0}' wurde zum SchlÃ¼sselcache hinzugefÃ¼gt.
+Sie mÃ¼ssen mÃ¶glicherweise den aktuellen Prozess neu starten.!SchlÃ¼ssel des Servers akzeptiertéDer SchlÃ¼ssel des Servers '{0}' entspricht nicht dem Zwischengespeicherten. Entweder wurde der SchlÃ¼ssel des echten Servers geÃ¤ndert, oder Sie sind mit einem anderen Server verbunden, was ein potentielles Sicherheitsrisiko darstellt. Der Server-SchlÃ¼ssel lautet:
+
+{1}
+
+MÃ¶chten Sie diesen neuen Server-SchlÃ¼ssel akzeptieren und den Vorgang wiederholen?ÚDer SchlÃ¼ssel des Servers '{0}' wurde noch nicht zwischengespeichert - deshalb schlug der Prozess fehl. Der Server-SchlÃ¼ssel lautet:
+{1}
+
+MÃ¶chten Sie den Server-SchlÃ¼ssel akzeptieren und den Vorgang wiederholen?&Soll der Server-Key akzeptiert werden?SSL Zertifikat akzeptieren?ÁEin Fehler ist wÃ¤hrend des Speicherns des Passworts von {0} aufgetreten:
+{1}
+
+MÃ¶glicherweise haben Sie noch kein Passwort in Ihrem Benutzerkonto angegeben, was aber fÃ¼r das sichere Abspeichern Ihres gespeicherten Passworts erforderlich ist. Falls dies der Fall ist, legen Sie bitte ein Passwort fÃ¼r Ihr Konto fest.(Passwort konnte nicht gespeichert werdenPasswortOAuth TokenZielverzeichnis auswÃ¤hlen'Sourcetree ist auf dem aktuellen Stand.RechtschreibprÃ¼fung Fehler¨Sourcetree hat ungÃ¼ltige WÃ¶rterbuchdatei-Verweise gefunden. Hierdurch kommt es zu GeschwindigkeitseinbuÃŸen.
+
+Wollen Sie diese ungÃ¼ltigen WÃ¶rterbÃ¼cher entfernen?+Es lÃ¤uft grade ein Aktualisierungsvorgang..Es wurde eine Sourcetree Installation gefundenœSourcetree wird jetzt anders und in einem anderen Verzeichnis installiert.
+Es gibt keine weiteren Updates fÃ¼r diese alte Installation.
+Sie haben allerdings die neue Sourcetree Version {0} schon installiert.
+Bitte verwenden Sie die neue Version, um sicherzustellen, dass Sie auch zukÃ¼nftige Updates erhalten.
+FÃ¼r weitere Hilfe wie Sie auf die neue Version wechseln kÃ¶nnen, folgen Sie bitte folgendem Link:Sourcetree wird verschoben.¹Die Version {0} wird nicht mehr mit Updates versorgt.
+Bitte Laden und Installieren Sie die neueste Version, um neue Features zu bekommen und weiterhin automatische Updates zu erhalten.ØSourcetree auf Version '{0}' aktualisiert.
+Sourcetree befindet sich nun in einem anderen Installationsordner.
+Bitte fÃ¼hren Sie die Version unten aus, um sicherzustellen, dass Sie auch zukÃ¼nftige Updates erhalten:0WÃ¤hrend des Updates ist ein Fehler aufgetreten.#Auf Wiederholen klicken wenn fertigSSH Agent starten ? .Submodule kÃ¶nnen nur Git Projektarchive sein.Kein Git ProjektarchivNDer Zielpfad des Submoduls muss sich innerhalb des Hauptrepositories befinden.UngÃ¼ltiger Pfad[Details fÃ¼r Subtree:
+
+Repository: {0}
+Lokaler relativer Pfad: {1}
+Branch / Commit: {2}Subtree-DetailsCommits vereinen?=Dies ist ein Subversion Server (muss nach Git geklont werden)aWenn bei Ihnen Probleme mit SSL auftreten, hilft es eventuell TLS 1.1 oder TLS 1.2 zu aktivieren.Tag-Details0'{0}' ist fehlgeschlagen mit Code {1}: {2} ({3})Ein Fehler ist aufgetreten,Das Arbeitsverzeichnis {0} ist nicht gÃ¼ltig?Es war leider nicht mÃ¶glich, ein Git Bash Terminal zu starten.ÌEs war nicht mÃ¶glich den neuen Pfad zu validieren. Bitte Ã¼berprÃ¼fen Sie, ob Sourcetree Zugriff auf den Pfad hat und die entsprechende verteilte Versionsverwaltung in den Tools/Optionen aktiviert wurde.UnverÃ¶ffentlichte Ã„nderungenSuche alte Versionen...Deinstalliere Sourcetree {0}â€¦ûSourcetree hat noch installierte Ã¤ltere Versionen gefunden. Es wird empfohlen diese veralteten Versionen zu deinstallieren, da nur diese neue Version zukÃ¼nftig Updates und Support bekommen wird.
+
+
+
+Die folgenden Installationen wurden gefunden:
+&Update fÃ¼r Sourcetree ist verfÃ¼gbar.6Update '{0}' ist verfÃ¼gbar.
+Wollen Sie updaten?
+{1}Update '{0}' ist verfÃ¼gbar.{1}Update anwenden...®Der Download des Updates ist fehlgeschlagen. Bitte prÃ¼fen Sie den nachstehenden Fehler und kontaktieren Sie Atlassian Support, falls weitere Probleme auftreten.
+Fehler: {0}Update fehlgeschlagen‰Ein oder mehrere Dateien konnten nicht aktualisiert werden. Bitte Ã¼berprÃ¼fen Sie, dass keine anderen Programme diese Dateien verwenden.Update herunterladen...)Update fÃ¼r Sourcetree wurde installiert.ĞEine neue Version von Sourcetree ist verfÃ¼gbar! Um die Aktualisierung durchzufÃ¼hren, klicken Sie bitte auf Aktualisieren weiter unten. Danach wird das Update heruntergeladen und die Anwendung neu gestartet.oSie haben schon die aktuellste Version der Anwendung installiert und es wird kein Update benÃ¶tigt. Viel Spass!@Sourcetree auf '{0}' aktualisiert. Bitte Sourcetree neu starten.Sourcetree auf '{0}' updaten...¡{0} Version {1} ist jetzt verfÃ¼gbar. Wir empfehlen sofort automatisch auf diese neue Version zu aktualisieren.
+
+Kann das Update jetzt sofort gestartet werden?Update auf {0} ?8HinzufÃ¼gen von Browser-URL-Handler fehlgeschlagen:
+{0}-Browser-URL-Handler erfolgreich hinzugefÃ¼gt.BrowserintegrationBitte fÃ¼llen Sie die Felder fÃ¼r den vollstÃ¤ndigen Namen und E-Mail Adresse. Beide Felder werden fÃ¼r einen Commit benÃ¶tigt.Benutzerdetails unvollstÃ¤ndig6Bitte die folgenden Eingabefehler korrigieren :
+
+{0}Validierungsfehler¸Wenn Sie diesen Commit auschecken, wird ein getrennter HEAD erstellt und Sie werden nicht lÃ¤nger in einem Branch sein (auÃŸer Sie erstellen anschlieÃŸend einen neuen).
+
+Sind Sie sicher, dass Sie das wollen? Wenn nicht, drÃ¼cken Sie Abbrechen und wÃ¤hlen einen anderen Commit, oder wenn es sich um einen entfernten Branch handelt, kÃ¶nnen Sie den Reiter 'Neuen Branch auschecken' benutzen, anstatt einen neuen lokalen Branch zu erstellen.3Achtung: Erstellen eines freistehenden HEAD-ZweigesûSie sind gerade dabei, einen abgehÃ¤ngten HEAD zu erzeugen, und der augenblickliche Commit kann von keinem anderen Zweig aus erreicht werden, weshalb er nach dieser Aktion nicht im Log auftauchen wird.
+
+Sind Sie SICHER, dass Sie fortfahren wollen? Falls Sie sich nicht sicher sind, klicken Sie auf 'Nein' und erzeugen Sie einen neuen Zweig ausgehend von der aktuellen Position.(Warnung: Commits kÃ¶nnten verloren gehenAchtung: Einer oder mehrere Zweige fÃ¼r einen Force Push ausgewÃ¤hlt. Dies kann eine Aktion auslÃ¶sen die Dateien zerstÃ¶rt. Wollen Sie trotzdem fortfahren ?ƒWichtige Warnung: wenn Sie diese Aktion tun, gehen Ihre sÃ¤mtliche nicht eingecheckten Ã„nderungen verloren, wollen Sie fortfahren?UnverÃ¶ffentlichte Ã„nderungen!WarnungÈWillkommen bei Sourcetree 2.0! Wir haben das Look&Feel der Anwendung in diesem Update Ã¼berarbeitet. Ã–ffnen Sie einen neuen Tab (durch Klicken auf +), um schnellen Zugriff auf alle Ihre Repositories zu bekommen. WÃ¤hlen Sie ein Projektarchiv und wechseln Sie auf einen fokussierte Arbeitsumgebung nur fÃ¼r dieses Projektarchiv.BKlicken Sie auf das + um es auszuprobieren oder besuchen Sie unserBlog, um mehr zu erfahren.oDie folgenden Fehler sind beim Testen der Verbindungen aufgetreten:
+
+{0}
+
+MÃ¶chten Sie trotzdem fortfahren?$Kein Pfad zur Arbeitskopie angegeben  BSJB         v4.0.30319     l   $  #~    °  #Strings    @     #US H     #GUID   X  ¬   #Blob           	   ú%3                             
+      %   B   _   x   ‘   ·   Ò   í             	 <   <   <  ! <  ) <  1 <  9 <  A <  .  $ .  A .  G . # V . + f . 3 s . ; V . C f €             0R            
+   
+        U  &         <Module> mscorlib System.Reflection AssemblyTitleAttribute .ctor AssemblyDescriptionAttribute AssemblyCompanyAttribute AssemblyProductAttribute AssemblyInformationalVersionAttribute AssemblyCopyrightAttribute AssemblyTrademarkAttribute AssemblyFileVersionAttribute SourceTree.Localisation.resources.dll SourceTree.Localisation.resources de SourceTree.Localisation.Labels.de.resources SourceTree.Localisation.Messages.de.resources         2œò·Ÿ¾6M‚N±Î²İç ·z\V4à‰ È=¡V/cfy%ûF-7”‘  SourceTree.Localisation   ÿ   	Atlassian   
+SourceTree   2.3.5.0  7 2Copyright Â© 2017. Atlassian. All rights reserved.   äX         şX                         ğX           _CorDllMain mscoree.dll     ÿ%                                                                                                                                                                                                                                                                   €                  0  €                   H   X` ä          ä4   V S _ V E R S I O N _ I N F O     ½ïş             ?                         D    V a r F i l e I n f o     $    T r a n s l a t i o n       °D   S t r i n g F i l e I n f o       0 0 0 0 0 4 b 0   4 
+  C o m p a n y N a m e     A t l a s s i a n   X   F i l e D e s c r i p t i o n     S o u r c e T r e e . L o c a l i s a t i o n   0   F i l e V e r s i o n     2 . 3 . 5 . 0   l &  I n t e r n a l N a m e   S o u r c e T r e e . L o c a l i s a t i o n . r e s o u r c e s . d l l   ˆ 2  L e g a l C o p y r i g h t   C o p y r i g h t   ©   2 0 1 7 .   A t l a s s i a n .   A l l   r i g h t s   r e s e r v e d .   @   L e g a l T r a d e m a r k s     S o u r c e T r e e     t &  O r i g i n a l F i l e n a m e   S o u r c e T r e e . L o c a l i s a t i o n . r e s o u r c e s . d l l   8   P r o d u c t N a m e     S o u r c e T r e e     4   P r o d u c t V e r s i o n   2 . 3 . 5 . 0   8   A s s e m b l y   V e r s i o n   2 . 3 . 5 . 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                        P    9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      H    0‚6	*†H†÷ ‚'0‚#10	+ 0L
++‚7 >0<0
++‚70	  ¢€ 0!0	+ ±ø´qzü§jŒSJ¤U£Ec“s ‚
+0‚00‚ 	_Õ»fuSCµo•P0	*†H†÷ 0e10	UUS10U
+DigiCert Inc10Uwww.digicert.com1$0"UDigiCert Assured ID Root CA0131022120000Z281022120000Z0r10	UUS10U
+DigiCert Inc10Uwww.digicert.com110/U(DigiCert SHA2 Assured ID Code Signing CA0‚"0	*†H†÷ ‚ 0‚
+‚ øÓ³¯gwÓ1IÏĞûE™±:ÛDõå¨Û2×qêv.·ú’CÀ¥ù‰Ô7×¶ªğœ†¥Ø%¬y(:~éÑgÓÆû)'ÇÓ{#”ä‘#–w‚ù¡„#fT3Pt±(&»$iÂÂRògŠ‰EÔ-¡£éˆ, •®J‡ßõâM`¾ªÄ²®p1f3q>¬p¢«Îé|Ë’¡å;1Ïêò
+äW»Jµétæ+şlË~t96ïäµN¤©êj
+«„ó¬gNµÄ÷ŒÑ %#ëd>R–ÁòôÅÁ¢è,Q÷s¼½…±bƒsA‚ä8‹js Ğds<Ÿ¦3©ıß%“Ñ £‚Í0‚É0Uÿ0ÿ 0Uÿ†0U%0
++0y+m0k0$+0†http://ocsp.digicert.com0C+0†7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0Uz0x0: 8 6†4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0: 8 6†4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0OU H0F08
+`†H†ıl 0*0(+https://www.digicert.com/CPS0
+`†H†ıl0UZÄ¹{*
+£¥êqÀ`ù-öeuX0U#0€Eë¢¯ô’Ë‚1-Q‹§§!ómÈ0	*†H†÷ ‚ >ìZ$³ó"ÑÈ,|%)v¨]-:Äï0a×~`ıÃ=Ä¯‹ıï*ß U7°áöÑ’uQ´n¥Zâ^$N¤î?qcK­×_Dyó6Š÷œFN\ÿ±‘ûº¯µQÂ$®$ÆÇ'*¡)(:q(<.‘£À%âœG¡zhh¯›§\ \Ùq±»¨øÅhŸÏ@Ë@D¥ğæd%B2²6Š$ş/r~×IE–èYéútdk²ëfCÚ³°ŒÕéİö Î™1c=³›OÆ“üú‹Úù‚I÷bn¡Sú”….’‘êhlD2²f¡ç¤šdQï0‚e0‚M 	#ª²ƒÅs˜U»kVİKn×0	*†H†÷ 0r10	UUS10U
+DigiCert Inc10Uwww.digicert.com110/U(DigiCert SHA2 Assured ID Code Signing CA0161109000000Z191127120000Z0¡10	UAU10UNew South Wales10USydney10U
+Atlassian Pty Ltd10	UIT10UAtlassian Pty Ltd1"0 	*†H†÷	admin@atlassian.com0‚"0	*†H†÷ ‚ 0‚
+‚ ¼Ç€˜êfÁ“Dc¨ÖÙ ah™vœğLÜ‰bgÑOĞ•‡) oªD_ßâ=dïæŸHº¶2ãı
+]ˆ¾)ÒuXOºb?úÄ¹#^ö‘¾N“ÃdW¶´JÇÒR cœè#a!Äb£K«†©nípÖékdJ{h6? zâ	Š±6“*™p–Õ½<×CIú9û 2JA¹^ıÜÌ3îU–A‡"ˆ¥=x’G]× €æ-Sš¢o®´rWÔMÿ–¸ª¶ÖF€ÔµİS„ÿM‡lS¯fY³´ü[ˆc,úw–á•4ÈÄ´ô-9#ƒï½ÍJÕ1	{ £‚Å0‚Á0U#0€ZÄ¹{*
+£¥êqÀ`ù-öeuX0U6Æ…„^=/şíîô5Œë%0Uÿ€0U%0
++0wUp0n05 3 1†/http://crl3.digicert.com/sha2-assured-cs-g1.crl05 3 1†/http://crl4.digicert.com/sha2-assured-cs-g1.crl0LU E0C07	`†H†ıl0*0(+https://www.digicert.com/CPS0g0„+x0v0$+0†http://ocsp.digicert.com0N+0†Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0Uÿ0 0	*†H†÷ ‚ oCÂ“Ì <ÖTLV	,£r÷&µ8k#å¥gee÷{£ñ\]­v¬'š‹FM‹ŒDGô»ás¸äO„ıpZõX“¸dŸãËğßŸf”…÷öR2KIŸÛ ÍÁÄ;y †*Ê)ÙU7­+B¯WØ gLŠ€5äŸ%±T¢JD†q© Îà]ıÇ~ËåGÉ”¯†›&hèfI(öË_U3
+§—$»QÆ6!X<±ì±øÃ]ªG„lW¶²Fw¡”‚”pX@e`ÕÆ€•äb¼¤Ïcé¾¬³•ß·<¤$JæîÙà•7²)œª™È1‚ 0‚0†0r10	UUS10U
+DigiCert Inc10Uwww.digicert.com110/U(DigiCert SHA2 Assured ID Code Signing CA	#ª²ƒÅs˜U»kVİKn×0	+  p0
++‚710 0	*†H†÷	1
++‚70
++‚710
++‚70#	*†H†÷	1XÖÛ¸&9ÉA’éK„ä8Ê¼0	*†H†÷ ‚ Ÿ“*šiã(†„	³Lóc{ç‰Tnìì3àzÎ(i·]—Û]'ZñÍıQ°XmDĞ×ÿÔÎ„[vüúWÓ†Hµ–•­³M'~$b2sÎ÷E<1Yx‚Çk×Ög¾îv¸5Ë’š’é„OqrÒ
+û’:‰\’Ëdô¾”ÃQ® )1°H€¬¡ècãU3IïIF.–Ñ"È+ysü~õ…×Ø]HcÊºìßq*=¿I¥§%Î.2^ÖoÜƒ¿4sËÚ‡ªşU#dØwWøqÙ$|Äc¡â³¾¬# fµ8ÿkÄªç/ÁcÚà_zõn[È3[±ä	jÂJ0                                                                                                                                                                                              Û£Ğ—TÑ;Èƒßé>4÷¶Ë’f¼ïÌÅÓ•bô¢•?Ú¯òBú«é`]T5‡/š \ÃU ®”³¶É;ç#e‘Á›<½s“*Ë<®¶kjØÈİÙgm¯¢S¥l¬ÒõU+Èìu?ÅJÇB€H»`ûÀÊÙ./Â–Ì,ı­[›»'_ƒ »VbII©¥ßîQÉL•¿ÖMOO`ÈØ¢‹µúä/WæSÀ$híè’€û>zãF0şdª´§«ÎÑa»µ*îZİ;#¿áSˆ{4åöwEÚ“ê=Ö'D>2&Ï…Ó©¡ƒì«5£ßF3‚„;÷«ÑÃ]5îv`a&Åa›„f…é	cÕ|të¨+zç×Ü.e¢,„h»ÈeÇÿı8ĞyvT›9KÃ °·‹-A” €@|“F˜‘1ºÎ6&H²VÂ`ã¤<Ï‘ŠÄµ 9øÕ1XÜ|“Êjj(òE!ÓêMr¶]Zf«£	¼18z,ñ ‹î%ú¾¸6
+-’$Ä…½ù®“ zå¥¥ê¢,Ô¥cÜk€³¨l7`I-ÕĞX„½n~ãò×HØû*Ùê`¿œ++uÆ‰å
+££Ü õ(•ÀOîñCûU¥dîüÈ•ó™À@…°ë¾MÄÎÍ°¶Cs<6±üjyl1€6šæ¢Ø„ï¤âW×H¶l~‰ãïÚCx¿¬ô‚§,/·i9Ï)&›dêş.=,2‰{Öò‡¿ZEê‘ºK4ÓÚé§¨Åº7ç]ˆ+‹GdÏP\&"[
+E%™“óõG#!÷z•?Óúaëç“#ìù°|QQ??Ü²êsì‚óğ8MíÎ“ùÓ9ÊÒ]Ã®¯¦>1;jıqŞ¯~ˆM×Y¾wP4õÉì’æ’ùåò}’mùš×Ş­AÁé}V6®P¦µ1{û^í,Ë/!^÷šZşZù-ª±&ë[BtÔ·ë=ÇãsZ§«ûLP(fHÁq´´Ç×l¥lĞ³Äl¶^ÏÄE#ßj<zëõeÎŒùİşì¤}¯Q=wâ>#²GâS™a&pÌ_W˜¨@r5îA¹ió€C¹¹èºıø†aÇlk|ï¯J‚nÃ½h48ıì1®À%ò|Úï)¦gœL]Qbæ+æ&ä–ÁöNĞUT€™‡Üòr¨=BÛ†¦˜ÕŞÃ×Ãç_Å4$ÀKÓş+ƒé_réÿßyŒôÿ­<m©(â„Ş×ºòGÁ–gURdíåeĞİè7}ï¦ÕÑiÌn´_Ÿ1¡¸xEÅ—5he5UÉ‚¿hr&Â±Ëi¿İ_Ÿ…´jÏ–´²·u?np»~Ÿ›Sy¾_—"=7’·û¿ß×·t¶A£#«öïÏ#×.Rj»tŞ%nC(0Ö´íi~İ_HÔûHç/tÔû0ôÅm×,ºÓµú‘^-ı ¦Ç$Ôß'ËURlK ¿ß÷¯Ít_`Î;}=ì@‹>áüw›zt}ŸÍh5´»¾ï2!^íî}Y7÷¥®İ¥x»7jNJ·¯ »xÌ{‡°xs]ªlÏll5úé+Î—0§OÏt»?w_/NcÁ¬ ­G¥3ß›|cLğu»vnHv;5aŞîÆhê†¢-2ÜªÎÙÃík8üÄŸ&d³Û-}kY]n»v³@\ÛšàøºdÄœ ï¨×:—ZkñcwÊFİ\_ï•=eœoZÁ&2¸'÷¹¯ò¡ˆ™b†Ş|í½w»„YÛ¡"GÁ¦!ú…¿„2ŒıÛü¹`_lØâ?c@A¶Aı İüŒÓO ëÿ‚YÂÀ‘J6cáAÒ™É/ŒNÓØæ[õšcè&¨o9€Zš¿Â™zSØü­İx‰Xp€F7ÆµİÙ‘¸±¿æëÜã{ïİDĞpÛv6±AæLëtV€of{ÔvªâšÀ8"?W@¨–Øæ‡@ÇHÄ¬.lÕHk‚‰Åç¨/z•ˆh2…@hÌvU…Ï)»S|Cpkåá:feåîdÌ ‚1Ú˜ñ”m´ŒºŠ ÃÖF³­u¥#R°OôøÂÜX~üS|¥fvô°šªŒ 6o‘fSŸ*&ÈWz½ŞR$· Îõ;ú÷a”5ãj¾ˆAŠlª‡4ï-ĞŒG ŞÀêyúŒ%X2ÓÀ(‡I1|"rş`ñBÍî8sá»ævº8°.	Ş¤N´r^czzŸYßñ\ît/IÅmAO©MeæOûEcÇu¯‹b;©]˜Ûú¯û>-IïU×¹(<#§ {sPJkû¶KçBúüI|yåuS'œŠ[¯š-(t7ãÆrZƒäùğHÇ~^A¿fÇ°zYø.ú&Û×G€øØB™h+`Ø(ENé-, |ìÂ8¯ÜÎ„©2‰„óô±|d™@
+Ğ;ËI›ô¸õø™7Ófüßz`’ÊYáÏ6‰Ÿ.÷f¶wğFıQSÚMıqÂˆÔ8	¯:Oº­•‘¤ÃŞuÔ¹YÈA>Ÿ´ÌFÃS´ÖH…HrG´ mª¼Ã%Êlòlµñ¨ÛÆNÿ¥H.òJş~_U?ğ¤LÉÓ‡œô ˆ~,GNÅÑbBÖNWpR8‹yJ®¢Íò­›ˆ™†]ÙûKQQ):<ACæÓ jĞNQ—F}ÎâøHL"÷NY0:F¦dñg9ŞÑ3ÔÈLî@eHi)‡ÍÙÀ¬lV/¶­^9Ê‹+W)ğ0Æ-ãW{¥UÓÎj
+¯€ùÒÙ‹`JÕë‘éª@÷³G?‡º‰©»·æ{VÛ°=mê‚ş18U²×?­ÚŸ"øL›±e·ºüÄ[èI‹ÌCÓEØÎöLë¾XòÛt,ÃÃB+	‰Q'“&ˆDÀ8YD†²âıÌøéœĞÔ™/rAEQÎü1±ğ’ÓºL™cÌ¨èHW*ÁŠšPl‰_Ã€L¬}MäÕ>¼æ§"_ô¦%ÉI¹üÃA”…–$ ˆÍ5\KÖİM0VŞ¥îa9_4 —Ó\9ëwí^M¦’P/&¢Ÿ”úŞwSÏ
+İìZÛ\4;WEƒ;"3Ñ>Ú.ˆ†&½ÿ’®9€tw§.É\å<}¯‹¹³ìB¤|¿´»Àtbmãd67åÎZ±k]@¯mß;Û§2‘ÄT÷Ò_Şršô³3pæf—7nËø-…>~¬”`óå²V¨"sæu(Ú‚EÔ€íÜ`üLsĞçı‘À(ÌáË1fMµ—ÃœCõO&%.ô]B|ó‘ pJLÕ{Óô.d#>º#Àvrïì\ĞH¤¾·D[‚¦Øõ4‹õâ¬vá§*œ—V÷&Fã·#ÆüzÁP°ºæúÜyÛ:Cü£ÄPO,€Éš.'@Îä:™È%Û 'Nq§ö¸§ı]Pä1DRˆÙ’d?:]kÖË4CõÌš‘‚[Í¦6[ê½ÁA}ê°°z‡MóbäKî3w8]·Ç¡nS·şÉGæKê3›kæ‹jÄM`ÇøÔ»¨ö¦şÖ;ê*|=vF¿ Æ©'à<€hÑvÜ,Z_%Ï+H9Ëƒù
+–1x;Ÿ8šæ+Un÷±í>(µQüâŸD7cÖÔçïÿ‹½lÅmş8†1&}ŸÁ‡šUÄU’zÏãx?ò±è-èÎIgä½5‚id;0ô^ÇğÏÀÕì)­¿2¯6­¶Ã®û¬Dê^B¯lh^Sfß_‡ß’´âıIôw¼qÀ<ƒ‘QÎ;x£\*fÕ+r(	‚@ùe°‹UôìïRØ Üôà÷Qõ”u‡#¯¾_ip;h?^ô>`—±ZÃm€;m~÷ËÎÇŞáÏËs•|e—ë,”{®­vµÒs’³Wñºm×a>Õ=`‡q¾Câ¾Øú$‘cJñU·âÙèĞ
+Ù¾òmÒ¬Ià™U
+¯™·²«ªmXîµ–sya‡¹Æ öÄ%`lËàiÅW÷‰¼IÌô¼1Ø+àRw	©]·¹mÜnı«jÎ<¥ÿªÌiÿgÆ~f™ú)ı”°ÿ	öqí•„%Kf¨)ØÜ‡éß"‰Ñ^Ã&a±)Í’?´ÓbåLÆcÒy3&ŞqN}ñ°¦9{˜Ë?y§nÙ"/€”eÊêkÎ[½ø³šáí·¤µmì{î="~æÅ÷?7JßD«ÕŸfv__k^åp'4’)È<AT)¸Û)”6×	˜¼‡Ôs	NïmÊtDò¾²²ÏOí¯Õö74ş¦Õ×xI^"ÄV-ĞÚ‘­·áR
+I(Ã*Úø'²1•<`1Ó‰uµFh¿Ì(•µ%á9ø-µÉTQ.øı¤Œ¥C‰”úÏ’nÙ5ÖgGÊª¤ ¸;R—²ujñ»¨[´çie°Ü²ô‘/EÓÀF7rùÄ¼“ ´ê-dÔS,³×Ånôğw–gû:á@Mít˜ø¢+Äm)pk¼î´‰ÔğZc°ö‰C[şŠ™·7«v¤Ã½…<íaãİMe¢©‚¶Õ@³ç©tÍ¾bÖ¾lõ·¾;ò¡n‡veQöİVj"¾z½h î³2©w8Pr¡ á¤´éôÛ®ÿùNFó(}3v…£iêªŸÛ×h¬OÎVô9%´0‚&H	*†H†÷ ‚&90‚&510	`†He 0‚A	+‚7
+ ‚20‚.0
++‚7"P^—­gGğÉL‹È171101111333Z0
++‚7 0‚x0 ?¸*Ş®˜ePøã§Zÿc}ØFí][Áâò¤ÙD..´1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ?¸*Ş®˜ePøã§Zÿc}ØFí][Áâò¤ÙD..´0*Uªt°œÜÌlş79Ê|îHiot10
++‚71€ 0 sèb›8UÒ%¼õƒâ.w|ß”`ûEopÁ}ƒ®1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  sèb›8UÒ%¼õƒâ.w|ß”`ûEopÁ}ƒ®0*{ÌÙûÁ6ærç^,§&ş10
++‚71‚ 0 …9«-nPxéyßÔU×Ë™¦¶ Ä&lí÷<Ã!”@J1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  …9«-nPxéyßÔU×Ë™¦¶ Ä&lí÷<Ã!”@J0*ºÿöÈû'ws³°#æÖÚQ…Éº10
++‚71‚ 0• »
+¨µNåÔßeÂïR´××Ùæf÷Vğ¿[¨)¯‘$=Pû1q0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  »
+¨µNåÔßeÂïR´××Ùæf÷Vğ¿[¨)¯‘$=Pû0 ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-0• Í;•º_:ëúIlúXg£ —ÿÎïxP
+ì¦JÓŠ1q0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  Í;•º_:ëúIlúXg£ —ÿÎïxP
+ì¦JÓŠ0*ĞRà?Û1_Îy4Ô¸cş$0Ü™İ10
++‚71‚ 0*ß”Ùè&J·å®[ş,úuÈC‰'10
++‚71€ 0*ñ°ªÉ…ñ±F7Y×yÙ·JÖßP10
++‚71‚  q0o0m
++‚7_0] O S A t t r H2 : 5 . 1 , 2 : 5 . 2 , 2 : 6 . 0 , 2 : 6 . 1 , 2 : 6 . 2 , 2 : 6 . 3    ‚
+â0‚0‚ë 3  s01&e¸¹³    s0	*†H†÷ 0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110170811202335Z180811202335Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0‚"0	*†H†÷ ‚ 0‚
+‚ Èb»nË	H±Î_­ÉYËI‘:€%£{	7,À¾j³°¦~ób WAƒ‘á´9
+¿jYqf¬Cã¬–m¥f 2Q–İ;?0X± !™Ú¼®¨£$ø0ì©µ«üÏÇì‹m×lÓß§´ò­ä‰7®<¥Ÿ™:ñ”fj¹ÂæDB7jÎ¬Ò¼×8éÇ‹”Ë[AGYSãx ı£Y¥ºu>µ=§OŠ†¼ÈÿÍbšWNgÿ\Öì**Õ”§_ó$jú9Ğ,]Å‡ÉÀ1I¤îjØA0JÓ—É}Õ^xÙêÆ Pì*WXÏWÂ×ß	uUñˆ§È¬û? £‚0‚{0U%0
++‚7
++0U6¡Ñö2†<2+„—e~”\0QUJ0H¤F0D10
+UAOC1402U+229879+719555cb-6de2-446c-acba-d90894acd8720U#0€©)9Ä—xÍùOšá|U¯S0TUM0K0I G E†Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uÿ0 0	*†H†÷ ‚ ]ƒö²¾#õ's²¦8»¤³Rt‡­k¾ûñ®wÒÒé¤*Õù`kØÿ‹Y¾Æ¯‰F<Kdp0;¸ñ7ƒ1Áu¯Ê,A¿T1îO»µ†±ûB¸qÚÄÄ6Œ	Wºa:²‡_t,üënŠÿ‚$LÃjÿÂSJ×`#ö3ÅspeÍjiRñÌP‰B|GS<T5¬ÑiÉ¢ï‹zŠîàºÓ|7.À¥Ò¦HDi½¯ì‡Iê½ã±-ıvGépÇ`‡¸‚ jœ­òVv_Š­óùÛ×"tóî ÌXOUh›º¡£¼™ké¤T†aHéEôewlñò,}¡®Ûœ0‚×0‚¿ 
+avV     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110‚"0	*†H†÷ ‚ 0‚
+‚ İ»¢ä.	ãçÅ÷–i¼ !½i33ï­ËT€îƒ»Å „Ù÷Ò‹ó8°«¤­-|byÿãJ?5 pãÄçkàœÀ6uéŠ1İpåÜ7µtF–([‡`#,¿ÜG¥g÷Q'rë¦É¹;S5|åÓì'¹‡ş¹É#	o¨F‘Án–<AÓË£?]jMìi%(\6ÿıC
+”à´ÏßÂâÂ['î'x0‹[*	k"‰S`,ÀhSºìIóaŒ…h	sD]}¢T+İy÷Ï5]l+\Î¼œ#‹onµ&Ù6ÃOÖ'®¹2;A’,áÇÍwèªTN÷\‡e´C¨²àmwìZ$úH £‚C0‚?0	+‚7 0U©)9Ä—xÍùOšá|U¯S0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ ü|qQ¥yÂn²ï9>¼<Rn+?sş¨hĞH¦4MŠ–&î1FayÖÿ8.EkôÀå(¸ÚŠÛ	×ÇL
+6fjŒì×¨¤›¹â@26vÄÁZÆ¿äÀêÓ¬Ãhïb¬İTlP0X¦ë|ş”§Nôì|†sWÂR!s4Zó£ŠVÈÚ	íø‹ãÎô~®ğöŠû?ÉrS¸ë¾càã=1e°åò¬Í¤Ÿ=¨±›ÂBĞ„_Tÿ‰êºGo°sNAŸ@Ÿ_å¡*²‘sŠ!(ğÎŞs9_>«\`ìß¨Ó	éôö–…¶QˆfG¢°=*hw»‘Lb{¶ÁÇºz‡4Kbz™éÊüÎJ7É-¤W|ş=Ü¸ZúÖÄ³…:ê³Ùnäi!7ŞÑöugÓ“W^)9Èî-áÍäEs[ĞÒÎz«‚FXĞ^³g¯l5ò¼å?$â5¢
+uöV™Ôx,ÑëĞˆªñßº~,c·›#!ÄùxlâX6+‘Ì¤Ùò-ºù”@íEñÎŠ\k>«Óp*
+jà_GÑÕc
+2ò¯×6*pZåBYqKWº~ƒğ!<ôÁÅ¹“ˆE“†é± ™¾˜ËÅ•¤]bÖ c ½uw}=óE¹Ÿ—ŸËW€o3©Ïw¤bY~1‚ò0‚î0œ0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113  s01&e¸¹³    s0	`†He  İ0	*†H†÷	1	+‚7
+0
++‚710
++‚70/	*†H†÷	1" \Ëa:fŸàµ<HS…~ñL~2Râ˜…Œ*«Ö=?c¨6½0r
++‚71d0b D€B W i n d o w s   E x p r e s s   S e c u r i t y   C a t a l o g s¡€http://www.microsoft.com0	*†H†÷ ‚ Ãò7XU§r“0ZlË†8Î¯³xV'rl•ŸğÖèÄ«cYG¯uŸAÿÃ`tSÿ¡”Ÿ’¢hJ25¢Æ®Xœ¹³ZCà°zĞúµ‹nr‹6õE=hÕ=sÙîáºã Ô³bŒ²ûIwş÷¯Çosi¬ØÎcP4ç›hE$’èURkoØ}Ù,«óLöõÒŸÃŸÍ3Î{¶;Ê ›ÖÔ¶> ièG;ŸGÚˆŞCHL)V“â?~Úk@[ 9«ƒ…›XZáÎ|÷’nóX=©°Øs0˜6[¾>Tt°DK*UÖú"ÚÍÌ;"´zeô~¶˜¡‚F0‚B
++‚71‚20‚.	*†H†÷ ‚0‚10	`†He 0‚;*†H†÷	 ‚*‚&0‚"
++„Y
+010	`†He  vVôÙŒK´,‚Æ7;ôjª=l×DåQ´¨s—YÙßP20171101111552.189Z0€ô ·¤´0±10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1&0$UThales TSS ESN:70DD-4B5B-45681%0#UMicrosoft Time-Stamp Service ‚Ë0‚q0‚Y 
+a	*     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ ©¼wŠ: ìü—õúi”ktTÕ¥
+ ‚…ûí|hK,_ÅÃåaÂv·>f+[ğS'1A•Î	|a0Y±0Dñ`ˆ„TC×M¸8³Bİ“¬Ös0W&‚£EĞêõGÍ¿$`2X`FòXG†2„tag‘_T±Ï“L’ÁÄ¦]Ñan(Æù†€»ßaüFÁ'$gr!Š¯Kd‰Pb±]ıw=ğWu¬½ŠBM@QÑœ>gõfÀ–D~ïĞKınåšÊ±¨òz*
+1ğÚN‘¶ˆ5èx°é™Í<ç/Dº§ôÜd½¤Á 	“xÍü¼ÀÉD]^œO"M £‚æ0‚â0	+‚7 0UÕc:\Š1óC{|FÅ3hZ…mU0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0 U ÿ•0’0	+‚7.00=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*†H†÷ ‚ æˆQâÆà˜?q=£¡!o³ë¦Ìõ1¾Ïâ©şúWm0³ÂÅfÉjßõçğx½Ç¨%ãù¼íkTW+Q‚Dû¹SŒÌô`ŠvÌ@@A›Ü\ÿ\ù^5˜$VKtïBÈ¯¿Æò7}Z?ò™yJ‘R ¯8õ/yeÙ©µkäÇÎöÊz oK0D$"<Ïí¥–Y)¼¶ıápŸ2J'ıU¯/ş¶å3»b_šÛW@éñÎ™fŒÿjbİÅJ‘&â9ìJqc{!mÃœ£¢<ú}–jx¦mÒáœùü8Ø”ôÆ¥
+–†¤½®Bƒ¸µ€›"8 µ%ådì÷ô¿~cY%z.9Wv¢qªŠ‰ºa§ËšØGš€ÅĞÍ§Ğï}ƒğá;q	ß]t˜"aÚ°Po½ñá ßç1¤“:÷eGxèø¨H«÷Şr~akow©Ë§	¬9»ìÆËØ‚´rÍô¸…€û‰*T9²[ÚÈU™z‡s;æ˜-êà3.)õÀ/T'!÷È¬NÚ(¸±©Û–²§B¢ÉÏAMà†ù*š£f0Ó»t2Kßc{õ™Š/Ç!¯Yµ®ÜD<—Pq×¡ÒÅUãiŞWÁÑŞ0ÀıÌæMû¿]Oé8/¼ÏX.ï P5Úï	'Õ³~5ºÚ6ÛÓ_ŞtˆI0‚Ø0‚À 3   ·ø"}"şú     ·0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100171002230052Z190102230052Z0±10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1&0$UThales TSS ESN:70DD-4B5B-45681%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ ´…vg.~Í]P|d7.öW Ú5¡âƒ-VHĞÜ¯ÈÊ>Åk­¾d­‘%ÀÏ‹Q¸İçâæMÎØD_úzİhÂkœêùğ°]â…İLåĞ#h3·DÁYX×ôw7Igû×f$˜Á4†;˜”\~IBÇ‡ÇÈ¼ßpOÂòàÓp%j³–}uSrfÔÔ¬PÎ¼eĞª‡nD}â³/™ÀğÆ9ÚŸ8¤ï:»Ö„6x‹¸_Â¦ÿá{´FÙ™Úàp’‰¼`Šå K›‘rR4KÑQlµš`;=}ƒ3U^}’3X‘/7}øÎ:k;í›#'j:\¾æÚØ; £‚0‚0Umb¯ƒ{D†uqwÒM[îD.`5i0U#0€Õc:\Š1óC{|FÅ3hZ…mU0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0Uÿ0 0U%0
++0	*†H†÷ ‚ i¤©Òë±¢ŸŠæ{${´'îŞz¢6Vˆ5U‡Ù¼ÛûLÄ@tÏÿ8pGáøß<|0ZÈ ïNv‡RZ(<gªñ!bd6õ7ùJ²˜ÚH6™ÔT¥4ÖÜ@éÍhF³ÿ’!© ƒåd/‰Uy˜Àí¾˜tÌTæ wÍ·4ÑŞÂ•%½è“¤%iôı%—ªïSO0p¿©ÙggO{uê±õ·Œw¡ô¥2¦öğúcu#œfQšø–Vî›âş8ç´4â ğ:íW1?ÊÆ9Ñ?zòå:¾úÎ#Dƒ
+q(£¥ıv†8dr°¬µ‚ó‡ˆŒê«S‚•Øáøi¡‚v0‚^0á¡·¤´0±10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1&0$UThales TSS ESN:70DD-4B5B-45681%0#UMicrosoft Time-Stamp Service¢%
+0	+  ÕãĞşY6äÂdYIé×"ŒÇEê Á0¾¤»0¸10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher NTS ESN:2665-4C3F-C5DE1+0)U"Microsoft Time Source Master Clock0	*†H†÷  İ¤(0"20171101110357Z20171102110357Z0w0=
++„Y
+1/0-0
+ İ¤( 0
+ ÿ0 F0
+ İ¥z 06
++„Y
+1(0&0
++„Y
+ 
+0 ã`¡
+0 „€0	*†H†÷ ‚ ‚5A:ÆGmµŸ|fè”*PÕpÅO˜s00ÿâ§75İû•üE²ªA¿4³¹ÚÕ5×›IC {~AA(AI]Ó óûµmıµÉ kgRÄéÂYãFù†Ç’•³‰")—f·æ©ñm¯­ÇQPŒ)=ÑNÙõN½z^›WÌxQì³?hX>Xêy]v’Å»d/y©6¼Ñl'<£°»(¤ÉOLO«-Ù•ípú-ib ½H†çKé·“†º·ô$B&t®3êBqR+°Ò¶¨û?ãù .Ğ –ëÑâ_èp"Ô¹§öê!ÃI,ıö!†-ËQ¾¯\‰²®x•Œ1‚õ0‚ñ0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ·ø"}"şú     ·0	`†He  ‚20	*†H†÷	1*†H†÷	0/	*†H†÷	1" v!Ï•|g¯Í\æ.iúÉ›l¯SûO#(œ6KÀ®‹0â*†H†÷	1Ò0Ï0Ì0±ÕãĞşY6äÂdYIé×"ŒÇEê0˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ·ø"}"şú     ·0ƒ©©¦Ë“×¢Û=¤¦âˆü0	*†H†÷ ‚ hµwÄÚlxƒ[¡‰àNÙÎ¾¼G+HB½N–Å%Òö*˜Ü’kúÍÅFo0z Œ>&‡òmOW”õm^t@Ò”«VË[¬ÜuzÏİDGí»»O@  >2Çz`İ¬î[ç@ÂÓÔN¿“B&-¢Îw61æü¼lĞUNX%·NÁä¶‡§5£G«57¢@Vr¤E¶w×ÊÍò¶¤ïĞÅQ 
+¾Ûjk‹IMµM5¥ŒxBò“*¸ÍcqfúwÎzQ|ÓírŞŸ85Æh[‰,Ã-÷×6K­*ÚSaLMÏ"Âz@kÊáˆkJûWr¦7şÓI QAd                                                                                                                                                                                                                                                                                                                                                                                                                                                    nd10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   «^@îFß,l     «0	`†He  ‚20	*†H†÷	1*†H†÷	0/	*†H†÷	1" {’fN3¸+p(-ffœ*¥¿cùAè=Ñ²Ò[Íüº0â*†H†÷	1Ò0Ï0Ì0±Éì»H-5Ù”¾¶÷&©1nŠ‡20˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   «^@îFß,l     «0bš¾º{CzÔÃß¨"T‘²{—0	*†H†÷ ‚ ±‹:”y§UÂ+èY*·YÍÄğŒ€\I2nÁìñ¸fº‚k€+İñÁªÇÑû•£,ÅIèwË£ı,ô¹"©P1EÊ¶äßİğ|RIÆßw©}eŞ¾€U3„êV“„HGgAƒç=—Ü¢Fâ;î
+ÛW«f,™®‹å
+ğª`+ÑófóPjÍ~ÓK<!_,‘xM!£
+7|/vÖ›Çí‰)^(v‘pGšl8	Lì –ßÆæ7MS#Ö`nÔ4xrÄÅæE“KÕÕ¢[o`˜%Øm<½ÑÈrÜ·èvë® uô—(.$r3Á<CÇÙµ@£M€Í†»úR¯                                                                                                                                                                                                                                                                                                                                         ¤d¸	<™^‚,• Û«ä(¹TÊCÛ”|‚‚	&B0”`ÁAÃ	
+	ŠFŒt+£02”ÑcÜÊX/\Ë.ğ(ãğWO-¦Òõ]H0œ Ø­”0p5vµ0V—…´XlS^·h‘²ÊM1­²«eƒôp¤Y‹0X·6°!PÂ–ts)ÕâíŒÙÁP0v8ƒBŸ”¤xƒ´ªp³Æ ·.Ò–tu4j‘åÆv¬)¨7ÚW"Aºæ•i±¶`”Á(eCw ³Skî•—İ4­[èÔ-qLèƒ}Åb¹e>Q}q’ñ{µPs0
+iQ”Ñê:÷%³I´·‡›Œ“·ª X˜Dyš¦`lÎ‡¯¸–|Y›Œ>+¤uW™&²:{k<Áhu0¢5Åt¾Õx;¢pœµ¡fm#^uG‚1óÊÕb¼Xä«MÚo6Ñ›©
+½‘MD–ë<T±²o•7]ÆpVqX¨&-<QÓo%£ÇšÚµ FYnG ²n™Um^DC…}ªôF+­ƒ0õ­jF›‘f²äbòª†p‡f©ÎÑBÑ®ˆfã«]MÓ×ÙÆ“Ş4a†ãğ¶j±Êp…‡ğFĞèÖM•ØÖm%ŠÅŠ£BÑ`kÈ[ãF:o4´…#8Ky–6¼Š¡„L¼³Xkvu0È·´JÔe´ÒìaûËM½‚zêÂ¡V£TÕFN¦[U†€šöp€7®1z«w™“Um4âcŸî«•?âIÂÆÕÅ.f$±NuíZ¨5ÖÆàĞdI)<¨€‡Å_íšÊdm•58i£¨UrÎÉ¨¦O*©Ô[$õÄ ¡ƒ©	.¼±´+ÖÙkˆá³Ö‘Ü1®púu°ØÃsşÆ&­3‡¢nÅÏ Ô*¸©RZ{´lA Ö¦E‚¡Vâ­2jgé¡çëokì*jyŠèéI–7Ú»0ÀÜÑÄ“B)ˆ‡}f´7Ş3¢<¶©¥ÃÈ½(7[d´6âœxy€£aMRÃ£ïDôcûê¤í«zşh¸¢‘&ªˆ4ñ0;È2£µ!ë„¢g•`ÈŒÛ}…ÓÔ€kEL<OÅınnøfµ	ó%Áœ3O„§C}Å¨Ôj ¹oÚÂ˜µ2éŸ¬|k#^ç¥ºÄX$*İT©Ïk®õ¶^ƒ},âjŒ	×‹Ælâ½*Ş?ŸT¬©á=&æ«ªy#>5†àö eíiIö(I&{ºÜ,é:#‰]RÃ"_ò5Ò—*;Mòıâä4Å÷+rĞ!ıÎÆr]ìä£êÛ3}I³F¦ÑZD¯^ægìfÁåÑ¯ôX2,Œ0*ô%MFS#Ìra0‚&K	*†H†÷ ‚&<0‚&810	`†He 0‚A	+‚7
+ ‚20‚.0
++‚7Á˜¾EA‘ng‚:’×171101111333Z0
++‚7 0‚x0 î °E)OF*+üsM™ÎùEHüÜ ßÏé#oã1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  î °E)OF*+üsM™ÎùEHüÜ ßÏé#oã0*pi¡Ä÷\§áU!Ä˜æŒ©Á½±10
++‚71‚ 0*<1î"çİòoOÑ†ÇQŸGN8§10
++‚71€ 0• C‰á’MÄ_EwµiÒ	sƒ}ù<XWIîq}I²İ1q0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  C‰á’MÄ_EwµiÒ	sƒ}ù<XWIîq}I²İ0 TíÊPnB×Ğ7 ¸Ó€ÓHœ€Fã_ï–+§ïªš—1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  TíÊPnB×Ğ7 ¸Ó€ÓHœ€Fã_ï–+§ïªš—0 j¬Ë°Ôé‡‚$¡kRjgìîG@-Z:V	?Ü‘÷1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  j¬Ë°Ôé‡‚$¡kRjgìîG@-Z:V	?Ü‘÷0*{ÌÙûÁ6ærç^,§&ş10
++‚71‚ 0*¤`‹1£²?ÌkÉv}åGA¡ÿW10
++‚71€ 0• ·:!G	 Õæ¹ao`Ä‡·…ˆK±uö&%÷Ìo 1q0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  ·:!G	 Õæ¹ao`Ä‡·…ˆK±uö&%÷Ìo 0 ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-0*ÇØ¾Ë„3×}1¯¨Û¾t%G10
++‚71‚ 0*ÛĞã¸OˆQËbšIœsZ0vEß10
++‚71‚  q0o0m
++‚7_0] O S A t t r H2 : 5 . 1 , 2 : 5 . 2 , 2 : 6 . 0 , 2 : 6 . 1 , 2 : 6 . 2 , 2 : 6 . 3    ‚
+â0‚0‚ë 3  s01&e¸¹³    s0	*†H†÷ 0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110170811202335Z180811202335Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0‚"0	*†H†÷ ‚ 0‚
+‚ Èb»nË	H±Î_­ÉYËI‘:€%£{	7,À¾j³°¦~ób WAƒ‘á´9
+¿jYqf¬Cã¬–m¥f 2Q–İ;?0X± !™Ú¼®¨£$ø0ì©µ«üÏÇì‹m×lÓß§´ò­ä‰7®<¥Ÿ™:ñ”fj¹ÂæDB7jÎ¬Ò¼×8éÇ‹”Ë[AGYSãx ı£Y¥ºu>µ=§OŠ†¼ÈÿÍbšWNgÿ\Öì**Õ”§_ó$jú9Ğ,]Å‡ÉÀ1I¤îjØA0JÓ—É}Õ^xÙêÆ Pì*WXÏWÂ×ß	uUñˆ§È¬û? £‚0‚{0U%0
++‚7
++0U6¡Ñö2†<2+„—e~”\0QUJ0H¤F0D10
+UAOC1402U+229879+719555cb-6de2-446c-acba-d90894acd8720U#0€©)9Ä—xÍùOšá|U¯S0TUM0K0I G E†Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uÿ0 0	*†H†÷ ‚ ]ƒö²¾#õ's²¦8»¤³Rt‡­k¾ûñ®wÒÒé¤*Õù`kØÿ‹Y¾Æ¯‰F<Kdp0;¸ñ7ƒ1Áu¯Ê,A¿T1îO»µ†±ûB¸qÚÄÄ6Œ	Wºa:²‡_t,üënŠÿ‚$LÃjÿÂSJ×`#ö3ÅspeÍjiRñÌP‰B|GS<T5¬ÑiÉ¢ï‹zŠîàºÓ|7.À¥Ò¦HDi½¯ì‡Iê½ã±-ıvGépÇ`‡¸‚ jœ­òVv_Š­óùÛ×"tóî ÌXOUh›º¡£¼™ké¤T†aHéEôewlñò,}¡®Ûœ0‚×0‚¿ 
+avV     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110‚"0	*†H†÷ ‚ 0‚
+‚ İ»¢ä.	ãçÅ÷–i¼ !½i33ï­ËT€îƒ»Å „Ù÷Ò‹ó8°«¤­-|byÿãJ?5 pãÄçkàœÀ6uéŠ1İpåÜ7µtF–([‡`#,¿ÜG¥g÷Q'rë¦É¹;S5|åÓì'¹‡ş¹É#	o¨F‘Án–<AÓË£?]jMìi%(\6ÿıC
+”à´ÏßÂâÂ['î'x0‹[*	k"‰S`,ÀhSºìIóaŒ…h	sD]}¢T+İy÷Ï5]l+\Î¼œ#‹onµ&Ù6ÃOÖ'®¹2;A’,áÇÍwèªTN÷\‡e´C¨²àmwìZ$úH £‚C0‚?0	+‚7 0U©)9Ä—xÍùOšá|U¯S0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ ü|qQ¥yÂn²ï9>¼<Rn+?sş¨hĞH¦4MŠ–&î1FayÖÿ8.EkôÀå(¸ÚŠÛ	×ÇL
+6fjŒì×¨¤›¹â@26vÄÁZÆ¿äÀêÓ¬Ãhïb¬İTlP0X¦ë|ş”§Nôì|†sWÂR!s4Zó£ŠVÈÚ	íø‹ãÎô~®ğöŠû?ÉrS¸ë¾càã=1e°åò¬Í¤Ÿ=¨±›ÂBĞ„_Tÿ‰êºGo°sNAŸ@Ÿ_å¡*²‘sŠ!(ğÎŞs9_>«\`ìß¨Ó	éôö–…¶QˆfG¢°=*hw»‘Lb{¶ÁÇºz‡4Kbz™éÊüÎJ7É-¤W|ş=Ü¸ZúÖÄ³…:ê³Ùnäi!7ŞÑöugÓ“W^)9Èî-áÍäEs[ĞÒÎz«‚FXĞ^³g¯l5ò¼å?$â5¢
+uöV™Ôx,ÑëĞˆªñßº~,c·›#!ÄùxlâX6+‘Ì¤Ùò-ºù”@íEñÎŠ\k>«Óp*
+jà_GÑÕc
+2ò¯×6*pZåBYqKWº~ƒğ!<ôÁÅ¹“ˆE“†é± ™¾˜ËÅ•¤]bÖ c ½uw}=óE¹Ÿ—ŸËW€o3©Ïw¤bY~1‚õ0‚ñ0œ0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113  s01&e¸¹³    s0	`†He  İ0	*†H†÷	1	+‚7
+0
++‚710
++‚70/	*†H†÷	1" ò••HÏ»b_²å
+]•jÆ9Œn¦¾sŠã,šá0r
++‚71d0b D€B W i n d o w s   E x p r e s s   S e c u r i t y   C a t a l o g s¡€http://www.microsoft.com0	*†H†÷ ‚ Yh
+³Ïè‚ø9cR@$è,©}Ó>è)0§»‘Õx·ÀœŸ¿|„±ô[p¯¶ª¨®ëb<ˆ{™âÀèµM* Qñ’4™}àóÛ¥¬êKv´l^ß±ÑÜWËwË€|šeÕ¯!?
+•5í“»gç¸{Ñ“ `UYqş^ş î)ï­ªó Ašìlùq…:»Å{a­€ãl,ö	Û˜Ç]´Šbİ)¶Fû üôœEØ™ÊÍFËÂK~"Ñ25lGQÇÃı³—p¬Û«öòIÀğäwg0!?|0«n±òñ°ô2oKHŸL%Œ±¨§Î’hØD7ü‡>½HgŸ~¡‚I0‚E
++‚71‚50‚1	*†H†÷ ‚"0‚10	`†He 0‚<*†H†÷	 ‚+‚'0‚#
++„Y
+010	`†He  Ê=RÔİ=~äƒdoæ`C}rKšıœ&«kBSiîwäYÚŞê<û20171101111553.867Z0€ô ¸¤µ0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:D236-37DA-97611%0#UMicrosoft Time-Stamp Service ‚Í0‚q0‚Y 
+a	*     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ ©¼wŠ: ìü—õúi”ktTÕ¥
+ ‚…ûí|hK,_ÅÃåaÂv·>f+[ğS'1A•Î	|a0Y±0Dñ`ˆ„TC×M¸8³Bİ“¬Ös0W&‚£EĞêõGÍ¿$`2X`FòXG†2„tag‘_T±Ï“L’ÁÄ¦]Ñan(Æù†€»ßaüFÁ'$gr!Š¯Kd‰Pb±]ıw=ğWu¬½ŠBM@QÑœ>gõfÀ–D~ïĞKınåšÊ±¨òz*
+1ğÚN‘¶ˆ5èx°é™Í<ç/Dº§ôÜd½¤Á 	“xÍü¼ÀÉD]^œO"M £‚æ0‚â0	+‚7 0UÕc:\Š1óC{|FÅ3hZ…mU0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0 U ÿ•0’0	+‚7.00=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*†H†÷ ‚ æˆQâÆà˜?q=£¡!o³ë¦Ìõ1¾Ïâ©şúWm0³ÂÅfÉjßõçğx½Ç¨%ãù¼íkTW+Q‚Dû¹SŒÌô`ŠvÌ@@A›Ü\ÿ\ù^5˜$VKtïBÈ¯¿Æò7}Z?ò™yJ‘R ¯8õ/yeÙ©µkäÇÎöÊz oK0D$"<Ïí¥–Y)¼¶ıápŸ2J'ıU¯/ş¶å3»b_šÛW@éñÎ™fŒÿjbİÅJ‘&â9ìJqc{!mÃœ£¢<ú}–jx¦mÒáœùü8Ø”ôÆ¥
+–†¤½®Bƒ¸µ€›"8 µ%ådì÷ô¿~cY%z.9Wv¢qªŠ‰ºa§ËšØGš€ÅĞÍ§Ğï}ƒğá;q	ß]t˜"aÚ°Po½ñá ßç1¤“:÷eGxèø¨H«÷Şr~akow©Ë§	¬9»ìÆËØ‚´rÍô¸…€û‰*T9²[ÚÈU™z‡s;æ˜-êà3.)õÀ/T'!÷È¬NÚ(¸±©Û–²§B¢ÉÏAMà†ù*š£f0Ó»t2Kßc{õ™Š/Ç!¯Yµ®ÜD<—Pq×¡ÒÅUãiŞWÁÑŞ0ÀıÌæMû¿]Oé8/¼ÏX.ï P5Úï	'Õ³~5ºÚ6ÛÓ_ŞtˆI0‚Ù0‚Á 3   ®ÖN–‰Û õ     ®0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100160907175655Z180907175655Z0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:D236-37DA-97611%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ Ş’/Ã¤•rõ>fdÃúæè"tŒMÁÇ¶T¸ñN}ûF0¾|Ë{ÛÄgX’/úT€Ÿ£>Ÿ!ı©ÿğÊa½(ı'ÉRXzÃS>Ú²ú¨„µµ­Ââ!h0°ñƒœ6àE‘ñT\GPoŠ7ßt-`-Õ~­şÚãñÌÑ–=tÔØ¼š„³çuhÙœİ3ÉX/ù`æÆ«6pŒÁe¹ÀJ©xàÅ_U@şp.Hâ¬) ó¾LÕx„Èûk\0.x9ÿ.L”1‚zt{’:‹-x©6‘
+)qõûÛ<‹ èÍ;&£ı»U?–¶ŸòÓp$w‚M+Ë £‚0‚0U~å44D‹òy@¸Æ ÑœC!%±0U#0€Õc:\Š1óC{|FÅ3hZ…mU0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0Uÿ0 0U%0
++0	*†H†÷ ‚ =YMxğô\4ÑµA`SùŒ¦Må" <ˆ¥ƒHJB–M0 Ënhş‘«ô—1µiğ¬ùúA²æ¨Áh0ÄLB:š,{D·‰¼ÜbP¤Ø”üf¼Ñ$UÌàäÜe³Sê¼6àCqæ¥“/ 7êÁÛ¹G¡MÈˆqƒhÉ¾Àà
+‚-õu[Ï¬üš]¶­²I9™?©bØ.ÈAÎİ‚kFá$–_ê¤0ƒªöƒ=i^n{©Ã«ù£b”æ8XÏ›ò¼k"},CÅNkg¶üögXÂÏ}ŸZëÙ‘ks‰K€aŸ[r(Ap˜ë}ojrÖŠG2+ĞG,¥‚å’ÃÒ ¡‚w0‚_0â¡¸¤µ0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:D236-37DA-97611%0#UMicrosoft Time-Stamp Service¢%
+0	+  ÇÁ½0{¥d^gt6ú»ã™¼hû Á0¾¤»0¸10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher NTS ESN:2665-4C3F-C5DE1+0)U"Microsoft Time Source Master Clock0	*†H†÷  İ¤¤0"20171101093844Z20171102093844Z0w0=
++„Y
+1/0-0
+ İ¤¤ 0
+ 9+ÿ0  0
+ İ¥f$ 06
++„Y
+1(0&0
++„Y
+ 
+0 ã`¡
+0 „€0	*†H†÷ ‚ ™Ğr'ÁÕ!ÒL²¸fí}Ô…šè¤Kmôwib™¸Á¹:7ıe²t˜“äë˜ÜW¬(¶~îE>Z{|â6*Áf®Ö‹¹—äpÀû¤¢	=UÏ„‹åø àÍ·ˆµ­€âRZ»“ÕjYÏ[JHß0È1«42şóÕä5£S/§şÍ–¹ÉGØŠ°ÁÑ7ŸêĞ°ıdsj€À!Mé¡ÑÔ0ÜÙØûïc¨yh*Çç !‡,MØ[<Ğ­Ğ6¶‚Ä‚8ÚŸü!¢¤¤]À«ÍŞY1pvzƒÔ„ı<që:QÚ£Çt°¡À~Vnü\`ÖTêşßÕ²-2°y¿1‚õ0‚ñ0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ®ÖN–‰Û õ     ®0	`†He  ‚20	*†H†÷	1*†H†÷	0/	*†H†÷	1" c"<ßµãˆKÆ§-ˆA¾j`'ÿ'³Ó¸ÊºYG¦0â*†H†÷	1Ò0Ï0Ì0±ÇÁ½0{¥d^gt6ú»ã™¼hû0˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ®ÖN–‰Û õ     ®0—‚d¿_µ]ÜÖúh¬@IÙìã0	*†H†÷ ‚ I¶3C9£ˆİô[Q×fì8ê6m<<MÀwKàH’FOn~‚G†õ¸íx’ÓÿÒ&¿÷İê!·²İR ıîñlr£·Ì{ÏF\^¸]—‘‡áŒ)l”xvÜg^1w)¦aåà«æ½Âzc,ÛZîƒ!§0œ¢(õ¾Ï‚‰_Åº+åë&Ë6$ƒMß™Š¦ëw¤ÜÕjm§ˆ+¶ßÏ$›;ĞåÀ²÷:úDğ@î"«9KoÒô`%€Mı÷V[¨ÜnÉghM\„àÑI$ë{Ÿ
+åĞo<é&„œ%šZWîK¶u”Cö 3‘êò]3€•;Á‡ğ¬[š¿ ¨                                                                                                                                                                                                                                                                                                                                                                                                                                                 ¨lùÚlD¨°x0YÙ„#)^20171101111547.051Z0€ô ·¤´0±10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1&0$UThales TSS ESN:96FF-4BC5-A7DC1%0#UMicrosoft Time-Stamp Service ‚È0‚q0‚Y 
+a	*     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ ©¼wŠ: ìü—õúi”ktTÕ¥
+ ‚…ûí|hK,_ÅÃåaÂv·>f+[ğS'1A•Î	|a0Y±0Dñ`ˆ„TC×M¸8³Bİ“¬Ös0W&‚£EĞêõGÍ¿$`2X`FòXG†2„tag‘_T±Ï“L’ÁÄ¦]Ñan(Æù†€»ßaüFÁ'$gr!Š¯Kd‰Pb±]ıw=ğWu¬½ŠBM@QÑœ>gõfÀ–D~ïĞKınåšÊ±¨òz*
+1ğÚN‘¶ˆ5èx°é™Í<ç/Dº§ôÜd½¤Á 	“xÍü¼ÀÉD]^œO"M £‚æ0‚â0	+‚7 0UÕc:\Š1óC{|FÅ3hZ…mU0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0 U ÿ•0’0	+‚7.00=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*†H†÷ ‚ æˆQâÆà˜?q=£¡!o³ë¦Ìõ1¾Ïâ©şúWm0³ÂÅfÉjßõçğx½Ç¨%ãù¼íkTW+Q‚Dû¹SŒÌô`ŠvÌ@@A›Ü\ÿ\ù^5˜$VKtïBÈ¯¿Æò7}Z?ò™yJ‘R ¯8õ/yeÙ©µkäÇÎöÊz oK0D$"<Ïí¥–Y)¼¶ıápŸ2J'ıU¯/ş¶å3»b_šÛW@éñÎ™fŒÿjbİÅJ‘&â9ìJqc{!mÃœ£¢<ú}–jx¦mÒáœùü8Ø”ôÆ¥
+–†¤½®Bƒ¸µ€›"8 µ%ådì÷ô¿~cY%z.9Wv¢qªŠ‰ºa§ËšØGš€ÅĞÍ§Ğï}ƒğá;q	ß]t˜"aÚ°Po½ñá ßç1¤“:÷eGxèø¨H«÷Şr~akow©Ë§	¬9»ìÆËØ‚´rÍô¸…€û‰*T9²[ÚÈU™z‡s;æ˜-êà3.)õÀ/T'!÷È¬NÚ(¸±©Û–²§B¢ÉÏAMà†ù*š£f0Ó»t2Kßc{õ™Š/Ç!¯Yµ®ÜD<—Pq×¡ÒÅUãiŞWÁÑŞ0ÀıÌæMû¿]Oé8/¼ÏX.ï P5Úï	'Õ³~5ºÚ6ÛÓ_ŞtˆI0‚Ø0‚À 3   ¶‹GC²Ì­     ¶0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft0‚&K	*†H†÷ ‚&<0‚&810	`†He 0‚A	+‚7
+ ‚20‚.0
++‚7¡ìê²ŸA¥e^ˆ—)¾171101111333Z0
++‚7 0‚x0 7ÃİpÏê°ß¬õM® 8é&µ¸Ñ»åW×ƒ½1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  7ÃİpÏê°ß¬õM® 8é&µ¸Ñ»åW×ƒ½0*>ÎDCô(weş?¢„ÛşÇìªÈ10
++‚71‚ 0*Iÿ°êyR»İ£¼0ßä#(10
++‚71€ 0• RBo$Ø¨øƒğĞVøHòƒŸƒòmt¶è“'¾Ş1q0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  RBo$Ø¨øƒğĞVøHòƒŸƒòmt¶è“'¾Ş0*qågy&õè#ÃJ¢vË¯#ñ#x10
++‚71‚ 0 tË©ìoTû*¼ôÇèù]”@@P€	±)
+°íB©j1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  tË©ìoTû*¼ôÇèù]”@@P€	±)
+°íB©j0*{ÌÙûÁ6ærç^,§&ş10
++‚71‚ 0* !<âİêšÂ¤ƒ¼¿–¥`Uş10
++‚71‚ 0• ³úBg9/RFİ°®¨øá±tˆRrùaå—Ù–ƒÖËúñ1q0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  ³úBg9/RFİ°®¨øá±tˆRrùaå—Ù–ƒÖËúñ0 ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-0 Å‰!+.A¾9w~a4æQëÒUUdrn™»mÄ›1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  Å‰!+.A¾9w~a4æQëÒUUdrn™»mÄ›0*æ§1_Ê†Û8à?‰:¾aY±Ş10
++‚71€  q0o0m
++‚7_0] O S A t t r H2 : 5 . 1 , 2 : 5 . 2 , 2 : 6 . 0 , 2 : 6 . 1 , 2 : 6 . 2 , 2 : 6 . 3    ‚
+â0‚0‚ë 3  s01&e¸¹³    s0	*†H†÷ 0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110170811202335Z180811202335Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0‚"0	*†H†÷ ‚ 0‚
+‚ Èb»nË	H±Î_­ÉYËI‘:€%£{	7,À¾j³°¦~ób WAƒ‘á´9
+¿jYqf¬Cã¬–m¥f 2Q–İ;?0X± !™Ú¼®¨£$ø0ì©µ«üÏÇì‹m×lÓß§´ò­ä‰7®<¥Ÿ™:ñ”fj¹ÂæDB7jÎ¬Ò¼×8éÇ‹”Ë[AGYSãx ı£Y¥ºu>µ=§OŠ†¼ÈÿÍbšWNgÿ\Öì**Õ”§_ó$jú9Ğ,]Å‡ÉÀ1I¤îjØA0JÓ—É}Õ^xÙêÆ Pì*WXÏWÂ×ß	uUñˆ§È¬û? £‚0‚{0U%0
++‚7
++0U6¡Ñö2†<2+„—e~”\0QUJ0H¤F0D10
+UAOC1402U+229879+719555cb-6de2-446c-acba-d90894acd8720U#0€©)9Ä—xÍùOšá|U¯S0TUM0K0I G E†Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uÿ0 0	*†H†÷ ‚ ]ƒö²¾#õ's²¦8»¤³Rt‡­k¾ûñ®wÒÒé¤*Õù`kØÿ‹Y¾Æ¯‰F<Kdp0;¸ñ7ƒ1Áu¯Ê,A¿T1îO»µ†±ûB¸qÚÄÄ6Œ	Wºa:²‡_t,üënŠÿ‚$LÃjÿÂSJ×`#ö3ÅspeÍjiRñÌP‰B|GS<T5¬ÑiÉ¢ï‹zŠîàºÓ|7.À¥Ò¦HDi½¯ì‡Iê½ã±-ıvGépÇ`‡¸‚ jœ­òVv_Š­óùÛ×"tóî ÌXOUh›º¡£¼™ké¤T†aHéEôewlñò,}¡®Ûœ0‚×0‚¿ 
+avV     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110‚"0	*†H†÷ ‚ 0‚
+‚ İ»¢ä.	ãçÅ÷–i¼ !½i33ï­ËT€îƒ»Å „Ù÷Ò‹ó8°«¤­-|byÿãJ?5 pãÄçkàœÀ6uéŠ1İpåÜ7µtF–([‡`#,¿ÜG¥g÷Q'rë¦É¹;S5|åÓì'¹‡ş¹É#	o¨F‘Án–<AÓË£?]jMìi%(\6ÿıC
+”à´ÏßÂâÂ['î'x0‹[*	k"‰S`,ÀhSºìIóaŒ…h	sD]}¢T+İy÷Ï5]l+\Î¼œ#‹onµ&Ù6ÃOÖ'®¹2;A’,áÇÍwèªTN÷\‡e´C¨²àmwìZ$úH £‚C0‚?0	+‚7 0U©)9Ä—xÍùOšá|U¯S0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ ü|qQ¥yÂn²ï9>¼<Rn+?sş¨hĞH¦4MŠ–&î1FayÖÿ8.EkôÀå(¸ÚŠÛ	×ÇL
+6fjŒì×¨¤›¹â@26vÄÁZÆ¿äÀêÓ¬Ãhïb¬İTlP0X¦ë|ş”§Nôì|†sWÂR!s4Zó£ŠVÈÚ	íø‹ãÎô~®ğöŠû?ÉrS¸ë¾càã=1e°åò¬Í¤Ÿ=¨±›ÂBĞ„_Tÿ‰êºGo°sNAŸ@Ÿ_å¡*²‘sŠ!(ğÎŞs9_>«\`ìß¨Ó	éôö–…¶QˆfG¢°=*hw»‘Lb{¶ÁÇºz‡4Kbz™éÊüÎJ7É-¤W|ş=Ü¸ZúÖÄ³…:ê³Ùnäi!7ŞÑöugÓ“W^)9Èî-áÍäEs[ĞÒÎz«‚FXĞ^³g¯l5ò¼å?$â5¢
+uöV™Ôx,ÑëĞˆªñßº~,c·›#!ÄùxlâX6+‘Ì¤Ùò-ºù”@íEñÎŠ\k>«Óp*
+jà_GÑÕc
+2ò¯×6*pZåBYqKWº~ƒğ!<ôÁÅ¹“ˆE“†é± ™¾˜ËÅ•¤]bÖ c ½uw}=óE¹Ÿ—ŸËW€o3©Ïw¤bY~1‚õ0‚ñ0œ0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113  s01&e¸¹³    s0	`†He  İ0	*†H†÷	1	+‚7
+0
++‚710
++‚70/	*†H†÷	1" °Éà›"Û) f}²²!+WZç›F7×µ—|„Ê=,0r
++‚71d0b D€B W i n d o w s   E x p r e s s   S e c u r i t y   C a t a l o g s¡€http://www.microsoft.com0	*†H†÷ ‚ CL—^ÚÄø¦–1ÍÿZU¼r?Uß‹¥åK76UÀNOÜß§Ël™dŸÀœY|k…YğæÀV/Ó”ú2x:­ û Èš®9*6x|´yk€:VaZ%ÈMãè…‘Ê½=‰ú'tp¨TÃŒ‚u…!‡dõ¢İŠUs0²ñ¹xÍ`íøßû—.ÖšË&Ú8¸…w|q#gµë£[]2ØUÀ„f¤¹—ôŸ‹Mn"Çª¶T3@%ë[\Áœ…Ğ6ïŒ
+ÀnëN'YhS“ã¢iŒŸ˜‹Š'ºÛyRÅìæ+RêštßÍ!´aKæ§Ñ0ÍbÇµkıY3ó¶€6ä‡ò¹0¡‚I0‚E
++‚71‚50‚1	*†H†÷ ‚"0‚10	`†He 0‚<*†H†÷	 ‚+‚'0‚#
++„Y
+010	`†He  <WUz³í¯%»	!ZËsÅE¬"ë”jÛÚ[Ghx‰&YÜÚù20171101111601.299Z0€ç ¸¤µ0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:843D-37F6-F1041%0#UMicrosoft Time-Stamp Service ‚Í0‚q0‚Y 
+a	*     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ ©¼wŠ: ìü—õúi”ktTÕ¥
+ ‚…ûí|hK,_ÅÃåaÂv·>f+[ğS'1A•Î	|a0Y±0Dñ`ˆ„TC×M¸8³Bİ“¬Ös0W&‚£EĞêõGÍ¿$`2X`FòXG†2„tag‘_T±Ï“L’ÁÄ¦]Ñan(Æù†€»ßaüFÁ'$gr!Š¯Kd‰Pb±]ıw=ğWu¬½ŠBM@QÑœ>gõfÀ–D~ïĞKınåšÊ±¨òz*
+1ğÚN‘¶ˆ5èx°é™Í<ç/Dº§ôÜd½¤Á 	“xÍü¼ÀÉD]^œO"M £‚æ0‚â0	+‚7 0UÕc:\Š1óC{|FÅ3hZ…mU0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0 U ÿ•0’0	+‚7.00=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*†H†÷ ‚ æˆQâÆà˜?q=£¡!o³ë¦Ìõ1¾Ïâ©şúWm0³ÂÅfÉjßõçğx½Ç¨%ãù¼íkTW+Q‚Dû¹SŒÌô`ŠvÌ@@A›Ü\ÿ\ù^5˜$VKtïBÈ¯¿Æò7}Z?ò™yJ‘R ¯8õ/yeÙ©µkäÇÎöÊz oK0D$"<Ïí¥–Y)¼¶ıápŸ2J'ıU¯/ş¶å3»b_šÛW@éñÎ™fŒÿjbİÅJ‘&â9ìJqc{!mÃœ£¢<ú}–jx¦mÒáœùü8Ø”ôÆ¥
+–†¤½®Bƒ¸µ€›"8 µ%ådì÷ô¿~cY%z.9Wv¢qªŠ‰ºa§ËšØGš€ÅĞÍ§Ğï}ƒğá;q	ß]t˜"aÚ°Po½ñá ßç1¤“:÷eGxèø¨H«÷Şr~akow©Ë§	¬9»ìÆËØ‚´rÍô¸…€û‰*T9²[ÚÈU™z‡s;æ˜-êà3.)õÀ/T'!÷È¬NÚ(¸±©Û–²§B¢ÉÏAMà†ù*š£f0Ó»t2Kßc{õ™Š/Ç!¯Yµ®ÜD<—Pq×¡ÒÅUãiŞWÁÑŞ0ÀıÌæMû¿]Oé8/¼ÏX.ï P5Úï	'Õ³~5ºÚ6ÛÓ_ŞtˆI0‚Ù0‚Á 3   ©TpÙyÀ„eâ     ©0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100160907175653Z180907175653Z0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:843D-37F6-F1041%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ ¬”…¦åVÓßg.Û˜‘G•‰rMštó4@Şk§ÔÇ’~ÿŸ5:§dŒq›aÅY>”]‘/NÀíÁ@n'‘Ôå¬ö<ÎPS'h„ÒÒf¤n{)‹&ã	®tçLüŸƒ·FÛ©ûW÷³›Ş¤MÃ–$F6)\ŞGÖ—?Bÿ¨/'ë±GB÷½96ÄÅ»Àì¶¼œÉİ²@<=£ë½0uş[s1Ôğ:¿ìÑŞDÉÄşHáWÄ.x~óE6I¶µıXİˆdB9ï®SF[\}ZwHvp)a!“Sœ"inœ´yzL8„l_¡ £‚0‚0UÕAû»óô¾IRÚŒ7WÎdó}0U#0€Õc:\Š1óC{|FÅ3hZ…mU0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0Uÿ0 0U%0
++0	*†H†÷ ‚ ™¥‹/r$u, „ı
+¡¯á°2†ªÅ† »èD;•Ìµ:ç‹F¥ÓŒ ¨:W÷sm²En†Ev$FºtLñ6oR¶ää”ŒÉ)«‰ª¾r‚Óº›U« ‚9à.Ø­E‰KÀ/â ¸{‡ÛÊ×u¸.´Œ“7Š&DäÙAeÑB¹^¼gu»Î„©é{Ï”¸9]mWYì
+~ÆÖ•;çúˆ/V¬UPrg?² ÃÂü>È•«àÔg¶¦4m´`²B‰Ş`ÚX!¼ÓŒ82Sò
+ÌÛß$· ë“J?	z4;KÀskjR„S¡›DYaB­rğ@Ànüš²¡‚w0‚_0â¡¸¤µ0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:843D-37F6-F1041%0#UMicrosoft Time-Stamp Service¢%
+0	+  ]:¿V½á)Êrd÷u;x"ëô Á0¾¤»0¸10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher NTS ESN:2665-4C3F-C5DE1+0)U"Microsoft Time Source Master Clock0	*†H†÷  İ¤)0"20171101092353Z20171102092353Z0w0=
++„Y
+1/0-0
+ İ¤) 0
+ 6âÿ0 0
+ İ¥b© 06
++„Y
+1(0&0
++„Y
+ 
+0 €˜¡
+0 „€0	*†H†÷ ‚ …©E‡$>8>ï,—Ì®@C8®=<(Ô+ØIü‚Ñ 2”¸^Á¤˜ÈãğæV÷nÜşS<êñ—6y¦ú"Ş/êö[‹¤¶	œ}nİÒ9ö,ú¾àÌğà—HÂWHS*° Ÿi4&¦FØT°’]Õ;í§»8}é6\¿øêKâÈÆßÙ‚Jé‚„¢ÂXbù;G4˜‰şZë_Ãá_˜8İ\E¨s(ê˜ÃºÚ“<D˜.1ësaN*õiíİT‘ô.Óà?­a5 §±ÔvNİq˜éÒÙYÁû(Ía
+Ç}\™‚¨HÚêg’™1‚õ0‚ñ0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ©TpÙyÀ„eâ     ©0	`†He  ‚20	*†H†÷	1*†H†÷	0/	*†H†÷	1" ±\`kğÎrí?äŒ£ÜnÂ¦U€ôŠT÷§¸Û÷à:»˜0â*†H†÷	1Ò0Ï0Ì0±]:¿V½á)Êrd÷u;x"ëô0˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   ©TpÙyÀ„eâ     ©0ãƒmÑ(>Ñ|¾©Äx£¡0	*†H†÷ ‚ ë‚ìOïçN6IZF­—ØCµ¢ú¯óôöØ½R(ç–¡Ci`pÈYÊ•å—‡#á3…6Êºµ]öîÅ£·@™pš¯É¤Èª†¢2t¯œ‹¶Ä‡º›UùÛ
+µşÁ<Ğ¼5ÜSÖ®r¹¯»YÎJ’…ô‡uPfƒ?Ö#
+‹ôùáÂ™êMRø,>C%›Ò®¨4ÀØD¶­\ŒKxíIW…"°Ì\§B’ P·û[ã¡€&ø{¥üj$‡:ŸØ^ÍÊîVg“å-y‰"zêíŠ=Z8š
+D´I®èu¨¶¡@»W=yşŒJ(}È¥Á                                                                                                                                                                                                                                                                                                                                                                                                                                                 *^tp¡P$Ú9^mu(iTÀ÷Wë-„wjÌ1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  81Ú¢*^tp¡P$Ú9^mu(iTÀ÷Wë-„wjÌ0 Ï™ÀPfV_:şĞFÿ	MÊ3×*† [*2šbÅà1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  Ï™ÀPfV_:şĞFÿ	MÊ3×*† [*2šbÅà0*Ÿ[V­l21Bä±íPÂ8<xYÎå10
++‚71€ 0 £ÉûA ÓÆ›Êàİ”Ê&ÙpßÉ”â¥I·y1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  £ÉûA ÓÆ›Êàİ”Ê&ÙpßÉ”â¥I·y0*·¸gäÚ™“İWÜ£§”ş7ÏÕ10
++‚71‚ 0*¼2ñË`¥ÑÂëĞÔäØŞÆY³10
++‚71‚ 0 ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ¼µÅè_è™—0%ï¢ÈH`Ş_@`×,}A-0*Ú,£AÓ7?×Lb'·l|	«]c10
++‚71‚ 0*úTÀê½’¦±¿„%À#ö¤ÄqJ10
++‚71‚ 0 ıÍ7¾5(rçñŸ'=úmîÑ.ÃÄ„k,‚¢çÚğ‡®æ1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ıÍ7¾5(rçñŸ'=úmîÑ.ÃÄ„k,‚¢çÚğ‡®æ q0o0m
++‚7_0] O S A t t r H2 : 5 . 1 , 2 : 5 . 2 , 2 : 6 . 0 , 2 : 6 . 1 , 2 : 6 . 2 , 2 : 6 . 3    ‚
+â0‚0‚ë 3  s01&e¸¹³    s0	*†H†÷ 0„10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110170811202335Z180811202335Z0p10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Windows0‚"0	*†H†÷ ‚ 0‚
+‚ Èb»nË	H±Î_­ÉYËI‘:€%£{	7,À¾j³°¦~ób WAƒ‘á´9
+¿jYqf¬Cã¬–m¥f 2Q–İ;?0X± !™Ú¼®¨£$ø0ì©µ«üÏÇì‹m×lÓß§´ò­ä‰7®<¥Ÿ™:ñ”fj¹ÂæDB7jÎ¬Ò¼×8éÇ‹”Ë[AGYSãx ı£Y¥ºu>µ=§OŠ†¼ÈÿÍbšWNgÿ\Öì**Õ”§_ó$jú9Ğ,]Å‡ÉÀ1I¤îjØA0JÓ—É}Õ^xÙêÆ Pì*WXÏWÂ×ß	uUñˆ§È¬û? £‚0‚{0U%0
++‚7
++0U6¡Ñö2†<2+„—e~”\0QUJ0H¤F0D10
+UAOC1402U+229879+719555cb-6de2-446c-acba-d90894acd8720U#0€©)9Ä—xÍùOšá|U¯S0TUM0K0I G E†Chttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4048958" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4048958" creationTimeStamp="2017-10-31T18:57:17Z" lastUpdateTimeStamp="2017-10-31T18:57:17Z">
+	<assemblyIdentity name="Package_1832_for_KB4048958" version="6.3.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4048958" releaseType="Security Update" restart="possible" psfName="Windows8.1-KB4048958-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-ServerCore-WOW64-Package-printscan" language="de-DE" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Client-Features-WOW64-Package-AutoMerged-printscan" language="de-DE" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Server-Features-WOW64-Package-AutoMerged-printscan" language="de-DE" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="4048958-2693_neutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="distribution">
+					<assemblyIdentity name="Microsoft-Windows-Printing-ClassInstallerAndPrintUI-Ntprint.Resources" version="6.3.9600.18790" processorArchitecture="x86" language="de-DE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="d8e49d8e4aa4874115bac310532b54ef" version="6.3.9600.18790" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+	</package>
+</assembly>
+                                                                                                                                                                                                                                             '0‚#
++„Y
+010	`†He  c0ú[¤`ı'm(MúºÓdû&½z“FÈä_Ú¯ÜÙDYÛ=ŠE20171101111550.553Z0€ô ¸¤µ0²10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10
+UAOC1'0%UnCipher DSE ESN:7AB5-2DF2-DA3F1%0#UMicrosoft Time-Stamp Service ‚Í0‚q0‚Y 
+a	*     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ ©¼wŠ: ìü—õúi”ktTÕ¥
+ ‚…ûí|hK,_ÅÃåaÂv·>f+[ğS'1A•Î	|a0Y±0Dñ`ˆ„TC×M¸8³Bİ“¬Ös0W&‚£EĞêõGÍ¿$`2X`FòXG†2„tag‘_T±Ï“L’ÁÄ¦]Ñan(Æù†€»ßaüFÁ'$gr!Š¯Kd‰Pb±]ıw=ğWu¬½ŠBM@QÑœ>gõfÀ–D~ïĞKınåšÊ±¨òz*
+1ğÚN‘¶ˆ5èx°é™Í<ç/Dº§ôÜd½¤Á 	“xÍü¼ÀÉD]^œO"M £‚æ0‚â0	+‚7 0UÕc:\Š1óC{|FÅ3hZ…mU0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0 U ÿ•0’0	+‚7.00=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*†H†÷ ‚ æˆQâÆà˜?q=£¡!o³ë¦Ìõ1¾Ïâ©şúWm0³ÂÅfÉjßõçğx½Ç¨%ãù¼íkTW+Q‚Dû¹SŒÌô`ŠvÌ@@A›Ü\ÿ\ù^5˜$VKt<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4048958" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4048958" creationTimeStamp="2017-10-31T18:57:17Z" lastUpdateTimeStamp="2017-10-31T18:57:17Z">
+	<assemblyIdentity name="Package_1833_for_KB4048958" version="6.3.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4048958" releaseType="Security Update" restart="possible" psfName="Windows8.1-KB4048958-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-ServerCore-WOW64-Package-printscan" language="el-GR" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Client-Features-WOW64-Package-AutoMerged-printscan" language="el-GR" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Server-Features-WOW64-Package-AutoMerged-printscan" language="el-GR" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="4048958-2694_neutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="distribution">
+					<assemblyIdentity name="Microsoft-Windows-Printing-ClassInstallerAndPrintUI-Ntprint.Resources" version="6.3.9600.18790" processorArchitecture="x86" language="el-GR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="6270e0b32be674f4b8dd2463fef54c34" version="6.3.9600.18790" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+	</package>
+</assembly>
+                                                                                                                                                                                                                                             ñ0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   «^@îFß,l     «0	`†He  ‚20	*†H†÷	1*†H†÷	0/	*†H†÷	1" $;Ò1×Œ<ñƒ®ñı
+4î©kq5ßBÇÜß‹ÌÏ0â*†H†÷	1Ò0Ï0Ì0±Éì»H-5Ù”¾¶÷&©1nŠ‡20˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   «^@îFß,l     «0bš¾º{CzÔÃß¨"T‘²{—0	*†H†÷ ‚  öHL1ƒe3d{İÅ¥M]¨×¥q+¯¤)[G’İÖ†¬"ºt¿)-ßå
+­2rKı‘Ğå_”ö¨f›8Q‚F&?iÒ‡rbĞl]®c’‡ôp¦Ì*ƒÚ75Ş‰KÓÄÄ]­7¦ÛëÓMŸ|j+	ÌOb4% ªÄ8^Òûeö–©Ôa–…¨ñ8;« Åô‘12?à^Å7 hš[¡rzğ8¡ïH†æ:÷›Ó’{´0ÅGËî‹:Ÿ¦IZ*‘ë ºV]›’sÎ-4îXÑ€¡ÕÚÕ}d$Bi#º²­Ã«XŸX[ìÌ]3¥49²p#»-O/Rè¤q3G2ù                                                                                                                                                                                                                                                                             Ã›øû.Û#uWƒ)Õ|w”ŞÅád#[úJÀ?0ìö:!íö:  íöE¶YNzÁ¶5«¡yİ&­ÎØn—¡p:ÜH'ĞëÌÄ`w'¥¤& –—ªIG6ØÛ6a8“QIK`ğÓãß)té'!W÷1YÊ:~…Ö±ÙÕ=ÀHyú!¦\³±G ÛŞ]évZ3%•ÊÇ8Šş-œÌë#şI”ú>”úSèà@„\Öˆ>ö Jÿi#°$Aw)/²õ!F0Ï•Ş’©¬|$ci'eŞ{—AòEØ¤Úİ YÛèB4#tî&OfÃì9Ìjà@û$EÏs»ëÈn`BÃèÀƒêË¯úês†¾æí=óÑƒ,x.¢GÌÙ1ìñeS}Zöx/ÚÜÙõ¸pO”_Çÿ€=¾ÙzÛÏZ‹ZÊóOØ×»Ø×û­Ëó~¶ã,¹»è±(Ü}Œ=~‚=~Ö:wëLòæ“Gû¥«0æ„:’Ç¿`†ú%šôWÑ{l+{Tá›?„ã3 6'ZîïÍ
+Â’]ĞÙ¼,èB2ºäö¡Á t*ô¦í‚2oš¿(<¯¶yˆìøĞ3+ó~ŠÎ"=KKÃKQ´vØn¯3Ô ùânxÒ‹×4¯Ş‰Qå”qûı$²‹©P±?AÁıàÑş"z¸<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4048958" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4048958" creationTimeStamp="2017-10-31T18:57:17Z" lastUpdateTimeStamp="2017-10-31T18:57:17Z">
+	<assemblyIdentity name="Package_1834_for_KB4048958" version="6.3.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4048958" releaseType="Security Update" restart="possible" psfName="Windows8.1-KB4048958-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-ServerCore-WOW64-Package-printscan" language="en-GB" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Client-Features-WOW64-Package-AutoMerged-printscan" language="en-GB" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-Server-Features-WOW64-Package-AutoMerged-printscan" language="en-GB" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="4048958-2695_neutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="distribution">
+					<assemblyIdentity name="Microsoft-Windows-Printing-ClassInstallerAndPrintUI-Ntprint.Resources" version="6.3.9600.18790" processorArchitecture="x86" language="en-GB" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="11266967f1f08586dbef88b20a80f18c" version="6.3.9600.18790" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+	</package>
+</assembly>
+                                                                                                                                                                                                                                             ublicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="7fe5f79d7d6c35d355413c2f4e4c80bf" version="6.3.9600.18570" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+	</package>
+</assembly>
+                                                                                                                             í^˜+MÌn˜˜#ÕA&æ¤Ÿ¬¼¸´T§4±8İÄ\©N*§jd úªšŒ²–4´œBy†ù:/)=ÿìÈ³‘â$ñ_dñ4ZĞÏè’› +r–©1ªq˜¨	˜ªi0K³Á<Í5,ÖâàbÍeXE'-­Â]qp“U8!I«ˆ£÷¤U-¬4ÄµÒ×J%.*mVîx¥-“¯ë1tÄ? íÃZ¼8Eå˜ÿÅ¾Wú-T3rëõá ÌˆHˆµdÓŞLœALœ±ÇóokTX J‚êV…êU«[QÃÂxå]ë6-ó[Qÿ±"³õfèt2¶J&§ÏMüßØWLµíme_QË6:iÃ [Ë‡Úp­Àd­fjEh„#À¯‚åÚ4ÄqÿöO[·ïË¬Œ&”­Ÿyt¿\P(ŠÒÓvèçUÂGÕ49“¢ºK
+6¦™^53#m´Ñ&ã€œ
+İµÈÕ¦Ã íB£Í€,ÏÒf¯D…Îåi˜õ”CE@wÌ‰ŞzÎ…>ì¿j˜Í1qƒèú3´A§yR¾-v
+Y×ù¼LMÇ³Í|¦FòIntO”“DÚ|$~¾È4Í6Ÿmx€lİ„Î¦tG
+~ÑÁR”UÖšéIGI.J1íEGÿ8ÍSƒğD‰tı7äS4÷ØRµgw@r.ùÏAØ[*ÓÖ¯Ù“¥¦8Ğ—|´¶Ù)ƒÎšzi(ĞV s,‡éZ,Ğ*!€¿+µ¨Ñ.1Nàv†ÎòTœ€™ĞQÏ+‰Cµ†j•œY¬	3Óé¼/ù)–?CŠƒ34¢®: £/·(} Vj…Lîƒ}{#J–¨<£ÌÍ­/Ş¦µX¼Eñ>*iJşôÿ¼øO 
+@®¾ÊK‹¼…NR&›n>uöë‹¿i˜ÊÅßzza"^˜8p‚DNcøÄÌhÅKÁ®­—¶Új—Cí
+ÔÀZÈÒÖA¾v%ŒÒÖ£&®‚¹ÚÕ°ZÛ ëµka³¶n×®‡´›àí—ğ„v3ìÓnÚ&c…8V+1
+.Q+ÄábµB<æ+ÄÇ34vLi¬<Ì¦Ê÷/zÁµB:é"ŸqMe ƒÁÑö4tp°Õ˜Ì\¨@ÒU(—ÌuÚ5ÑkYÆ#0·q»Rôr$–ºÍÚEá`WÛ)gvÍ_» ³™Eêx•´|ïÈ6å“s½üRÒúp9"Şjö–…~bJk„^º³Dè(µ>\ÆC"*íWèÂ·¢ß†
+»]Ø½0@»òpj;`<’9GÛ‹´pè<ˆn|‡aöüR{¸Çx÷b´WYç"tUú[N#¡¿1 nSêé—éoWÀ (ãy".’ofŒ”¥òÍ}@¥ƒæ9….³	©JÆ;ıHè¡…IvvLÉËNıÈyš.`oÚyş,İtè_¾”’yÖÄÓ$o÷æ9<ôäFCgª“$—jO“’w’ä!É{µ%éò„»¡¯®»Ô,g7ë ˆ§âµƒèºC¢ökè¦=ƒƒæY§G0œ>®ë7°T{åÿ[¨Æ{Ú‹°Q;wk/ÁıÚËÆ”{Ò–*ÄÁ8¥Ú÷Úi‘Æá÷êğ{"læN©ƒnp•Ô‹†ƒ¯\êÅ†¡Ú'õ¢gv^mš`8CÇƒ›k%Î
+¯¨Ş‰6Êå±`	A¸¸Ğ›¶&¦ÑÅí0Ò8!O/Èò)¹Æk2Q¾»é/a“B¾ÌŒÎóZ2)’//¡";5÷£¡W•¾a(Bg¢¹d¡YÈãõØüiøOvâ±É^=ÊãáÚ8–ŞÄ±ô†Ÿ·!C{zjïaZô>†Ÿ`¶ö!:¿?ƒOûVhC¥ö	êòêòsX§}·àïíÚ—è¿†ıÚßà°öw8¢}¯jÿ€·´o‡8]½Ö áœ.Mí°]sè…‘wŒqv˜»¤{Â^/uÜ K¸[êx?te·K,‡¡“L®ô™\'pxèmÓÓàeòğ¿7å48)ñHCÅ¶	)–g«Ã¨Éÿ/*V­ë©Å~(Ø‰ªF±†9ÊwâhW5¤âõó¦²&,•ZÚ†HóúM4fQ‹Bíßh? YüÍâG4‹Sh§Ñ,~F³h‚ÙèçÚølVØTÚ4¨¶9¡Áël.¸o·¹á[;ØoK€gl‰ğ¢-Ş±yà;[
+ülëÄ„ÍËÜ¶4–hK7\Aëfòºı„(ªĞ0˜ŸƒùÆ0˜{ƒY¬ğ=ƒ¹é†Átƒ¸hsFgÈNWTëR5JG9º¶B[4Š§Ñæ°WÍ!âmS[WpØºA’­‡išdÔ¯3&˜l%¡¡¶ã	ª?zë‡ªçe5Â3S²EvÕP[ÏMQ'¤ñFrÒF„ö	}‚ğ|R"6€m}ÀfË‚D[¶‰<EˆğDDS?úb™ÕÔï7-wl£¬§~JŒ>Qh…êTã£ ŠW¨’£lãıÖ×dëM)E•taô‰6…u :0ëDYÿÎçtÓ™ÙĞ¦6£ï¼Y´?jÑ~¶eûËö/Z´ŸoÙ¾ƒeûcí[¶ïhÙş%‹ö~Ëö©Ö
+~ÙAywR+GŒ/:˜œÓ¯Xàª:ã®£~Ú†ÑWû ô¹}/3±b–ú{´u¦u·xm¼6Ş8Ä¯©ƒ4K²_µÀ¿:²J»Lç-­ı5¬kcØ‚"±v‰2†^·ÀzuŒ[áŒ>›ØkFøƒÖgÆÊ»I¬İy–›Ğ™ğ†Ö›bÀÚSšÃñ(Fö¦ÖMgÄzBÙñhFö–Ú;Îhd'ZÙñ(Fö¶ş»b [7²^QÌá¬ÛÏˆu“:Óó•ñA›°KÈn„?Z } ÊÊáïäÇk}Â³ÙHàŸ,p=…@W3yfme§¡¶Şµ@ûDm…ĞÆËÕãæÚúŠ÷±’À{è÷G•ÀQ%,kZß·@v(*­G[¡5ÛŠÖ,Ğ?•ÖŠÖuT±¹¶>´ÀõBmÑ™8“¶Ì›,ô‘W«XógôÇ¢ºI%}y?+TY z5
+*ò©„ª¿5U[ z3**ªÖ¨>±@õ§3 hêSTÕÖ¨>³@õéPâƒTº…Äeui„ã¨¾ˆŠê5‰*Ïšª¨¾>UCøĞ¨º7Âç¨¾†
+ƒ¡Æó[0Ø»¾°@õï¨¨zJTÃ­İè_,PŒ‚ê„îFéóÊ–nôK\MQæ‰H7J_n¶vMm‰Ö®EqM'7úy¤k¢oA[Ià+ôqQ%pTI ŠıÚYÛ¨´m…VK7ú7ôÑ6Oèn”¾meÙ·@Õñn®ĞÕ7¨¢ì5ò¢*Ë‰Â?,0™ß‹O8¡ÚQ/·É¢•ü÷mnˆDb~A²d¤ADøõÆ |Ù8ÇâõF
+}Köƒş~ÿ}åG{2K; #Œ¥)Ùji§}vhigj\Øù+Öi{)ÇŸCğOfşÜM³ ‡} 8íƒ¡=²ìC ¯}(°çÃPûpm/4†Ú—z—®t’kDîÓÎYĞœ§ ­\˜HM@öGóĞ75sûœEò>ÊÄ;×‘%Œ¢²ƒÅ‹…ÿŠhæ]aÓ‹…|,Yá1(0+à{k4Í€¬‰ø÷Ù1œk';?Äg„Â3^á™®œ‚“œBşcI÷¦íˆI÷^N>Ay'ŸHAb/VØÇ)§ë@ìAøÑ¹îqr‡Ü¡#—('Y1şSìŒÏUŒO¶Âs2v<G)Öüoì<U€ÃøTƒJ]€ö¬ŞA83•HÏ^Ò‚ÛîA8;nOµùş|¶æ;ˆOkÁW— 4Åç5‰çKzôíœ=­ñDz–3â`‡Ÿ-şÖxÄÙâéË§[áÑbÇ3DâÉµ¦Çv–ôĞ_ÚPÓ£fÙcwï˜Bxn$‘[ùDæ8KŸH"ÄrH3çyğ‰ôWH¬|"‹ü¶Bì>‘şº‰ã®³ô‰ôgQ¬ğÄŸ¥O¤¿¬b-@÷ùğ‰½Œs†azQ€mb`a„ ó-öæ Ámc'¸Ğ xn„Æó™-	Î	²vçBğ\Eğ,K”	ç‚ò¨¬İùl¥.D™d‰ç€’‘Êùœ–(3‚,é\¨|MR™ÁK[2Ş#È’Ï…Ên’Ê?G±§öçnODAé9g”ôG,Q¦œ;•ïEAÙáÜ©Lçs-Qv<”C$•´¦n=wÆDî©çc¸‰2Ü;ûp?e¸{Ï}¸§ZGô´³Í0FZÍ†Xzl³¡6–;ÇÖ¸£eã.±5î`Ù8#¶Æ)–»ÆÖØcÙ¸[lÛ[6ü´R”ÆÉQFÒ9Y‘>Şã­ç+ÏÖŠ\ÖÖØãlóËã|å@éy.,P¡6ôÇªW6iÛ)İ£Y/k¬úŸN0ï¹‡°ºôá'KÕi_@':dO£õÔû\zšµ§#|‘JÃ#`æ¹8ÀwÌ°YF~$Š:úœ»:DWGÖùUÇ‘èêÈ>¿êXgmı9g¿2uÑyZáZ|+\hKŒ%Æ	 Ÿ`ÎH†ÍA–»ÚnĞÄSP¤„ÇQŒ}À§`WÄç ¡ŸúŒ4o3’ç>ªÂ—²²ƒn°™õ‡¤ÿPKÕf”;½7  *˜  PK   umK            /   io/netty/buffer/PooledUnsafeDirectByteBuf.classY	|Õyÿ>í®fµË’-ÙÖ±¶dd{uY`Œ±-Ÿ’¬-Û26²)öZI‹W»bwelÂˆ990	ii	¦­iÄ²À1Ğ¦iR’ÒÜ¤mÉÑ6i›´MHÈÿ{óvv´ŞµEıûéí›™÷¾ãÿ¾ã?ã×~ıÒËD´‚—Ş)Áğƒ ı~dĞåÎ¿ÉğïºŞ‘á?äò'2û©,ıOƒş+@ÿM?“‹ŸËğ?2éeÕÿÉƒ_ÈğKyğn€~E¿ö‘ı¯Hî¿`bÆŒ‹ìa/v±Ïàb?=  ös‰ÁƒK´˜M?Ï’ß2fËP {Y…sDÔ\™UÊP%Ã<¹7_fD|µ52”ÀP®pår¡‹ä^}€x±Ée£<Xxi€—qH.›J¹™[Dr«m2,—¡İO/ûùb™^":WøR^YÊ—ñ*ƒ/—­«eXSÊk¹C¬“a½ÜÛ ÊË°ÑàM~Ş ]ğO:ÜÅ[J0t|E€ö²iğ•LÄd†ãq+Ù‹¤RV
+—Û6ï
+ïîŞß·sK÷N`»—É¿³»k «W.ôFíq+>Ú>‘ÆÚwZƒGcV²ƒ©¤?:¤'’Sweë²÷N[Éöí‰DÌº&Š[[¢Ik0İy4muNwl€ÌYcÖX"ytóĞPÒJÁ8îa*[7…ã©t$>MËCá¦÷!”ÉÛ•Â¾Ù½Ñ¸µmbì •Ü9Ã9½‰ÁHlw$•k}³t,r¤+2Œ¦B}˜ÉL-ïKgñºh<šŞ`ğU˜_‰‰è‹B@j´Wt„›vÃÜôh—%õÃÌîEØŒ¢“iq(¯©]£ñC=á°Òâ”K¦Úó¬…é£Zyqbx8eAxqÌŠ¤GqøÀ©WÏçMòèxÌ…¥¯ë½!r8ÒÇ«XsûíÊ¸e
+×ÄÇÕÑ ³óA¡6¬ú(S+DÓÖéÁê	É“J®i+Ä¶Eö6¦ÖP^qMyïh;˜ª
+,ğGSvÔ)½’´ûG,‚ˆäH'9²à¬äIÿh"™¶õ#°ã¿³úÓ‘ÁC[#ã™œ¥ˆid¶5´ÕŠNŒÙ{Şe2d	Ô{ñ{	RÕ¯M —‡Âç@›IpÎ&g(áÕçYáÇŠ°í[}(¼¯óüòŠö‹K`N~üo¬)°g¯sqzl¼S*ƒ?ªÅã ø¾+Ñ•?Š&ä“VdHrq¡ (lÀ¥°¤o"=>‘îOCâXÇùñƒeiIÍ¼û™İG­ñt4ORåÚÜ¾"ïãV,Õ~e$=j%£ñ‘ŞeßíPÁšéjU±g,z¯Èn±peŠ*ø¾.o‡#±	K"?¥#ÌNËe&ª¹ĞqœÊÄ1ôˆ Ê	dO*9(7’ƒ:äj\§»ÆEãNÎæ<7èÉB`ôFÒéüŞ1ÜhÎ³¥+–HYCz©s˜€»iÆòîÁ@ò"^™‚¡óå‘ÁW£+Å3­+1·Kl8·S
+pÓ¾U«$­ˆÕJ_şuÑs+¨4’ÚœLF`ª/bÿzCM’Ü¥ê²O÷¨r¬;·2KuÊôT1²©0±	|¸®Y:T“ÏX$>ÒŞwğá‚u¼èÈÅÂ4ÎYÏ´ı‚t`æ”£ñ’‰Ú¢#—È°éü¾öšuƒ1EYĞlÕË7î@b"9h]•F²° ¾å²ß¤qJ™¡ƒ÷š¼•·Ö›lro7)&ÃMtÄ¤ct·IwÒ]&İGßgš›ÇDƒw˜¼“ûMº…ÆL²Rvñ5&=J›¼›÷˜|-˜´Ÿ¼×ä}|É¿Å×¼ôˆÉ8bğAy1yNÁÉì±n›ˆÅ¶'TÔ:É'yyc²E¯ƒÿeW«J‚ŠÜ7Ü‰<J9[˜ægW¡nHÆNDcCVR» gZßÚz“‡yD†Q“£|ƒIoÒâØ÷L>Ä1“¾-—ß¡ïšô½.÷àöYú´IŸ¢ßƒ ãôºÁ	“ÇùF“¾48)¦8mğ„	’p“ÉGd8J÷š|³lù |‹É·òm"éƒo—‹;Lş ßiò]ü!“ñİ&ßÃ÷ÂÜLÙsñ}²åÓØäûùÔù½İd¦õÍäğGqòb÷ÇLş8}Õäeø?dÒ7è›&?Ì×0-Ë¢ˆø™G°†úÆ­dDÄ¸ğ5¤"«Ş9“î¡{ş¤Éğ£&?ÆÇAıßG*¡xœ7{ÜÏó%}&v¥uô¹¬\6Ãšø)PÀÁòkFu‘²YjÊW¦JPSwZÃ]qMQfBÓeJuûöX$=œHm±Æ-œ¹ì˜k£k§ S B¨Ñ%Cã±(\óC…ªªá¢º=Buın†Û#w¶+ìfÒ:Œeé¾îõËºâ›•}èeî,M[#áâ¹=beYv‘}?08jÒ¡Êİì$VåÙ?è¼XGÆ#á]yÖsK× x^
+Ÿï±?°oå§-–¢ÙoÕ/Å¡›ï„z@£Õœu,‚^ 2\~nÈ«gLø¢Yòj:"ï’1+”æN;®ÌQÍÎ¹]ã‰TÔëÊP8ß_,:&¯²qá°s¶;Á¤åEŸ^©0k+©¯ÌÇr!ç¦dÔ¦…û:Åµ¥3£•…>Ÿ!›=Jª_4Ú!†[ıêå ·TPá†JÙ•a˜Äp5Í¦|Üe¼W<Ô¶‡…òÄb	ÑÆPA¶YVDÒ	°şBkîÜ´)¯†3 pÓHçyEÙ{œ/…D–wÊiPö%‡D[i…øpæj^n¦«û­á+÷woÛŞ‚P™o]L^ºˆ<T#Í³áÄ4(ßièö˜/'?Ğ(Dqµ÷‹ğ;ï*š$Ï«äímñN’¯¥f’Š[S{oÀ8ò‰Z(@­4›Ú¨rÉ>{7zÑ~åfœ]$ÔFëÃ*~æ–ºÓd<ï¨Í+©˜.SÂêíe”†R³	:!2²L¿"öÜ5ğ[ÑÜR_å­òUŸ&ói*y^á 
+Ê”À5°j-•S‡R²ê°ÉQRAGéf¥¤‚> „ŠÔôHy\A·bæS³Û0+¦Û17õú£t‡ƒğ1‚|iãµÏ¥Êç@>³6BØ&`°Ùå{©cV©cV©2¡È¥¸tšâáÔOƒİceMUsóç©ôU2§hfeÇ"§hv.ô[pİJ½-¸J«÷
+Ğ×¨Ó$„Ä$•g¢Xm»‚ÀçØîı03İOh1­ê»½'sdlsPäğú¨Ş¹^‡hIsíiª˜¢9¹ú]F”8F”ĞÇ *}œÔ¢F±F`^ EÍ]ÿU'£îş¦¨ê¤sD6>×BÊ€ëx8Òhé%È†OĞCXı0îú©è]šË]¢õ“ôˆÖš  KmJëæz¸PAïİV^~¤>É\øÜQ_Ió2×wd´M¹Îîw™Òæ˜Ò¦M)¦e ñÀ^zÌQëò‚é.Wçº<—FfàòX—Óã.­^—ÖšÍ¶Özh…ÿµÏæhAêØ´OÓêíòâ	¸´­•çIÕû›k«PÄêZ¿L³ÎPp`ÎÂÓ´è•à§¨,Ø:I(COÑÂ3Ô0p†œ¦‹æ4NÒ’à$-¤e§)ôJ•÷8]…•MÇµ˜7Eª¼Ç¦¨åµâºõ8Õfµáoyğ€zÜ~‚fµm.ŞÓüœãè
+„8Q%+¥Ò¼
+¥­ål#Ò|*ÏÕ¨9ê#¨3·#½ïC-9¤Ê£rÉä~ˆÌ Ï(øî§ßÆ=šİª*—RqUYMıÂÒïè£ùªiG!Ì`ëË3‚¨Üö?hûíru1T
+ˆ'JQ	ªP#£×ÃôN¤cN2ëÚÇµk;àÚ“Êµk;\®“·Ê¬©Pı®vìj<óØu¢Õsš.iÎ+;È…A¹‚ìÜZ!³'`°¼jÁocµôŒŞæÚIZÑ<I—ÖáÄWNÑe«¼ÁãdâÖªµ¾4[—\Êµ>Y|ùºjß$­ÆlÀ>0Ik÷´Ê=Ùf°:	!ìƒæJ8» 'Õ §Úè)º”>‹Øx®Pv_bßS°Q ëu<èu<èÕÈì³ˆ(¤®†®é½«’‹$jàw©Ô€|¦gè÷µÇqe=jşÊõÍu“´NÚÉú¯à:€YİS´Ş…ğ<eÏb<	´Ÿ…Î?‚¥ìB»Ş±µ^YjDµºµÉ1şîœéøll®E¼ÕßÚàük½*Øª½ [k5Bwƒ+äjÔ	}ã)èŸD±8Mu4…°{É	µÙ4>©
+S£cM£ƒ\#lV!×¨ìò(”<Ä‹áŒô$†CbêsÚÔº°KÄrs;Ó+Jw³½(o´¤çuß²5fI¾ ıÀnÉãäóœ”œYè3‘÷"m*¢lÅ·Cï‹ıg íKˆ¿ ©y`~Ï^GÏş+ZG_wBo¾+ôºwºwºwºµ;2“ ôB;ôä1géÀscû}N»|£Æ6èŠ¾:„ßÆ*ş‚Á,Ş6?ı.6½ŞDd}Ï…}Ğ16¨Ld5³c¯n?“ƒ½‘tJçÂV‡ÉI Ö=8E›siÔ[øı~—Á¦A9¦ºâiGtJ‹®V¢U‡ô×=tB‘)êÌV	[Ñ?¡:¼íRTí(ªvUkE+TŠ¶{ß“d6hŠÁã¼Ò¦_t¸Wr˜K”uåå·ˆƒH]¹ß
+)ÉñÚNöw7?@Rıñò#¤Ì]€/q[â¶DVŒHâÁÊ—SnÔXÌÏbáp”)êÊEâ'0â§.$æ;
+ç;
+çOG¢Hx¦#q†¾à¨÷*Ãİê3deŠ¶äªÿÔÿ|ê‡óª÷B½ÚÙ3—î0—+
+3MZ”C¹Ì%KZ²¯t1—«Îe.¿@ø%Âø]´ó_ã¸ß£\D[ØCWÃ¡ì£ÆÛûé>.½ syÙa.¯\€¹œu˜Ë¤Z’â b±ãËhU¸œF‚óªæJ—QµQµQµ0ÊæµQµ.£Ğª•=Âñ´
+aˆÌğ‚UÛZÛ&?€-ßj×à¶L	¾ ª°ÀŞ±'—,A²k(Àµ4›ë¨’Q×S+7Ğ
+´Ÿlb­t_é¾†KÇ`”XÆ½ÒîìgéU]VŸ†ÒIšt'‘Îªšix•¯Ê÷Õam@}h•/Û-T‹åeTÌ!*å&şfZÀ-´”Û\/ÖMMMô'ô§
+Ù&İJAìV<™ôŒzÅ£qà¿¢¥}‘§µ…³hP¶ı_Ñ°İ¶_µ?¯îwŞÜ~ç}‘zĞïÖúŠNBÈbÀÓ*e{³P¾ğ
+xs)âc%ÍáËh1_N-¼šÚxãQ‰ş\EM»ã[»ã[;|û²ò­]ûfÒEêì¨™OüÔú$ïú
+«1Ğhİş½VnÇÔ)¡¶øíl®­³ıë•aë‹´ÍCÛêSs›Ênûİóæ:Éì6V÷í9A¥mjãö=m¹¶®n¢*ŞŒTè¤zî¢å¼…Vó´‰Ã®ëtœìtœìÔ½²
+p¼†ÌõèÃ\mĞ×,úKğ…¼és¾7}ÇøºŞÙ‹u’ueŞ³dx”';ús¾9p¿«î–9Æ–9Æ–9¤òôM-yLw—eV0YÊ„Ëµu5êÚ¥R}ªákİ Âd¯Kõ2Gõ2Gõ2Gõ·Õ#ZuÃ4ÕˆÛL´fôæ*İ¥ 4âRÚà(mp”68J¿}î×Oîç=ƒï€:Ù;WJ“>w†vÌ¹æ4í~%GÂ!—„€#áçü/,a<¯„7/ü­ˆ'òZoìÙ;ÛD>œíìgs6ßìÚœùXU$ÿó©7¯CüK"ûesí±HîşÛ\ß™üÎAøïLnW©åÚ/|nøŞå²Â«¥Øòş¶|İCG¹Ÿ½ZTPîÉıö¶¨Àg¯·ÀEÑøhœş^‹êÓÊş ËÏçdg¿ûãë[ÎÇ×Ğ_úGpP|~ÛõÁ±H­Q»öxšï	òz>G•gh/8Ê>0ú\ÂÜ Ö}‘ª!>*šµ‰!Ò†àŸé_Ôï¿Òõ¤XíÕ ß™,.ùPKP¹5h  u+  PK   umK            !   io/netty/buffer/PoolSubpage.class…VûWT×şî¼g¸À„‡¢qÄ*©QTD‰(>(‰DS/Ì¯38b¢m›¤<LRÈ«ÑVÛU³Vl³šØô§d­şÔÿ ÿAûsÓ˜ôÛç^fF|tÖš}ÎÙûœ³÷şÎwö¹ÿî/°WBX+ˆNˆ8)"!bDDRD*D1*½S"Ò"2"²"rbqÚû½óı¸!TÂÓ¤ˆD}FÄ‹A¼„³!œÃyïØ??~B¬ ¦¤½ âb ?•ög!ü/ğŠ^àü2€_ùñë^Ãë~¼¡Á;x<—<©!Òm¥š“f6;Ñ<2ÓÍ‡R©D‡·jöXÃI#›K›¢ÙÚÛ»u§ë#æH*=±ßíŠkĞº¸C:—<84”1³£Æ°ÙcMr3ß€•1F5¸Û«Á3š6Ç4Ôİ×COn@Öqûú‡Ùçcğ$ÍqúÒã©©ì.3“M§&J?İ›	sÄv_2bŒÈì¦"ÃeIû˜a%¸Î¬ÛLgsM27âX*W™Œ™ÎZ©df—•1fœ‰´ZI+»~ºûØt¤âtPŞm%Mz0Ó½2SCEwjĞHôiKÆÒ“=n1€EwÛ&Fçíõ9.şÄåš‡L²Q™Ÿé‘X	†¥¡´'käI9F"Á ²ìºy&Aû OñŸæú¡´iÚ©Ï ÷¦Ä•Z#û78i¦¡,M&Œ™éÔˆ=á‘!+?0³í“‹ÈíÒqĞèWOš§Î#Mí1’ñ„ãv¯ÒôdÓVrXCUCc÷	cÌhNÉáf[K
+ZÎ©4´ö¶M98pÂÌnİv¯JC¨'•Kš–ø
+1k½LÖÑgt¬Ãz?À‹h±QÄ&lÖÑ]:¶¢UG»è¶‰Ø.b‡ˆ>ÙÀÀ€hÕPSˆ¡}X»ÓéTZG¿Ì|Gt<'u´àI?ŞÔq	oùñ¶wğ‹&¾3g%â&OIkĞ1ïò [¢ÉT6j%£¹ŒÙ¨c<¡÷t¼xûZ¢2íCf¿6šR×´%ª	ud ¯Î_Frıø­p™ø-XÃ’’”ÕÈH›IãAÕ¨]Œ[°C»½²Røå„!ê=d"k)óŠŠÏ5“œ»®á^.İK/e.¬•½l/4iğ‰œypHCuCÇ}™[{?}aÏò‚©#ÁjÄÊ73VÚŒçÄkÍeÔİêÇc|<Öò±(CX˜Í¹¨‰ÙU»ÑiIdõÀyùù[([ŒIs5¯M­ƒ]µÛv‡Ó¶K®ÎsTÂvq§İì]ä^.¶+b· Å´Y¸b®Y¸ExDxc‘YøÄà¿ÁintRÖ#@Ù“¢‰É­å»¹5L°Ö3½§8c‘½5ö0p¨¤¨¡‹}­mÛ¢lØËÙÒ—ôâcÛ¤Bj’j%¤:	©Ú#áT{Â¡3_”0¨Xµw…¡m`h3´mCÛŒ%Ds%ÃˆÑİS
++å"Z“s:Ò“sq©œŒ[õ6ª=¥'h{U
+‹œYó)ÈåOhewçsµìt4Æ‚ª72ı±Xì&|‘Dÿ,B³(‰¹g¡‹ª$ì;3‹RÕÛşÒ4{‡o¢ÔsŒ:w[-Õ¥—fã¯ºàÒ®}ÿ/‚U&0x›QJÙÊ@Ûb²e$E	QO2¬# Şíœ¹`<ÍöYö0\&Ê@;PıGó UÉŸßQ'ùJãş/Ú¿…¦}ƒ*â¼å·’€w–{g˜¾ûÊ?æ 4›àüU‹Fo0õ¶³ŞögTÌ`©Ê²¹îÅĞÙà¥i”|ÊÃ·Põ¥RiÕMœ?$à„<qqåD¢Z¨«_# ,L#â1O÷£‡@õ!‚g°Œ5%K~#XÏÄöáyjÁäƒaa §Ç†D1;YõCL#÷zZÁ¶šÅXg‹À*…¯´Ôıš4M[å§¢?rĞZå 5i£åõ\$3÷ƒdÊ†¤_CHÊ„oº0Äs]PZ}(³³˜ÿš«jàf<÷õ<Px„r”âuÊ¶¯Ói~šìšàä9¿ÀTÏ0ş³„ë¡šÂK
+/sÅ+Ç«E MæÙ4é€V†„Z%á]Údh%ğï`µ¦­ÔuNçkîÜ®ÛNëd2®›X"ÈÍai·‚KF‹¿VY×|U„+ËâX•³¨[Œã&ŠšÂ5zr4¯¡¯óv¿Á´ßdğ—x‘Ş¢ß·‹Š\§“V9¯Ö³ªNwİeÛ’·m¡M’	Âõ-VøqØÏIıùTŞáHòn+Äş•û×w´:·ùÈ9”d4S,.d°TÕ¹iÔbkğ.Á}Q¼ÏÃû@EoƒÜæDßu—fv\U$?‡Š¨“}û\­ùrÔn³rçrŞä)¹ª1÷foµ7¼ã2¢Ëm¦–Õ†}ãÕŞs­×P¹ÜóâÎ^V®ªúu;"¤¼ÌªxİU Ÿ}O?¢ï+Œëw$ÈïYÆ®2“k¬²`&äœ?±À]e¥½B:~B*İàeúTe·‘0ÊûyTÕìJVöçñcÒKvŸ/o}Nî.®:¶ ¼õ¡Pßx4í"mÉü†lä*~N:G×G²c¸
+‘ÈÅptâ<sr_<ÿqşuò©]?+âM8ÂÎu(x;Ş5ùbt|üƒ;‰mÊ.›Ë>GñhÅ²9DÅÛ–WÔ³?‡Ÿ8¶pÃgXYd^e÷K¤Ä©7Ïaµ(Ä¸Æ6z¤ß`÷}Òo´û^™ÏşjÙ?Leêiû‚—å6_ô¿kêbMAÊTVğ½6óäß¤¦ •ˆÍ¡‰Ï‚ç<îOQqCPÃJµñ.İÁohçÉbıöøÿ PK_?ä¨  -  PK   umK            0   io/netty/buffer/CompositeByteBuf$Component.classR]kA=“d³Ù¸m¶Ñ6ÖúQkÔt»EÔ>´ô¡!Ú¥ß&ÉİvËvVv7B~–`*øàğG‰wÆÅ‚RâÀÌıØ;çœ{w~üüöÀKl;°ñ°io½ÇØĞŞíµm<³ñ\ <œ„«ƒ(	åù4à8¤48œæt8	÷ª1©³ü\@ô9HÂ0£\À!5>.üj~eí`zÉåÇ$‹ëo?RQ~ pĞ™_~£®ÍJ/“@c):š\)}/‡1gšƒd$ã™F:.’­’…EŠ…»}¥(íÅ2Ëˆ?uçêiÿ¹Ì4Â”¨Ñˆ²L¦SfGËª¿K&éˆŞFšuùoˆíùIºhÀs±„5ê6:.6á»¸×Åº6^øÿ/GÀÓ¸A,ÕYp<¼ §Z7O`!%9ÖcÑ™ÌçŸk§“ÌÈÄÖçñc‡ßSŸ›O÷Á§[€^…]ÔÖótÇ•x/¡	Ûìr\fÛò·fşW”üîe¿{…ÊÖgsáŸMT˜åë5­7X±v±ÌùØb»jÈZF†ÎİÃZA²ËV°uü/(_¡zzkJ­=Ô¬}çş.,àJ¸oÎ¸kjyBxÊÍ_PK–Ú·İ  e  PK   umK               io/netty/buffer/Unpooled.class½X	xTåÕ>çŞ™¹“É$@ Â>™IkØÂ6	$Y¤†d c'31™°X­*.XëV¡­ş•¶êßl ±q­Öª¨İlkíòkkµ›İ•ßÊÿïŞY’ÌL”ÿyšçÉw—9ßù¾ó÷,ßıŞGöÑ4¾/‹"ô·lú;ıC†Êğ/Ş—áN‹Èÿô¡‹²èß.<|ä¢3L.fÖdĞe°É`—Á!ƒ9vÊ]–»\œÍnyÌ‘!×àA.*äÁqQ‘\ó\TÂCæ¢Ñ<TæäËP z†Ë0B†BƒGºh"es1—È0ÊàÑ.òr)vÉcDf¬<“eÆËã&Ê»I.öp™A×ºØË>(—¡BÖ™,C®÷¾ÈWÊã¦Êã4ıò3gÎ<İÉ3\´ˆgÊË*'Ï	ØÆ³<GæÊ/óDmµÁótÂE«x¦ÁäıB5ğ"tjd°Ëà_Ëİ–ÊP!Ã2']#×å.>‡W\ë¢x¥˜ºJî\²dõ24È°Z†52œ+ÃZƒ×¹¨…WÊ.×gñ>/‹7òVÁ½ü)ƒ7¼™É^SW·z	ÓØº`¤2ˆF÷TnëÜ¾=Ğ^¹xO4°¸s{M(iòG#íóàüÅµçlYÖ°´¶¦iXİEşşÊ0æ‰èêöæ€ÈäÔÕ®__·,.æ^V¿fı¦-‹7,_¾l-Saºu0Õa¾a*ò”e³-‰4˜ÕÃ†ÎÖmöõşm!¼q7ÛMÑÅ––bOm&5yu°+t¿=(³-ƒ‚á`4è-ñ·ù›‚Ñ=L\ËTâ©Í¨*»Õ¿;1#gW»¿­-ĞÛG‰§qq¦Ùv{»ó´ÆÅ˜¼.êoút½¿ÍÚĞhLÎ¼¸#²}{G Š›P ¼#ÚÂ4ÅÓÛ5æFæeR’ŸrÓOÚI™Ôò4f¶Ù¡lî`ÒÅê™Æ³ZÇ0ß@ÏÈô
+˜¦Bı'E¤ õñHí Æ±$…ãqOpÑ‚\M‘Ö¶H8b¿ƒMíÑ`¨².ØÅ´Á`ø¼$Iª 7G÷´Åxêë3½:ívÌ3èƒ™ª°ñ³B™·tÓ4™ÿÉ`4èƒÏGX)Ó;‚±)LãS„ø’¸P|é	©b8…œ»)ÒL„œˆ(§FÂ_€§ö€¿Yà3øBÄÿE»öæ3mÛêa„dD²™Á[$¼BÍk"ğE½U!xGå’ûºÀÅpS`^”&¼F,ªŸqÍˆª£#Úï`‘N/øm)¿Ó/Â´:íÖjkÏns:ŞôÊ
+2Ér7êÓ,Oã’³S­5¢ÜÌÁô³İÛJOÊm²¼Îpk¤9¸]XŒ>®@¸9è‡âp©6ØwúC•Ğ3fdŞ)V¢n8Ô„ƒ^`Ê5ëZ"íQ¥`]fˆÖôŠÊm{êÍÁÎVĞWê"Â˜bÏÊŒë¯TKd”ÑWôè/ZG"¡€?,Š7gT¼Y)Î(£5n6èËŞå¡ˆ?*j—gT»\©Í(£5.7èM’¥‘N•‹=K3ê]ªôf”Ñ—ôâA{  t$óÀQ-í Ø®{ÊÎCrˆ¶¥ÔôS·!Ü&6CŸ³º)dMr­‹t¶7–e«91™ÉBS7]LH/[İì§=nºî.“»ËäîJ¹Ã°“v1K·ÜŠ€¿Í²ÄMàmnºšö"¹¹¹‰®DŞus3Ü¼]Ã;ÜÜÂA7=Œ‰/(ÒûÜô-ş´!ƒ[İùˆm,U¦ïÊk‘AW‡C{6„;üÛKÍv+±ƒ‹‘°ÓMIÔ‹Å’Zú©•Fu{
+Õ±)½…¹Cöß$¸^MwÊpŸ_aš¨™*İKáİQ”G7wòN7ï³K*82i·›:(*š÷Ëãñy¼ÑM_¥¯Ë»ÏàÔáæKù2ƒ?ëæËù
+7_ÉW‰®vó^ñÀnq÷5âkù:7=H{Ñ‰'Rym(ØáÕ´ïèlEC°lwS MÊú²õ-Òh$ê•š]_id{iï:ÚMÈfæR³Ã*v@.Rº-¸c²ìiŸ¬²×À
+¬Şª—¾^’Ûğ`¸)î |ØUé6€Rª
+¦›oàeÅÒ›Ğ&liè…ÖD‚áh =É¡)2¹(xÆÍûùf¡íçäñi8”oqóç¹ı|«·|»›ïà;Ñ’@:1ünê„¿ø.ü€eø"ıĞÍ_¢Ÿ¹ùnú•›ÑoS\Rnˆ«¤?|›ïå/£Q_^‰Z£hïX¬ŞvË”Û»‰K†#.±·jæú–öÈ.³&©!—õ?˜¥ ußóV‹$kQOÚÎ?q"ÄÑDò¢½#l’óW‹¿cm Õü'U
+IõÂ‰—±æÊS&Í~¶bæjëÔ)TÊ¬öÄ¼´†)–•Tï3ewOü'²b_Øª\òG·GÚ[—ÚPêRÜ³°O3÷ ˆ`GŒA0 Øa&¦¹“Ô2Pšw¶“ÆÖ–L×Û<êîo¯ò“›?“Yóx#Ø±¬µM¤gåÍµIZj“¬¤ö]ó±fg8Y@‡/çRŸ°&}¬óšB8*1‹Q&„^!·n’º¨,E>   , ¨ °Sô¤DÑs#ÃWåšJ
+Å
+T
+	Õ		@ï~/İ‹>ëŒ9ßˆDã‘0Ù‚:à0Î~ ¨                                                                        r„ô*{      :*‘:Instances::Udm::InstantiatedAttr<ManufacturingModelParameter> +¦ §+¦U+¦]+¦inst\„ô)	U     :)‘:'
+roleconst::Uml::CompositionChildRole & g+¥ +¥ Š+¥ +¥roleL„ô(	9     	:(‘:'
+parentconst::Udm::Object & J+¥d+¥_+¥d+¥pare^„ô')I      :'‘:CreateInstanceManufacturingModelParameter +¥ ½+¥;+¥H+¥crea\„ô&	U     :&‘:$
+roleconst::Uml::CompositionChildRole & _+¤ …+¤ ‚+¤ …+¤roleL„ô%	9     	:%‘:$
+parentconst::Udm::Object & B+¤\+¤W+¤\+¤pareV„ô$I      :$‘:CreateManufacturingModelParameter +¤ ¯+¤;+¤@+¤creaD„ô#	9     	:#‘:"
+aconst::Udm::Object & @+£U+£U+£U+£aS„ô"I      :"‘:CastManufacturingModelParameter +£r+£;+£>+£castS„ô!	W     	:!‘: 
+aconst ManufacturingModelParameter & F+ i+ i+ i+ a]„ô M      : ‘: operator=ManufacturingModelParameter & +  š+ <+ D+ operN„ô	M     	:‘:
+aManufacturingModelParameter && F+Ÿd+Ÿd+Ÿd+Ÿa]„ôM      :‘: operator=ManufacturingModelParameter & +Ÿ  +Ÿ<+ŸD+Ÿoper@„ô	1     	:‘:
+a::Udm::Object && @+P+P+P+aS„ôI      :‘:CastManufacturingModelParameter +x+;+>+castV„ô	M     	:‘:
+masterManufacturingModelParameter && ;+œ^+œY+œ^+œmastO„ôC      :‘:ManufacturingModelParameter+œ Š+œ+œ9+œmanu[„ô	W     	:‘:
+masterconst ManufacturingModelParameter & ;+™c+™^+™c+™mastO„ôC      :‘:ManufacturingModelParameter+™ +™+™9+™manuI„ô	7     	:‘:
+impl::Udm::ObjectImpl * ;+˜Q+˜N+˜Q+˜implN„ôC      :‘:ManufacturingModelParameter+˜y+˜+˜9+˜manuN„ôC      :‘:ManufacturingModelParameter+—>+—+—9+—manuK„ôC       :‘ê3ManufacturingModelParameter+—+—+—+—manum„ôII      :‘9îmeta_ManufacturingModel_parent::Uml::CompositionParentRole +•W+•9+•V+•metaM„ô!1      :‘9îmeta_Notes::Uml::Attribute +”7+”-+”6+”metaJ„ô1      :‘9îmeta_ID::Uml::Attribute +“4+“-+“3+“metaC„ô)      :‘9îmeta::Uml::Class +’-+’)+’,+’meta9„ô	#     	:‘:
+vVisitor & (+1+1+1+v>„ô      :‘9îAcceptvoid +_+!+&+accem„ôs      :‘9î parent::Udm::ParentAttr<::CyPhyML::ManufacturingModel> + ¶+N+S+pare „ô?s      :‘9î ManufacturingModel_parent::Udm::ParentAttr<::CyPhyML::ManufacturingModel> + Ò+N+f+manuL„ô5      :‘9î Notes::Udm::StringAttr +j+.+2+noteG„ô
+5      :
+‘9î ID::Udm::StringAttr +Œd+Œ.+Œ/+Œidn„ô	o      :	‘9î Archetype::Udm::ArchetypeAttr<ManufacturingModelMetric> +‹ +‹L+‹T+‹archh„ôk      :‘9îDerived::Udm::DerivedAttr<ManufacturingModelMetric> +Š ’+ŠJ+ŠP+Šderi\„ô	U     :‘:
+roleconst::Uml::CompositionChildRole & `+‰ †+‰ ƒ+‰ †+‰roleL„ô	9     	:‘:
+parentconst::Udm::Object & C+‰]+‰X+‰]+‰pareZ„ô'C      :‘9îCreateDerivedManufacturingModelMetric +‰ ¼+‰5+‰A+‰creao„ôu      :‘9îInstances::Udm::InstantiatedAttr<ManufacturingModelMetric> +ˆ +ˆO+ˆW+ˆinst\„ô	U     :‘:
+roleconst::Uml::CompositionChildRole & a+‡ ‡+‡ „+‡ ‡+‡roleL„ô	9     	:‘:
+parentconst::Udm::Object & D+‡^+‡Y+‡^+‡pare[„ô)C      :‘9îCreateInstanceManufacturingModelMetric +‡ ·+‡5+‡B+‡creaY„ô 	U     : ‘9ş
+roleconst::Uml::CompositionChildRole & Y+†+†|+†+†roleL„ó	9     	9ÿ‘9ş
+parentconst::Udm::Object & <+†V+†Q+†V+†pare
+   ªh ÑÄ·ªX1$ığãÖ©œ˜†tbP>,öäÒÀ®œŠxfTB0úèÖÄ² |jXF4"şìÚÈ¶¤’€n\J8&ğŞÌº¨–„r`N<*
+ô
+â
+Ğ
+¾
+¬
+š
+ˆ
+v
+d
+R
+@
+.
+
+
+	ø	æ	Ô	Â	°		Œ	z	h	V	D	2	 	üêØÆ´¢~lZH6$ îÜÆ¶ÏÂµ¨›K>
+‚uh}hT@,ğÛÆ±œ‡iK-êÅX!ê³|EÕe                                                                                                                                                                                                                                                                            Assign}“Assignc4Assign+Assert°Assert¯ºAssert¯¸Assertionœ8Assertion›Assertš#Assert‰IAssertˆÖAssertˆ¡AssignAssignµAssert
+Å-Assert
+¹	Assign
+´İAssign
+´‡Assert
+«a7oAssignJoinData_dstAssignJoinData_RPContainer_Base	™7oAssignJoinData_dstAssignJoinData_RPContainer_Base	˜7oAssignJoinData_dstAssignJoinData_RPContainer_Base	—7oAssignJoinData_dstAssignJoinData_RPContainer_Base ‘6oAssignJoinData_dstAssignJoinData_RPContainer_Base$Ç6oAssignJoinData_dstAssignJoinData_RPContainer_Base«6oAssignJoinData_dstAssignJoinData_RPContainer_Base©6oAssignJoinData_dstAssignJoinData_RPContainer_Base§6oAssignJoinData_dstAssignJoinData_RPContainer_Base¦6oAssignJoinData_dstAssignJoinData_RPContainer_Base¥5oAssignJoinData_dstAssignJoinData_RPContainer_BaseS$IAssignJoinData_children_sorted •$IAssignJoinData_children_sorted ;;AssignJoinData_children&¤;AssignJoinData_children¬;AssignJoinData_children •;AssignJoinData_children :)AssignJoinDataEß)AssignJoinDataEİ)AssignJoinDataEÛ)AssignJoinDataEÚ)AssignJoinDataEÙ)AssignJoinDatag )AssignJoinDatag)AssignJoinDatagœ)AssignJoinDatag›)AssignJoinDatagš)AssignJoinData#)AssignInstance
+Ÿú!AssignBSTRuWAssignŒ‹AssignÖ Assign³ÇAssign³¨Assign³bAssign³G#AssertValid
+—/#AssertValid
+”ò#AssertValid
+”â#AssertValid
+”#AssertValid·¯#AssertValid¶#AssertValidµ¶#AssertValid´´#AssertValid´X#AssertValid³µ#AssertValid‘ #AssertValid‹Ê#AssertValide$#AssertValidW§#AssertValidI‡#AssertValid94#AssertValid7`#AssertValid6#AssertValid!#AssertValid>#AssertValidDÔ#AssertValid»É#AssertValid»n#AssertValidº°#AssertValidº`#AssertValid¹÷#AssertValid¹ƒ#AssertValid·W#AssertValid¶A#AssertValid´&#AssertValid³–#AssertValid³X#AssertValid³$#AssertValid³#AssertValid°2#AssertValid¯á#AssertValid¯f#AssertValid­ğ#AssertValid’Ä#AssertValid’\#AssertValid‘á#AssertValidÊ#AssertValidA#AssertValid›#AssertValidQ#AssertValid7ü#AssertValid7y#AssertValid4¼#AssertValid4m#AssertValid3³#AssertValid3#AssertValid2U#AssertValid2#AssertValid1»#AssertValid1~#AssertValid13#AssertValid0Ë#AssertValid/Ä#AssertValid/ #AssertValid.a#AssertValid-4#AssertValid,#AssertValid+ë#AssertValid+«#AssertValid+&#AssertValid*Ø#AssertValid*›#AssertValid*`#AssertValid*%#AssertValid)î#AssertValid)·#AssertValid)‚#AssertValid))#AssertValid(İ#AssertValid(“#AssertValid(L#AssertValid(#AssertValid'Ş#AssertValid'¨#AssertValid'p#AssertValid'8#AssertValidé‹#AssertValidã÷#AssertValidã>#AssertValidâõ#AssertValidâN#AssertValidáü#AssertValidáv#AssertValid¾™#AssertValid¾
+#AssertValid½ë#AssertValid½¼#AssertValid½@#AssertValid¼D#AssertValid»¤#AssertValid»I#AssertValid»#AssertValidºÀ#AssertValidº#AssertValid¹¼#AssertValid¸û#AssertValidµp#AssertValid´w#AssertValid®@#AssertValid­[#AssertValid¬Ô#AssertValid¬K#AssertValid¬B#AssertValid¬9#AssertValid¬&#AssertValid§éAssert6ƒAssertøìAssert¹„.]AssemblyVersionCompatibility_SameProcess;Ê
+  *\ öìâØÎÄº°¦œ’ˆ~tj`VLB8.$üòèŞÔÊÀ¶¬¢˜„zpf\H>4* øîäÚĞÆ¼²¨”Š€vlbXND:0&şôêàÖÌÂ¸®
+ö
+ì
+â
+Ø
+Î
+Ä
+º
+°
+¦
+œ
+’
+ˆ
+~
+t
+j
+`
+V
+L
+B
+8
+.
+$
+
+
+	ü	ò	è	Ş	Ô	Ê	À	¶	¬	¢	˜		„	z	p	f	\	R	H	>	4	*	 			øîäÚĞÆ¼²¨”Š€vlbXND:0&şôêàÖÌÂ¸®¤š†|rh^TJ@6,"úğæÜÒÈ¾´ª –Œ‚xndZPF<2(
+ öìâØÎÄº°¦œ’ˆ~tj`VLB8.$üòèŞÔÊÀ¶¬¢˜„zpf\¤š†|rh^TJ@6,"úğæÜÒÈ¾´ª –Œ‚xndZPF<2(
+ RRH>4* øîäÚĞÆ¼²¨”Š€vlbXND:0&şôêàÖÌÂ¸        	;X5õ	;U5ô	;R5ó	;P5ò	;N5ñ	;L5ğ	;J5ï	;H5î	;F5í	;D5ì	;C5ë	;A5ê	;@5é	;?5è	;>5ç	;<5æ	;;5å	;:5ä	;95ã	;85â	;75á	;65à	;35ß	;25Ş	;/5İ	;,5Ü	;*5Û	;(5Ú	;&5Ù	;$5Ø	;"5×	; 5Ö	;5Õ	;5Ô	;5Ó	;5Ò	;5Ñ	;5Ğ	

@@ -1,0 +1,7 @@
+:24:53.429 [3852]: Native image used by one or more roots, cannot be uninstalled
+11/13/2017 11:24:53.429 [3852]: ngen returning 0x00000000
+11/13/2017 11:24:53.445 [1140]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v2.0.50727_32\Microsoft.SqlServer#\5f2559c8a24ca2c74ea3527b229d9670\Microsoft.SqlServer.SqlClrProvider.ni.dll /noroot /LegacyServiceBehavior 
+11/13/2017 11:24:53.508 [1140]: Native image used by one or more roots, cannot be uninstalled
+11/13/2017 11:24:53.523 [1140]: ngen returning 0x00000000
+11/13/2017 11:24:53.523 [2192]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v2.0.50727_32\Microsoft.SqlServer#\621a90a11ccda435f1dac0f7b206398f\Microsoft.SqlServer.RegSvrEnum.ni.dll /noroot /LegacyServiceBehavior 
+11/13/2017 11:24:53.603 [2192]: Native image used by one or more roots, cannot be uninstalled

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<fmiModelDescription fmiVersion="1.0" guid="{d779210e-dc6f-47de-90ba-5b2cb720d380}" modelIdentifier="controller" modelName="controller" numberOfContinuousStates="0" numberOfEventIndicators="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FMI.xsd">
+
+  <ModelVariables _id="id87">
+    <ScalarVariable _id="id88" causality="input" description="Desired_L_1_2" name="Desired_L_1_2" valueReference="2">
+      <Real _id="id89"/>
+    </ScalarVariable>
+    <ScalarVariable _id="id8A" causality="input" description="measured_L_1_3" name="measured_L_1_3" valueReference="3">
+      <Real _id="id8B"/>
+    </ScalarVariable>
+    <ScalarVariable _id="id8C" causality="output" description="valve_Flowfraction_1_4" name="valve_Flowfraction_1_4" valueReference="4">
+      <Real _id="id8D"/>
+    </ScalarVariable>
+  </ModelVariables>
+
+</fmiModelDescription>

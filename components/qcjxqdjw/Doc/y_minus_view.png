@@ -1,0 +1,21 @@
+oint>
+		</connection>
+		<connection name="Geometry2Forwarder" metaref="57090">
+				<regnode name="sName" value="srcGeometry2Forwarder"/>
+				<regnode name="dName" value="dstGeometry2Forwarder"/>
+				<regnode name="dRefParent" value="dstGeometry2Forwarder_refport_parent"/>
+				<regnode name="sRefParent" value="srcGeometry2Forwarder_refport_parent"/>
+				<regnode name="color" value="0x000000"/>
+				<regnode name="dstStyle" value="butt"/>
+				<regnode name="srcStyle" value="butt"/>
+				<regnode name="lineType" value="solid"/>
+			<connjoint>
+				<pointerspec name="src">
+					<pointeritem desc="Circle"/>
+					<pointeritem desc="Component Circle"/>
+					<pointeritem desc="Component CustomGeometry"/>
+					<pointeritem desc="Component Cylinder"/>
+					<pointeritem desc="Component Extrusion"/>
+					<pointeritem desc="Component Face"/>
+					<pointeritem desc="Component Polygon"/>
+					<pointeritem desc="Component Sphere

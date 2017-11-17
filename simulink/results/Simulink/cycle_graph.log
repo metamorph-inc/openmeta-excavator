@@ -1,0 +1,20 @@
+Building graph for subsystemcontroller
+Entered subsystem controller
+Entered subsystem proportionalGain
+Added vertex 0 for I/O port at path controller/proportionalGain/Desired_L with id 100000004
+Added vertex 1 for I/O port at path controller/proportionalGain/measured_L with id 100000005
+Added vertex 2 for I/O port at path controller/proportionalGain/valve_Flowfraction with id 100000006
+Added vertex 3 for Primitive at controller/proportionalGain/Kp with id 100000007
+Added vertex 4 for Primitive at controller/proportionalGain/Sum with id 100000010
+Added edge (0, 2)
+Added edge (0, 0)
+Added edge (1, 0)
+Added edge (0, 0)
+Leaving subsystem controller
+Added vertex 5 for I/O port at path controller/Desired_L_1 with id 100000014
+Added vertex 6 for I/O port at path controller/measured_L_1 with id 100000015
+Added vertex 7 for I/O port at path controller/valve_Flowfraction_1 with id 100000016
+Added edge (5, 0)
+Added edge (6, 1)
+Added edge (2, 7)
+Leaving subsystem 

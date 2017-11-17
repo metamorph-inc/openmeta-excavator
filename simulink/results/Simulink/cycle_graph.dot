@@ -1,0 +1,29 @@
+digraph G {
+0[label="0"];
+1[label="1"];
+2[label="2"];
+3[label="3"];
+4[label="4"];
+5[label="5"];
+6[label="6"];
+7[label="7"]
+9 [shape = plaintext, label =< 
+<table>
+<tr><td>0</td><td>controller/proportionalGain/Desired_L</td></tr>
+<tr><td>1</td><td>controller/proportionalGain/measured_L</td></tr>
+<tr><td>2</td><td>controller/proportionalGain/valve_Flowfraction</td></tr>
+<tr><td>3</td><td>controller/proportionalGain/Kp</td></tr>
+<tr><td>4</td><td>controller/proportionalGain/Sum</td></tr>
+<tr><td>5</td><td>controller/Desired_L_1</td></tr>
+<tr><td>6</td><td>controller/measured_L_1</td></tr>
+<tr><td>7</td><td>controller/valve_Flowfraction_1</td></tr>
+</table> >
+];
+3->2 [label=""];
+0->4 [label=""];
+1->4 [label=""];
+4->3 [label=""];
+5->0 [label=""];
+6->1 [label=""];
+2->7 [label=""];
+}

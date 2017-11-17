@@ -1,0 +1,196 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head><script src="./doc_scripts.js" type="text/javascript"></script><link href="./doc_styles.css" type="text/css" rel="stylesheet" />
+<title>panel</title>
+<link rel="stylesheet" href="./doc_styles.css" type="text/css" />
+<script type="application/javascript" src="./doc_scripts.js"></script>
+</head>
+<body>
+<header>
+<p><em>DISTRIBUTION STATEMENT A. Approved for public release; distribution is unlimited.</em></p>
+<p align="right">Documentation Date: 03 13 2014 09:55</p>
+<p align="right">ACM Date: 2014 03 13 09:46</p>
+<p align="right">Release: 1.12.0</p>
+</header>
+<h1>panel__generic__steel_a572_gr50_5p1x2p4x0p016</h1>
+<p><img id="main_image" src="isometric_view.png" onclick="swap_main_pictures('main_image', pictures);" alt="Image Missing" width="256" height="256" /></p>
+<p>Click on the image above to toggle the view. (Note: the toggling does not work in IE.)</p>
+<h2>Class Description</h2>
+<p class="red"></p>
+<h2>Class Usage</h2>
+<p class="red">The panel is not used as a component itself, it is used to create panel components, custom components, and custom assemblies that in turn must become components within the library.  No specific restrictions are placed on a panel other than you can only remove, not add, material to create a component.  If material needs to be added, then it becomes a custom assembly.
+    </p>
+<h2>Class Connections</h2>
+<p class="red">The panel has no connections identified due to the non-specific nature of the component.
+    </p>
+<h2>Class Assumptions</h2>
+<p class="red">None
+    </p>
+<h2>Instance Description</h2>
+<p class="red">Flat Panel Steel Raw Stock
+    </p>
+<h2>Licensing information</h2>
+<table border="1">
+<tr>
+<th>Restriction</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>Distribution</td>
+<td>StatementA</td>
+</tr>
+<tr>
+<td>ITAR</td>
+<td>False</td>
+</tr>
+<tr>
+<td>Proprietary</td>
+<td>False</td>
+</tr>
+<tr>
+<td>Open source</td>
+<td>True</td>
+</tr>
+</table>
+<h3>Domain Models</h3>
+<table border="1">
+<tr>
+<th>CAD</th>
+<th>Modelica</th>
+</tr>
+<tr>
+<td> Yes </td>
+<td> No </td>
+</tr>
+</table>
+<h3>Material: steel_low_alloy_a572_gr50</h3>
+<h3 class="table_header">Procurement Data <h4>Procurement Type: COTS</h4></h3>
+<button id="collapse_proc" type="button" onclick="changeDisplay('proc_data', 'collapse_proc');">Collapse Table</button>
+<table id="proc_data" border="1">
+<tr>
+<th><b> Property </b></th>
+<th><b> Value </b></th>
+</tr>
+<tr>
+<td>value</td>
+<td> 2042.<wbr>26</wbr></td>
+</tr>
+<tr>
+<td>currency</td>
+<td> usd</td>
+</tr>
+<tr>
+<td></td>
+<td> </td>
+</tr>
+<tr>
+<td>volume_basis_part_cost</td>
+<td> 1</td>
+</tr>
+<tr>
+<td>volume_production_quantity_min</td>
+<td> 1</td>
+</tr>
+<tr>
+<td>volume_production_quantity_max</td>
+<td> 50</td>
+</tr>
+<tr>
+<td>quantity_parts_per_unit</td>
+<td> 1.<wbr>0</wbr></td>
+</tr>
+<tr>
+<td>unit_of_measure_other</td>
+<td> Each</td>
+</tr>
+<tr>
+<td>supplier</td>
+<td> supplier_domain.<wbr>Generic</wbr></td>
+</tr>
+<tr>
+<td>supplier_part_description</td>
+<td> Panel, Steel A572 Gr50, 16.<wbr>67 ft x 8.</wbr><wbr>0 ft x 0.</wbr><wbr>62 in.</wbr><wbr></wbr></td>
+</tr>
+<tr>
+<td>supplier_part_number</td>
+<td> N/A</td>
+</tr>
+</table>
+<h3 class="table_header">Fixed Data</h3> <button id="collapse_fixed" type="button" onclick="changeDisplay('fixed_data', 'collapse_fixed');">Collapse Table</button>
+<table id="fixed_data" border="1">
+<tr>
+<th><b> Property </b></th>
+<th><b> Value </b></th>
+<th><b> Notes </b></th>
+</tr>
+<tr>
+<td>common_info.<wbr>cg_location</wbr></td>
+<td> {0.0,0.0,0.0079375}
+            
+                m
+            </td>
+<td> Center of gravity location </td>
+</tr>
+<tr>
+<td>common_info.<wbr>mass</wbr></td>
+<td> 1543.6614288
+            
+                kg
+            </td>
+<td> Mass </td>
+</tr>
+<tr>
+<td>common_info.<wbr>moment_of_inertia</wbr></td>
+<td> {3319.72777692,764.890229387,4084.5531685,0.0,0.0,0.0}
+            
+                kg-m^2
+            </td>
+<td> Moment of Inertia Tensor </td>
+</tr>
+<tr>
+<td>common_info.<wbr>surface_area</wbr></td>
+<td> 25.0128532
+            
+                m^2
+            </td>
+<td> Surface area </td>
+</tr>
+<tr>
+<td>common_info.<wbr>volume</wbr></td>
+<td> 0.196644768
+            
+                m^3
+            </td>
+<td> Volume </td>
+</tr>
+<tr>
+<td>length</td>
+<td> 5.08
+            
+                m
+            </td>
+<td> Dimension to control panel length </td>
+</tr>
+<tr>
+<td>thickness</td>
+<td> 0.015875
+            
+                m
+            </td>
+<td> Dimension to control panel thickness </td>
+</tr>
+<tr>
+<td>width</td>
+<td> 2.4384
+            
+                m
+            </td>
+<td> Dimension to control panel width </td>
+</tr>
+</table>
+<footer>
+<p><em>DISTRIBUTION STATEMENT A. Approved for public release; distribution is unlimited.</em></p>
+</footer>
+</body>
+</html>

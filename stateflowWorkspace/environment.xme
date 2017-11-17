@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "mga.dtd">
+
+<project guid="{E447C9F4-FC2B-47AC-A053-A3D888724D2A}" cdate="Thu May 08 10:31:03 2014" mdate="Thu May 08 10:31:03 2014" version="" metaguid="{B77C553D-30B2-4B2A-B6B9-00BDFF6F0A58}" metaversion="$Rev: 19506 $" metaname="CyberComposition">
+	<name>RootFolder</name>
+	<comment></comment>
+	<author></author>
+	<folder id="id-006a-00000001" relid="0x1" childrelidcntr="0xc" kind="RootFolder" guid="{7250e02c-f71a-4160-8bc6-dff711683359}">
+		<name>RootFolder</name>
+		<folder id="id-006a-00000002" relid="0x1" childrelidcntr="0x1" kind="Components" guid="{8f154295-1e85-410d-bd89-a83919416afe}">
+			<name>Components</name>
+			<model id="id-0065-00000001" kind="SimulinkWrapper" guid="{bf04190c-5c20-49ed-a57e-996eef237b74}" relid="0x1" childrelidcntr="0xd7">
+				<name>Environment</name>
+				<attribute kind="Class">
+					<value>Simulink.Environment_type</value>
+				</attribute>
+				<model id="id-0065-00000002" kind="Simulink::Subsystem" role="Simulink::Subsystem" guid="{683e2446-69ed-4018-8dae-346dce80c310}" relid="0xd1" childrelidcntr="0x7">
+					<name>environment</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>105,7</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="BlockType">
+						<value>Model</value>
+					</attribute>
+					<attribute kind="Description">
+						<value></value>
+					</attribute>
+					<attribute kind="Name">
+						<value>environment</value>
+					</attribute>
+					<attribute kind="Priority">
+						<value>0</value>
+					</attribute>
+					<attribute kind="RefId">
+						<value>ID0</value>
+					</attribute>
+					<attribute kind="SampleTime">
+						<value>-2</value>
+					</attribute>
+					<attribute kind="Tag">
+						<value></value>
+					</attribute>
+					<attribute kind="UserData" status="meta">
+						<value></value>
+					</attribute>
+					<model id="id-0065-00000003" kind="Simulink::Subsystem" role="Simulink::Subsystem" guid="{f300f215-d5ca-4d49-b8ef-f369a2c65f68}" relid="0x1" childrelidcntr="0x27">
+						<name>Environment</name>
+						<attribute kind="BlockType">
+							<value>SubSystem</value>
+						</attribute>
+						<attribute kind="Description">
+							<value></value>
+						</attribute>
+						<attribute kind="Name">
+							<value>Environment</value>
+						</attribute>
+						<attribute kind="Priority">
+							<value>0</value>
+						</attribute>
+						<attribute kind="RefId">
+							<value>ID1</value>
+						</attribute>
+						<attribute kind="SampleTime">
+							<value>0</value>
+						</attribute>
+						<attribute kind="Tag">
+							<value></value>
+						</attribute>
+						<attribute kind="UserData" status="meta">
+							<value></value>
+						</attribute>
+						<model id="id-0065-00000004" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{bc1cbcb7-d0ad-463b-875a-39e39512a124}" relid="0x20" childrelidcntr="0x1">
+							<name>bucketAngle</name>
+							<attribute kind="Number">
+								<value>1</value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID33</value>
+							</attribute>
+							<reference id="id-0067-00000002" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{387fd9f6-6604-415f-ba1e-af05f564b841}" relid="0x1" referred="id-0066-0000004c">
+								<name>double</name>
+								<attribute kind="MemberIndex" status="meta">
+									<value>0</value>
+								</attribute>
+							</reference>
+						</model>
+						<model id="id-0065-00000005" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{30f22655-d92c-40ae-a5c4-0096a9ea2753}" relid="0x21" childrelidcntr="0x1">
+							<name>tick</name>
+							<attribute kind="Number">
+								<value>2</value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID34</value>
+							</attribute>
+							<reference id="id-0067-00000003" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{66bbd2bd-fd8a-4e49-bf55-f49404379f62}" relid="0x1" referred="id-0066-0000004c">
+								<name>double</name>
+								<attribute kind="MemberIndex" status="meta">
+									<value>0</value>
+								</attribute>
+							</reference>
+						</model>
+						<model id="id-0065-00000006" kind="Simulink::OutputPort" role="Simulink::OutputPort" guid="{a4667c7c-0bcc-441c-8aab-3c2e15955087}" relid="0x22" childrelidcntr="0x1">
+							<name>Load</name>
+							<attribute kind="Number">
+								<value>1</value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID35</value>
+							</attribute>
+							<reference id="id-0067-00000004" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{fb38a155-574f-49e1-86e9-357ff7223186}" relid="0x1" referred="id-0066-0000004c">
+								<name>double</name>
+								<attribute kind="MemberIndex" status="meta">
+									<value>0</value>
+								</attribute>
+							</reference>
+						</model>
+						<model id="id-0065-00000007" kind="Simulink::Subsystem" role="Simulink::Subsystem" guid="{436cc095-c046-43e8-b6cf-b417446364ad}" relid="0x24" childrelidcntr="0x2c">
+							<name>Chart_environment</name>
+							<attribute kind="BlockType">
+								<value>SubSystem</value>
+							</attribute>
+							<attribute kind="Description">
+								<value></value>
+							</attribute>
+							<attribute kind="Name">
+								<value>Chart_environment</value>
+							</attribute>
+							<attribute kind="Priority">
+								<value>0</value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID37</value>
+							</attribute>
+							<attribute kind="SampleTime">
+								<value>0</value>
+							</attribute>
+							<attribute kind="Tag">
+								<value></value>
+							</attribute>
+							<attribute kind="UserData" status="meta">
+								<value></value>
+							</attribute>
+							<model id="id-0065-00000008" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{972e3548-4cd3-4a55-9a1f-8c72738ce17a}" relid="0x20" childrelidcntr="0x1">
+								<name>bucketAngle</name>
+								<attribute kind="Number">
+									<value>1</value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID69</value>
+								</attribute>
+								<reference id="id-0067-00000005" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{d494b6d4-0742-48ed-8d5f-8b13debf60f0}" relid="0x1" referred="id-0066-0000004c">
+									<name>double</name>
+									<attribute kind="MemberIndex" status="meta">
+										<value>0</value>
+									</attribute>
+								</reference>
+							</model>
+							<model id="id-0065-00000009" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{2511c16c-c1fa-4a6f-b20e-18eab7626293}" relid="0x21" childrelidcntr="0x1">
+								<name>tick</name>
+								<attribute kind="Number">
+									<value>2</value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID70</value>
+								</attribute>
+								<reference id="id-0067-00000006" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{21f2a5d0-9021-4f80-ac71-1dbc5a662612}" relid="0x1" referred="id-0066-0000004c">
+									<name>double</name>
+									<attribute kind="MemberIndex" status="meta">
+										<value>0</value>
+									</attribute>
+								</reference>
+							</model>
+							<model id="id-0065-0000000a" kind="Simulink::OutputPort" role="Simulink::OutputPort" guid="{0dae4c31-2aca-46c9-b81f-f8f5afeda263}" relid="0x22" childrelidcntr="0x1">
+								<name>Load</name>
+								<attribute kind="Number">
+									<value>1</value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID71</value>
+								</attribute>
+								<reference id="id-0067-00000007" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{0ed6cffa-0da5-4a95-a569-7e23c5048083}" relid="0x1" referred="id-0066-0000004c">
+									<name>double</name>
+									<attribute kind="MemberIndex" status="meta">
+										<value>0</value>
+									</attribute>
+								</reference>
+							</model>
+							<model id="id-0065-0000000b" kind="Simulink::Primitive" role="Simulink::Primitive" guid="{cce37524-5e36-46ef-9ce9-2613b8e07ce2}" relid="0x24" childrelidcntr="0x6">
+								<name>Demux</name>
+								<attribute kind="BlockType">
+									<value>Demux</value>
+								</attribute>
+								<attribute kind="Description">
+									<value></value>
+								</attribute>
+								<attribute kind="Name">
+									<value>Demux</value>
+								</attribute>
+								<attribute kind="Priority">
+									<value>0</value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID76</value>
+								</attribute>
+								<attribute kind="SampleTime">
+									<value>0</value>
+								</attribute>
+								<attribute kind="Tag">
+									<value></value>
+								</attribute>
+								<attribute kind="UserData" status="meta">
+									<value></value>
+								</attribute>
+								<model id="id-0065-0000000c" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{fe2bb284-0958-4e54-be7f-dd06ed796827}" relid="0x4" childrelidcntr="0x1">
+									<name>In_1</name>
+									<attribute kind="Number">
+										<value>1</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID80</value>
+									</attribute>
+									<reference id="id-0067-00000008" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{c48c33de-1c16-44e4-ab50-0a30f9d8317e}" relid="0x1" referred="id-0066-0000004c">
+										<name>double</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<model id="id-0065-0000000d" kind="Simulink::OutputPort" role="Simulink::OutputPort" guid="{f94aa07b-12d4-488f-ab86-b22a658dcbc2}" relid="0x5" childrelidcntr="0x1">
+									<name>Out_1</name>
+									<attribute kind="Number">
+										<value>1</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID81</value>
+									</attribute>
+									<reference id="id-0067-00000009" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{1e21c2fd-a005-4fd9-8ba1-4f54459dfc5c}" relid="0x1" referred="id-0066-00000056">
+										<name>float</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<atom id="id-0066-00000041" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{8749544d-8b07-4d18-aab9-31cd4dbb4e14}" relid="0x1">
+									<name>BusSelectionMode</name>
+									<attribute kind="RefId">
+										<value>ID77</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>off</value>
+									</attribute>
+								</atom>
+								<atom id="id-0066-00000042" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{6d32f87c-b85b-49a9-a968-83d73cab1193}" relid="0x2">
+									<name>DisplayOption</name>
+									<attribute kind="RefId">
+										<value>ID78</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>none</value>
+									</attribute>
+								</atom>
+								<atom id="id-0066-00000043" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{00669716-a9a6-4155-8660-ce402f1426e9}" relid="0x3">
+									<name>Outputs</name>
+									<attribute kind="RefId">
+										<value>ID79</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>1</value>
+									</attribute>
+								</atom>
+								<atom id="id-0066-00000044" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{7b89c289-f03f-482b-9bf5-deb10d9705ef}" relid="0x6">
+									<name>ParamDataTypeStr</name>
+									<attribute kind="RefId">
+										<value>ID82</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>double</value>
+									</attribute>
+								</atom>
+							</model>
+							<model id="id-0065-0000000e" kind="Simulink::Primitive" role="Simulink::Primitive" guid="{ff4b45dc-db97-4c13-ac26-0f47cb1ae8d1}" relid="0x25" childrelidcntr="0x9">
+								<name>SFunction</name>
+								<attribute kind="BlockType">
+									<value>S-Function</value>
+								</attribute>
+								<attribute kind="Description">
+									<value></value>
+								</attribute>
+								<attribute kind="Name">
+									<value>SFunction</value>
+								</attribute>
+								<attribute kind="Priority">
+									<value>0</value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID83</value>
+								</attribute>
+								<attribute kind="SampleTime">
+									<value>0</value>
+								</attribute>
+								<attribute kind="Tag">
+									<value>Stateflow S-Function environmentXmdl2mga 1</value>
+								</attribute>
+								<attribute kind="UserData" status="meta">
+									<value></value>
+								</attribute>
+								<model id="id-0065-00000011" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{ec8a02f0-4ed7-47dd-a190-f887f0efa68f}" relid="0x4" childrelidcntr="0x1">
+									<name>In_1</name>
+									<attribute kind="Number">
+										<value>1</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID91</value>
+									</attribute>
+									<reference id="id-0067-0000000b" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{1c140ed6-9b1e-42fa-be47-36539929c53c}" relid="0x1" referred="id-0066-0000004c">
+										<name>double</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<model id="id-0065-00000012" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{2197cd17-1ffa-4010-8d3c-ee029e1c8de9}" relid="0x5" childrelidcntr="0x1">
+									<name>In_2</name>
+									<attribute kind="Number">
+										<value>2</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID93</value>
+									</attribute>
+									<reference id="id-0067-0000000c" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{1fe17c48-d3c7-4d59-9be1-cc6271c7a6a3}" relid="0x1" referred="id-0066-0000004c">
+										<name>double</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<model id="id-0065-00000013" kind="Simulink::OutputPort" role="Simulink::OutputPort" guid="{0773d52a-b84c-47fc-b272-7d4799ba48b2}" relid="0x6" childrelidcntr="0x1">
+									<name>Out_1</name>
+									<attribute kind="Number">
+										<value>1</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID95</value>
+									</attribute>
+									<reference id="id-0067-0000000d" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{6e7960e7-9d0a-4af5-8030-9d054e7d096e}" relid="0x1" referred="id-0066-0000004c">
+										<name>double</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<model id="id-0065-00000014" kind="Simulink::OutputPort" role="Simulink::OutputPort" guid="{f0c19737-817a-4575-a3a4-fbbdde39b6bf}" relid="0x7" childrelidcntr="0x1">
+									<name>Out_2</name>
+									<attribute kind="Number">
+										<value>2</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID97</value>
+									</attribute>
+									<reference id="id-0067-0000000e" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{f806ea87-a6b3-4b88-84a0-f0a4a87b9c66}" relid="0x1" referred="id-0066-0000004c">
+										<name>double</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<model id="id-0065-00000015" kind="Simulink::State" role="Simulink::State" guid="{d5363fd5-b9bd-485f-93f3-bf6488b90bcb}" relid="0x9" childrelidcntr="0xa">
+									<name>Chart_environment</name>
+									<attribute kind="Decomposition">
+										<value>OR_STATE</value>
+									</attribute>
+									<attribute kind="Description">
+										<value></value>
+									</attribute>
+									<attribute kind="DuringAction" status="meta">
+										<value></value>
+									</attribute>
+									<attribute kind="EnterAction" status="meta">
+										<value></value>
+									</attribute>
+									<attribute kind="ExitAction" status="meta">
+										<value></value>
+									</attribute>
+									<attribute kind="Methods" status="meta">
+										<value></value>
+									</attribute>
+									<attribute kind="Name">
+										<value>Chart_environment</value>
+									</attribute>
+									<attribute kind="Order">
+										<value>0</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID101</value>
+									</attribute>
+									<model id="id-0065-00000016" kind="Simulink::State" role="Simulink::State" guid="{a24ebb14-07c4-4e16-97b8-3f588db93be7}" relid="0x1" childrelidcntr="0x0">
+										<name>unloading</name>
+										<attribute kind="Decomposition">
+											<value>OR_STATE</value>
+										</attribute>
+										<attribute kind="Description">
+											<value></value>
+										</attribute>
+										<attribute kind="DuringAction">
+											<value>Load = Load - .1*Load;</value>
+										</attribute>
+										<attribute kind="EnterAction">
+											<value>Load = 2000;</value>
+										</attribute>
+										<attribute kind="ExitAction" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Methods" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Name">
+											<value>unloading</value>
+										</attribute>
+										<attribute kind="Order">
+											<value>0</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID102</value>
+										</attribute>
+									</model>
+									<model id="id-0065-00000017" kind="Simulink::State" role="Simulink::State" guid="{58d0405a-63df-48a0-87ba-5dfbbfb1b6fb}" relid="0x2" childrelidcntr="0x0">
+										<name>loaded</name>
+										<attribute kind="Decomposition">
+											<value>OR_STATE</value>
+										</attribute>
+										<attribute kind="Description">
+											<value></value>
+										</attribute>
+										<attribute kind="DuringAction" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="EnterAction">
+											<value>Load = 2000;</value>
+										</attribute>
+										<attribute kind="ExitAction" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Methods" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Name">
+											<value>loaded</value>
+										</attribute>
+										<attribute kind="Order">
+											<value>0</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID103</value>
+										</attribute>
+									</model>
+									<model id="id-0065-00000018" kind="Simulink::State" role="Simulink::State" guid="{0ae7ea4d-e717-463b-801f-ff206da5919f}" relid="0x3" childrelidcntr="0x0">
+										<name>unloaded</name>
+										<attribute kind="Decomposition">
+											<value>OR_STATE</value>
+										</attribute>
+										<attribute kind="Description">
+											<value></value>
+										</attribute>
+										<attribute kind="DuringAction" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="EnterAction">
+											<value>Load = 0;</value>
+										</attribute>
+										<attribute kind="ExitAction" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Methods" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Name">
+											<value>unloaded</value>
+										</attribute>
+										<attribute kind="Order">
+											<value>0</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID104</value>
+										</attribute>
+									</model>
+									<model id="id-0065-00000019" kind="Simulink::Data" role="Simulink::Data" guid="{a9ac3684-06d2-4f11-b238-2f932e26a828}" relid="0x4" childrelidcntr="0x1">
+										<name>bucketAngle</name>
+										<attribute kind="ArrayFirstIndex">
+											<value></value>
+										</attribute>
+										<attribute kind="ArraySize" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="DataType" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Description">
+											<value></value>
+										</attribute>
+										<attribute kind="InitialValue">
+											<value></value>
+										</attribute>
+										<attribute kind="Max">
+											<value></value>
+										</attribute>
+										<attribute kind="Min">
+											<value></value>
+										</attribute>
+										<attribute kind="Name">
+											<value>bucketAngle</value>
+										</attribute>
+										<attribute kind="Port">
+											<value>1</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID105</value>
+										</attribute>
+										<attribute kind="Scope">
+											<value>INPUT_DATA</value>
+										</attribute>
+										<attribute kind="Units">
+											<value></value>
+										</attribute>
+										<reference id="id-0067-0000000f" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{8066282a-c6e8-48bf-b381-aa997a0442ae}" relid="0x1" referred="id-0066-0000004c">
+											<name>double</name>
+											<attribute kind="MemberIndex" status="meta">
+												<value>0</value>
+											</attribute>
+										</reference>
+									</model>
+									<model id="id-0065-0000001a" kind="Simulink::Data" role="Simulink::Data" guid="{3b2182b2-0ee1-4272-9b5a-b7402fb9eb72}" relid="0x5" childrelidcntr="0x1">
+										<name>Load</name>
+										<attribute kind="ArrayFirstIndex">
+											<value></value>
+										</attribute>
+										<attribute kind="ArraySize" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="DataType" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Description">
+											<value></value>
+										</attribute>
+										<attribute kind="InitialValue">
+											<value></value>
+										</attribute>
+										<attribute kind="Max">
+											<value></value>
+										</attribute>
+										<attribute kind="Min">
+											<value></value>
+										</attribute>
+										<attribute kind="Name">
+											<value>Load</value>
+										</attribute>
+										<attribute kind="Port">
+											<value>1</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID106</value>
+										</attribute>
+										<attribute kind="Scope">
+											<value>OUTPUT_DATA</value>
+										</attribute>
+										<attribute kind="Units">
+											<value></value>
+										</attribute>
+										<reference id="id-0067-00000010" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{058c3cb9-7fc9-4469-bf04-e3b057ebc748}" relid="0x1" referred="id-0066-0000004c">
+											<name>double</name>
+											<attribute kind="MemberIndex" status="meta">
+												<value>0</value>
+											</attribute>
+										</reference>
+									</model>
+									<model id="id-0065-0000001b" kind="Simulink::Data" role="Simulink::Data" guid="{5d5dcdd3-b318-4b35-867c-1fbc63c0fd26}" relid="0x6" childrelidcntr="0x1">
+										<name>tick</name>
+										<attribute kind="ArrayFirstIndex">
+											<value></value>
+										</attribute>
+										<attribute kind="ArraySize" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="DataType" status="meta">
+											<value></value>
+										</attribute>
+										<attribute kind="Description">
+											<value></value>
+										</attribute>
+										<attribute kind="InitialValue">
+											<value></value>
+										</attribute>
+										<attribute kind="Max">
+											<value></value>
+										</attribute>
+										<attribute kind="Min">
+											<value></value>
+										</attribute>
+										<attribute kind="Name">
+											<value>tick</value>
+										</attribute>
+										<attribute kind="Port">
+											<value>2</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID107</value>
+										</attribute>
+										<attribute kind="Scope">
+											<value>INPUT_DATA</value>
+										</attribute>
+										<attribute kind="Units">
+											<value></value>
+										</attribute>
+										<reference id="id-0067-00000011" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{010eb19a-3557-42b5-be92-15e22724888d}" relid="0x1" referred="id-0066-0000004c">
+											<name>double</name>
+											<attribute kind="MemberIndex" status="meta">
+												<value>0</value>
+											</attribute>
+										</reference>
+									</model>
+									<atom id="id-0066-0000004b" kind="Simulink::TransStart" role="Simulink::TransStart" guid="{6a729304-2d5b-4289-bcbe-94e6f68f9dc6}" relid="0x9">
+										<name></name>
+										<attribute kind="RefId" status="meta">
+											<value></value>
+										</attribute>
+									</atom>
+									<connection id="id-0068-00000009" kind="Simulink::Transition" role="Simulink::Transition" guid="{7257e927-2ddf-43ac-8a75-856335596dff}" relid="0x7">
+										<name></name>
+										<attribute kind="Action">
+											<value></value>
+										</attribute>
+										<attribute kind="ConditionAction">
+											<value></value>
+										</attribute>
+										<attribute kind="Guard">
+											<value>-bucketAngle&lt;=.6</value>
+										</attribute>
+										<attribute kind="Order">
+											<value>1</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID108</value>
+										</attribute>
+										<attribute kind="Trigger">
+											<value></value>
+										</attribute>
+										<connpoint role="dst" target="id-0065-00000016"/>
+										<connpoint role="src" target="id-0065-00000017"/>
+									</connection>
+									<connection id="id-0068-0000000a" kind="Simulink::Transition" role="Simulink::Transition" guid="{d1f57816-50e7-4610-b465-7c5a8056bd53}" relid="0x8">
+										<name></name>
+										<attribute kind="Action">
+											<value></value>
+										</attribute>
+										<attribute kind="ConditionAction">
+											<value></value>
+										</attribute>
+										<attribute kind="Guard">
+											<value></value>
+										</attribute>
+										<attribute kind="Order">
+											<value>1</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID109</value>
+										</attribute>
+										<attribute kind="Trigger">
+											<value></value>
+										</attribute>
+										<connpoint role="dst" target="id-0065-00000017"/>
+										<connpoint role="src" target="id-0066-0000004b"/>
+									</connection>
+									<connection id="id-0068-0000000b" kind="Simulink::Transition" role="Simulink::Transition" guid="{18cdb9bc-937b-442a-80d7-9dac7476cbb8}" relid="0xa">
+										<name></name>
+										<attribute kind="Action">
+											<value></value>
+										</attribute>
+										<attribute kind="ConditionAction">
+											<value></value>
+										</attribute>
+										<attribute kind="Guard">
+											<value>Load &lt;= 10</value>
+										</attribute>
+										<attribute kind="Order">
+											<value>1</value>
+										</attribute>
+										<attribute kind="RefId">
+											<value>ID110</value>
+										</attribute>
+										<attribute kind="Trigger">
+											<value></value>
+										</attribute>
+										<connpoint role="src" target="id-0065-00000016"/>
+										<connpoint role="dst" target="id-0065-00000018"/>
+									</connection>
+								</model>
+								<atom id="id-0066-00000046" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{e52e0afa-af1c-4b01-87e6-3daf42c652f7}" relid="0x1">
+									<name>FunctionName</name>
+									<attribute kind="RefId">
+										<value>ID88</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>sf_sfun</value>
+									</attribute>
+								</atom>
+								<atom id="id-0066-00000047" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{5c7baa8f-898c-4c85-899e-01d391681ca5}" relid="0x2">
+									<name>Parameters</name>
+									<attribute kind="RefId">
+										<value>ID89</value>
+									</attribute>
+									<attribute kind="Value">
+										<value></value>
+									</attribute>
+								</atom>
+								<atom id="id-0066-00000048" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{14e51eed-1948-4b85-9265-2f32e4ec345d}" relid="0x3">
+									<name>SFunctionModules</name>
+									<attribute kind="RefId">
+										<value>ID90</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>&apos;&apos;</value>
+									</attribute>
+								</atom>
+								<atom id="id-0066-00000049" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{90a310f6-1b7d-46c1-b0e9-5916dea5ffcb}" relid="0x8">
+									<name>ParamDataTypeStr</name>
+									<attribute kind="RefId">
+										<value>ID99</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>double</value>
+									</attribute>
+								</atom>
+							</model>
+							<model id="id-0065-0000000f" kind="Simulink::Primitive" role="Simulink::Primitive" guid="{df4d5407-3cbc-47ac-92f1-51d7038015ea}" relid="0x26" childrelidcntr="0x2">
+								<name>Terminator</name>
+								<attribute kind="BlockType">
+									<value>Terminator</value>
+								</attribute>
+								<attribute kind="Description">
+									<value></value>
+								</attribute>
+								<attribute kind="Name">
+									<value>Terminator</value>
+								</attribute>
+								<attribute kind="Priority">
+									<value>0</value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID84</value>
+								</attribute>
+								<attribute kind="SampleTime">
+									<value>0</value>
+								</attribute>
+								<attribute kind="Tag">
+									<value></value>
+								</attribute>
+								<attribute kind="UserData" status="meta">
+									<value></value>
+								</attribute>
+								<model id="id-0065-00000010" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{500a4821-7cb3-446a-a8a5-70142d8653aa}" relid="0x1" childrelidcntr="0x1">
+									<name>In_1</name>
+									<attribute kind="Number">
+										<value>1</value>
+									</attribute>
+									<attribute kind="RefId">
+										<value>ID85</value>
+									</attribute>
+									<reference id="id-0067-0000000a" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{a122b28c-760b-4c6a-b1a8-e51ff0f4f63b}" relid="0x1" referred="id-0066-00000056">
+										<name>float</name>
+										<attribute kind="MemberIndex" status="meta">
+											<value>0</value>
+										</attribute>
+									</reference>
+								</model>
+								<atom id="id-0066-00000045" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{ad28cb6a-e3ca-4b63-b469-31fdd6c8e5b0}" relid="0x2">
+									<name>ParamDataTypeStr</name>
+									<attribute kind="RefId">
+										<value>ID87</value>
+									</attribute>
+									<attribute kind="Value">
+										<value>double</value>
+									</attribute>
+								</atom>
+							</model>
+							<atom id="id-0066-00000021" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{a001166e-baa1-4eda-ae32-38f5a28ba654}" relid="0x1">
+								<name>ActiveVariant</name>
+								<attribute kind="RefId">
+									<value>ID38</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000022" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{41b56802-c56b-4843-9c3b-1f2be1ac6e9f}" relid="0x2">
+								<name>ActiveVariantBlock</name>
+								<attribute kind="RefId">
+									<value>ID39</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000023" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{7a4eb5e2-3873-4f32-9ec2-32f844fc3159}" relid="0x3">
+								<name>BlockChoice</name>
+								<attribute kind="RefId">
+									<value>ID40</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000024" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{a8cb9b97-faa2-481c-9803-bdf0bc53467e}" relid="0x4">
+								<name>CheckFcnCallInpInsideContextMsg</name>
+								<attribute kind="RefId">
+									<value>ID41</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000025" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{2caf7021-8dad-432c-ab51-2d842313bfe4}" relid="0x5">
+								<name>ErrorFcn</name>
+								<attribute kind="RefId">
+									<value>ID42</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>[]</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000026" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{3a1a2577-c5a1-42af-8f0a-a7fa226a751b}" relid="0x6">
+								<name>FunctionInterfaceSpec</name>
+								<attribute kind="RefId">
+									<value>ID43</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>void_void</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000027" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{9ca6ac21-50ef-439f-a72e-04e92b666023}" relid="0x7">
+								<name>FunctionWithSeparateData</name>
+								<attribute kind="RefId">
+									<value>ID44</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000028" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{dae863df-64df-41e8-9b58-4054c1403eff}" relid="0x8">
+								<name>GeneratePreprocessorConditionals</name>
+								<attribute kind="RefId">
+									<value>ID45</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000029" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{8df9de62-954c-4a81-972b-ea241f702e4a}" relid="0x9">
+								<name>IsSubsystemVirtual</name>
+								<attribute kind="RefId">
+									<value>ID46</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000002a" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{0447f35d-8249-4b68-98a8-1554bd53cd69}" relid="0xa">
+								<name>MemberBlocks</name>
+								<attribute kind="RefId">
+									<value>ID47</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000002b" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{0dba9ad9-57d8-4391-90cc-0136e9d74aaa}" relid="0xb">
+								<name>MinAlgLoopOccurrences</name>
+								<attribute kind="RefId">
+									<value>ID48</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000002c" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{2c41dd9e-b327-4ca0-8b0e-72155820a6b6}" relid="0xc">
+								<name>OverrideUsingVariant</name>
+								<attribute kind="RefId">
+									<value>ID49</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000002d" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{5bff697b-3b4e-43c2-a7f3-44a297f995c0}" relid="0xd">
+								<name>Permissions</name>
+								<attribute kind="RefId">
+									<value>ID50</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>ReadWrite</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000002e" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{171df2be-1781-4365-a0e9-16fe4d0565ca}" relid="0xe">
+								<name>PermitHierarchicalResolution</name>
+								<attribute kind="RefId">
+									<value>ID51</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>ExplicitOnly</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000002f" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{8284a6c2-54a6-4339-8150-28c4d952904b}" relid="0xf">
+								<name>PropExecContextOutsideSubsystem</name>
+								<attribute kind="RefId">
+									<value>ID52</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000030" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{c993dd39-b9a2-4f30-b5d2-9f72242900e7}" relid="0x10">
+								<name>RTWFcnName</name>
+								<attribute kind="RefId">
+									<value>ID53</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000031" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{fb6501ab-2052-40fc-b6c9-546d1346499f}" relid="0x11">
+								<name>RTWFcnNameOpts</name>
+								<attribute kind="RefId">
+									<value>ID54</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Auto</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000032" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{b06a4330-19a4-4880-9b0c-73433fd02bba}" relid="0x12">
+								<name>RTWFileName</name>
+								<attribute kind="RefId">
+									<value>ID55</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000033" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{3001a076-38fc-48f0-9b17-275c3cc9ddc9}" relid="0x13">
+								<name>RTWFileNameOpts</name>
+								<attribute kind="RefId">
+									<value>ID56</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Auto</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000034" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{76bfb939-167d-4dee-ad34-690aa698ad07}" relid="0x14">
+								<name>RTWMemSecDataConstants</name>
+								<attribute kind="RefId">
+									<value>ID57</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Inherit from model</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000035" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{fedee79d-9702-46a0-9199-892eea2d3ab1}" relid="0x15">
+								<name>RTWMemSecDataInternal</name>
+								<attribute kind="RefId">
+									<value>ID58</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Inherit from model</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000036" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{d5a9c1d1-6253-4b23-b87d-facdbae9bdde}" relid="0x16">
+								<name>RTWMemSecDataParameters</name>
+								<attribute kind="RefId">
+									<value>ID59</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Inherit from model</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000037" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{ce5cd61c-b16d-4466-8b44-bd9167ce536d}" relid="0x17">
+								<name>RTWMemSecFuncExecute</name>
+								<attribute kind="RefId">
+									<value>ID60</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Inherit from model</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000038" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{9fea158a-2cbc-4170-accb-138f098baf3a}" relid="0x18">
+								<name>RTWMemSecFuncInitTerm</name>
+								<attribute kind="RefId">
+									<value>ID61</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Inherit from model</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000039" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{202361d3-6cb9-46b2-b5a4-c3db7ba45331}" relid="0x19">
+								<name>RTWSystemCode</name>
+								<attribute kind="RefId">
+									<value>ID62</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>Auto</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000003a" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{9acd9862-3169-46ba-81ef-c3f105629c3f}" relid="0x1a">
+								<name>ShowPortLabels</name>
+								<attribute kind="RefId">
+									<value>ID63</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>FromPortIcon</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000003b" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{9718ec0d-7699-411d-bf6b-821335ec35dd}" relid="0x1b">
+								<name>SystemSampleTime</name>
+								<attribute kind="RefId">
+									<value>ID64</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>-1</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000003c" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{c49e5117-4916-4a13-af3d-1fd0aff7f68e}" relid="0x1c">
+								<name>TemplateBlock</name>
+								<attribute kind="RefId">
+									<value>ID65</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000003d" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{ad2e1ea8-a1a4-4987-8be0-0f7e198eb87a}" relid="0x1d">
+								<name>TreatAsAtomicUnit</name>
+								<attribute kind="RefId">
+									<value>ID66</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>on</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000003e" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{44b4fe4a-689e-4dcf-8d13-8d6f81957a35}" relid="0x1e">
+								<name>Variant</name>
+								<attribute kind="RefId">
+									<value>ID67</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000003f" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{12dd1633-5d8c-48cd-8d3d-64c01321fa4a}" relid="0x1f">
+								<name>VariantControl</name>
+								<attribute kind="RefId">
+									<value>ID68</value>
+								</attribute>
+								<attribute kind="Value">
+									<value></value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-00000040" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{e1f91a19-1660-4d27-bdbb-910d98d350b3}" relid="0x23">
+								<name>ParamDataTypeStr</name>
+								<attribute kind="RefId">
+									<value>ID75</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>double</value>
+								</attribute>
+							</atom>
+							<atom id="id-0066-0000004a" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{aa6dac33-58ad-4f51-b417-9b4ff11d1181}" relid="0x2c">
+								<name>ExecuteAtInitialization</name>
+								<attribute kind="RefId">
+									<value>ID100</value>
+								</attribute>
+								<attribute kind="Value">
+									<value>off</value>
+								</attribute>
+							</atom>
+							<connection id="id-0068-00000004" kind="Simulink::Line" role="Simulink::Line" guid="{1257dcbc-86d7-4be7-9b86-9d686b7f5a16}" relid="0x27">
+								<name></name>
+								<attribute kind="Name" status="meta">
+									<value></value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID86</value>
+								</attribute>
+								<connpoint role="src" target="id-0065-0000000d"/>
+								<connpoint role="dst" target="id-0065-00000010"/>
+							</connection>
+							<connection id="id-0068-00000005" kind="Simulink::Line" role="Simulink::Line" guid="{ef4073ef-a223-4818-bd9b-cf6cf5b25a09}" relid="0x28">
+								<name></name>
+								<attribute kind="Name" status="meta">
+									<value></value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID92</value>
+								</attribute>
+								<connpoint role="src" target="id-0065-00000008"/>
+								<connpoint role="dst" target="id-0065-00000011"/>
+							</connection>
+							<connection id="id-0068-00000006" kind="Simulink::Line" role="Simulink::Line" guid="{044de237-93b5-4964-a4d7-111aca9a8340}" relid="0x29">
+								<name></name>
+								<attribute kind="Name" status="meta">
+									<value></value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID94</value>
+								</attribute>
+								<connpoint role="src" target="id-0065-00000009"/>
+								<connpoint role="dst" target="id-0065-00000012"/>
+							</connection>
+							<connection id="id-0068-00000007" kind="Simulink::Line" role="Simulink::Line" guid="{1320271b-51c3-4267-8120-55dc30eb2961}" relid="0x2a">
+								<name></name>
+								<attribute kind="Name" status="meta">
+									<value></value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID96</value>
+								</attribute>
+								<connpoint role="dst" target="id-0065-0000000c"/>
+								<connpoint role="src" target="id-0065-00000013"/>
+							</connection>
+							<connection id="id-0068-00000008" kind="Simulink::Line" role="Simulink::Line" guid="{4b8b8042-f7ba-4574-98c7-29dffc761ad3}" relid="0x2b">
+								<name></name>
+								<attribute kind="Name" status="meta">
+									<value></value>
+								</attribute>
+								<attribute kind="RefId">
+									<value>ID98</value>
+								</attribute>
+								<connpoint role="dst" target="id-0065-0000000a"/>
+								<connpoint role="src" target="id-0065-00000014"/>
+							</connection>
+						</model>
+						<atom id="id-0066-00000001" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{c6d86598-81ca-4dfd-aefb-5833ecd81ce2}" relid="0x1">
+							<name>ActiveVariant</name>
+							<attribute kind="RefId">
+								<value>ID2</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000002" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{9a701eb1-2e56-4997-8f34-d5faa655ad33}" relid="0x2">
+							<name>ActiveVariantBlock</name>
+							<attribute kind="RefId">
+								<value>ID3</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000003" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{47217504-aee6-4eef-9f22-03ca35dc79bc}" relid="0x3">
+							<name>BlockChoice</name>
+							<attribute kind="RefId">
+								<value>ID4</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000004" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{a834b28d-5c63-4b76-8f35-336e1a8e2201}" relid="0x4">
+							<name>CheckFcnCallInpInsideContextMsg</name>
+							<attribute kind="RefId">
+								<value>ID5</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000005" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{5ea21569-f32c-4e0f-9ecd-34c156685f37}" relid="0x5">
+							<name>ErrorFcn</name>
+							<attribute kind="RefId">
+								<value>ID6</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000006" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{44761a7d-7440-4a1d-b3fe-c98ff5051a67}" relid="0x6">
+							<name>FunctionInterfaceSpec</name>
+							<attribute kind="RefId">
+								<value>ID7</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>void_void</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000007" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{e7276f06-018d-4d2e-a308-59c1ab03d07b}" relid="0x7">
+							<name>FunctionWithSeparateData</name>
+							<attribute kind="RefId">
+								<value>ID8</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000008" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{12216a74-1a5c-44bb-adc2-1d4607cb61ad}" relid="0x8">
+							<name>GeneratePreprocessorConditionals</name>
+							<attribute kind="RefId">
+								<value>ID9</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000009" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{fe8976f0-cd96-4f28-b64f-673cc044ce2a}" relid="0x9">
+							<name>IsSubsystemVirtual</name>
+							<attribute kind="RefId">
+								<value>ID10</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>on</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000000a" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{b2364672-0462-4362-ab80-8a5fa17b1203}" relid="0xa">
+							<name>MemberBlocks</name>
+							<attribute kind="RefId">
+								<value>ID11</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000000b" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{fd4491a8-ef93-4db8-8f3f-76ef1e335d09}" relid="0xb">
+							<name>MinAlgLoopOccurrences</name>
+							<attribute kind="RefId">
+								<value>ID12</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000000c" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{829cfae2-bf41-4a7c-b4cf-fb00be107834}" relid="0xc">
+							<name>OverrideUsingVariant</name>
+							<attribute kind="RefId">
+								<value>ID13</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000000d" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{331bcf62-fd94-44c7-8315-8c00d471da62}" relid="0xd">
+							<name>Permissions</name>
+							<attribute kind="RefId">
+								<value>ID14</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>ReadWrite</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000000e" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{f2b6b53b-aa8e-48aa-b098-3b8cea436799}" relid="0xe">
+							<name>PermitHierarchicalResolution</name>
+							<attribute kind="RefId">
+								<value>ID15</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>All</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000000f" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{1eb3c1f8-a929-45a7-9d2b-4d885c59e1a4}" relid="0xf">
+							<name>PropExecContextOutsideSubsystem</name>
+							<attribute kind="RefId">
+								<value>ID16</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000010" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{6fd6058b-ddf3-444c-8e2a-9cfc0d2db53f}" relid="0x10">
+							<name>RTWFcnName</name>
+							<attribute kind="RefId">
+								<value>ID17</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000011" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{dfda4d37-08de-49bd-9f86-c10790eea0d3}" relid="0x11">
+							<name>RTWFcnNameOpts</name>
+							<attribute kind="RefId">
+								<value>ID18</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Auto</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000012" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{09e17a7a-9d6a-47a0-913d-8cf0bda26fab}" relid="0x12">
+							<name>RTWFileName</name>
+							<attribute kind="RefId">
+								<value>ID19</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000013" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{09fc0491-421c-4b70-8d50-06c055a06aca}" relid="0x13">
+							<name>RTWFileNameOpts</name>
+							<attribute kind="RefId">
+								<value>ID20</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Auto</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000014" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{5c4603c7-09f1-4d70-8c7d-0e5f3b3b0640}" relid="0x14">
+							<name>RTWMemSecDataConstants</name>
+							<attribute kind="RefId">
+								<value>ID21</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Inherit from model</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000015" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{b6c34cc5-415c-45e2-a1de-f8a78be2a11a}" relid="0x15">
+							<name>RTWMemSecDataInternal</name>
+							<attribute kind="RefId">
+								<value>ID22</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Inherit from model</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000016" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{8a0fe457-0744-40ff-b919-2a5210d1b30b}" relid="0x16">
+							<name>RTWMemSecDataParameters</name>
+							<attribute kind="RefId">
+								<value>ID23</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Inherit from model</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000017" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{f933d86c-2cf0-4710-8bb2-0d8b901e07db}" relid="0x17">
+							<name>RTWMemSecFuncExecute</name>
+							<attribute kind="RefId">
+								<value>ID24</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Inherit from model</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000018" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{9b120740-ae41-48d1-93a5-d5e84b1a97d2}" relid="0x18">
+							<name>RTWMemSecFuncInitTerm</name>
+							<attribute kind="RefId">
+								<value>ID25</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Inherit from model</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000019" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{e71309dd-2d14-4756-9f87-b09a810ff4f8}" relid="0x19">
+							<name>RTWSystemCode</name>
+							<attribute kind="RefId">
+								<value>ID26</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>Auto</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000001a" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{fe089acb-f354-4594-a48c-441bb8dff8ec}" relid="0x1a">
+							<name>ShowPortLabels</name>
+							<attribute kind="RefId">
+								<value>ID27</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>FromPortIcon</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000001b" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{3d459541-b3e6-42c7-b65b-b8310d898dcc}" relid="0x1b">
+							<name>SystemSampleTime</name>
+							<attribute kind="RefId">
+								<value>ID28</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>-1</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000001c" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{655dc9fb-1193-4f35-b748-cf67f65d9dd1}" relid="0x1c">
+							<name>TemplateBlock</name>
+							<attribute kind="RefId">
+								<value>ID29</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000001d" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{2c158aaf-e07a-45b8-9f62-496f0f2bb200}" relid="0x1d">
+							<name>TreatAsAtomicUnit</name>
+							<attribute kind="RefId">
+								<value>ID30</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000001e" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{b3f8832e-d68f-48f2-9a47-f5e4082198ad}" relid="0x1e">
+							<name>Variant</name>
+							<attribute kind="RefId">
+								<value>ID31</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>off</value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-0000001f" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{a3a47a0b-de62-489e-b277-012e2f0eb59e}" relid="0x1f">
+							<name>VariantControl</name>
+							<attribute kind="RefId">
+								<value>ID32</value>
+							</attribute>
+							<attribute kind="Value">
+								<value></value>
+							</attribute>
+						</atom>
+						<atom id="id-0066-00000020" kind="Simulink::SF_Parameter" role="Simulink::Parameter" guid="{c81affe0-86ab-42ca-b73e-dac25b94816e}" relid="0x23">
+							<name>ParamDataTypeStr</name>
+							<attribute kind="RefId">
+								<value>ID36</value>
+							</attribute>
+							<attribute kind="Value">
+								<value>double</value>
+							</attribute>
+						</atom>
+						<connection id="id-0068-00000001" kind="Simulink::Line" role="Simulink::Line" guid="{b718982c-c6e6-4ccb-9b38-c92cac32b3aa}" relid="0x25">
+							<name></name>
+							<attribute kind="Name" status="meta">
+								<value></value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID72</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000004"/>
+							<connpoint role="dst" target="id-0065-00000008"/>
+						</connection>
+						<connection id="id-0068-00000002" kind="Simulink::Line" role="Simulink::Line" guid="{748fb422-6690-4099-a3f4-fa3f8b12374c}" relid="0x26">
+							<name></name>
+							<attribute kind="Name" status="meta">
+								<value></value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID73</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000005"/>
+							<connpoint role="dst" target="id-0065-00000009"/>
+						</connection>
+						<connection id="id-0068-00000003" kind="Simulink::Line" role="Simulink::Line" guid="{7af8670d-d8b1-480d-afe2-3112e4d756a6}" relid="0x27">
+							<name></name>
+							<attribute kind="Name" status="meta">
+								<value></value>
+							</attribute>
+							<attribute kind="RefId">
+								<value>ID74</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000006"/>
+							<connpoint role="src" target="id-0065-0000000a"/>
+						</connection>
+					</model>
+					<model id="id-0065-0000001c" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{b11e8c67-40cc-4a17-a64e-3531e9795bcf}" relid="0x2" childrelidcntr="0x1">
+						<name>bucketAngle_1</name>
+						<attribute kind="Number">
+							<value>1</value>
+						</attribute>
+						<attribute kind="RefId" status="meta">
+							<value></value>
+						</attribute>
+						<reference id="id-0067-00000012" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{cb54d526-d9c7-40c8-a16e-e0c2aa8a6b1f}" relid="0x1" referred="id-0066-0000004c">
+							<name>double</name>
+							<attribute kind="MemberIndex">
+								<value>0</value>
+							</attribute>
+						</reference>
+					</model>
+					<model id="id-0065-0000001d" kind="Simulink::InputPort" role="Simulink::InputPort" guid="{418baa7b-5648-41fb-a957-303d35d1397d}" relid="0x4" childrelidcntr="0x1">
+						<name>tick_1</name>
+						<attribute kind="Number">
+							<value>2</value>
+						</attribute>
+						<attribute kind="RefId" status="meta">
+							<value></value>
+						</attribute>
+						<reference id="id-0067-00000013" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{7dfcde01-8fd4-424f-888f-05c453ee9606}" relid="0x1" referred="id-0066-0000004c">
+							<name>double</name>
+							<attribute kind="MemberIndex">
+								<value>0</value>
+							</attribute>
+						</reference>
+					</model>
+					<model id="id-0065-0000001e" kind="Simulink::OutputPort" role="Simulink::OutputPort" guid="{6e4d7053-b71e-4a48-b9a8-c2a096e8930a}" relid="0x6" childrelidcntr="0x1">
+						<name>Load_1</name>
+						<attribute kind="Number">
+							<value>1</value>
+						</attribute>
+						<attribute kind="RefId" status="meta">
+							<value></value>
+						</attribute>
+						<reference id="id-0067-00000014" kind="Simulink::TypeBaseRef" role="Simulink::TypeBaseRef" guid="{df568fc2-0728-44b4-b5e3-d64cde509c43}" relid="0x1" referred="id-0066-0000004c">
+							<name>double</name>
+							<attribute kind="MemberIndex">
+								<value>0</value>
+							</attribute>
+						</reference>
+					</model>
+					<connection id="id-0068-0000000c" kind="Simulink::Line" role="Simulink::Line" guid="{726dfa16-57eb-4f0e-be03-8cfb26452669}" relid="0x3">
+						<name></name>
+						<attribute kind="Name" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="RefId" status="meta">
+							<value></value>
+						</attribute>
+						<connpoint role="dst" target="id-0065-00000004"/>
+						<connpoint role="src" target="id-0065-0000001c"/>
+					</connection>
+					<connection id="id-0068-0000000d" kind="Simulink::Line" role="Simulink::Line" guid="{85750492-c95e-4863-a7f1-c1ef5543d1e1}" relid="0x5">
+						<name></name>
+						<attribute kind="Name" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="RefId" status="meta">
+							<value></value>
+						</attribute>
+						<connpoint role="dst" target="id-0065-00000005"/>
+						<connpoint role="src" target="id-0065-0000001d"/>
+					</connection>
+					<connection id="id-0068-0000000e" kind="Simulink::Line" role="Simulink::Line" guid="{56d73a80-420f-4e69-a1bf-f0ba3b592927}" relid="0x7">
+						<name></name>
+						<attribute kind="Name" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="RefId" status="meta">
+							<value></value>
+						</attribute>
+						<connpoint role="src" target="id-0065-00000006"/>
+						<connpoint role="dst" target="id-0065-0000001e"/>
+					</connection>
+				</model>
+				<model id="id-0065-0000001f" kind="InputSignalInterface" role="InputSignalInterface" guid="{dc9406d2-4beb-4258-a7f6-dd33ccf043c4}" relid="0xd2" childrelidcntr="0x0">
+					<name>bucketAngle_1</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>56,56</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Class">
+						<value>Modelica.Blocks.Interfaces.RealInput</value>
+					</attribute>
+				</model>
+				<model id="id-0065-00000020" kind="InputSignalInterface" role="InputSignalInterface" guid="{d2c4ef7b-8c5b-4cb2-9a92-bd50fa045cda}" relid="0xd4" childrelidcntr="0x0">
+					<name>tick_1</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>56,7</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Class">
+						<value>Modelica.Blocks.Interfaces.RealInput</value>
+					</attribute>
+				</model>
+				<model id="id-0065-00000021" kind="OutputSignalInterface" role="OutputSignalInterface" guid="{ede70445-d2ff-48a0-b411-ab7d51b2ec8e}" relid="0xd6" childrelidcntr="0x0">
+					<name>Load_1</name>
+					<attribute kind="Class">
+						<value>Modelica.Blocks.Interfaces.RealOutput</value>
+					</attribute>
+				</model>
+				<reference id="id-0067-00000001" kind="ParameterRef" role="ParameterRef" guid="{22490a0f-a757-4a40-9032-798aad622024}" relid="0xbd">
+					<name>SamplePeriod</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>105,266</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Class">
+						<value>Real</value>
+					</attribute>
+					<attribute kind="Value">
+						<value>.1</value>
+					</attribute>
+				</reference>
+				<connection id="id-0068-0000000f" kind="InputSignalInterfaceConnection" role="InputSignalInterfaceConnection" guid="{3e655378-19c4-41bd-83ef-876edb8bd69f}" relid="0xd3">
+					<name></name>
+					<connpoint role="dst" target="id-0065-0000001c"/>
+					<connpoint role="src" target="id-0065-0000001f"/>
+				</connection>
+				<connection id="id-0068-00000010" kind="InputSignalInterfaceConnection" role="InputSignalInterfaceConnection" guid="{0fd8ddb1-585b-4e59-91c2-61493cbdb13d}" relid="0xd5">
+					<name></name>
+					<connpoint role="dst" target="id-0065-0000001d"/>
+					<connpoint role="src" target="id-0065-00000020"/>
+				</connection>
+				<connection id="id-0068-00000011" kind="OutputSignalInterfaceConnection" role="OutputSignalInterfaceConnection" guid="{ba724ea4-06a4-4659-9c28-20c6839caace}" relid="0xd7">
+					<name></name>
+					<connpoint role="src" target="id-0065-0000001e"/>
+					<connpoint role="dst" target="id-0065-00000021"/>
+				</connection>
+			</model>
+		</folder>
+		<folder id="id-006a-00000003" relid="0xc" childrelidcntr="0xb" kind="Simulink::Types" guid="{fb6171bf-ad5c-49cd-a23c-4f4e87b5cd31}">
+			<name>Types</name>
+			<atom id="id-0066-0000004c" kind="Simulink::SF_Matrix" guid="{3cdfb189-bfac-4654-aa95-bb49117da931}" relid="0x1">
+				<name>double</name>
+				<attribute kind="Type">
+					<value>double</value>
+				</attribute>
+				<attribute kind="columns">
+					<value>1</value>
+				</attribute>
+				<attribute kind="rows">
+					<value>1</value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000056" kind="Simulink::SF_Matrix" guid="{ed3e61b2-4049-4c39-86f6-9b5cd0c63c94}" relid="0xb">
+				<name>float</name>
+				<attribute kind="Type">
+					<value>float</value>
+				</attribute>
+				<attribute kind="columns">
+					<value>1</value>
+				</attribute>
+				<attribute kind="rows">
+					<value>1</value>
+				</attribute>
+			</atom>
+		</folder>
+	</folder>
+</project>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project RefId="" _id="id49" name="SimulinkWrapper" statementCount="4" statementIndex="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SFC.xsd">
+
+  <BasicType RefId="" _id="id4A" indexBase="" name="double" scope="" statementIndex="1" te="id52 id53 id54 id57 id58 id59 id5A id6A"/>
+
+  <BasicType RefId="" _id="id69" indexBase="" name="int" scope="" statementIndex="3"/>
+
+  <Program RefId="" _id="id4B" filename="controller_sl" numInstance="1" stateCount="0" statementCount="2" statementIndex="2">
+    <Class RefId="" _id="id4C" annotation="" name="controller_100000002_class" statementCount="3" statementIndex="0">
+      <Function RefId="" _id="id50" annotation="" argCount="4" name="controller_100000002_main" returnType="void" scope="" statementCount="1" statementIndex="1">
+        <Arg RefId="" _id="id51" argIndex="0" dt="id4D" indexBase="" name="context" ptr="true" ref="id76" scope="" size="1" type=""/>
+        <Arg RefId="" _id="id52" argIndex="2" dt="id4A" indexBase="" name="Desired_L_1_2" ptr="false" ref="id60" scope="" size="1" type="double"/>
+        <Arg RefId="" _id="id53" argIndex="3" dt="id4A" indexBase="" name="measured_L_1_3" ptr="false" ref="id61" scope="" size="1" type="double"/>
+        <Arg RefId="" _id="id54" argIndex="4" dt="id4A" indexBase="" name="valve_Flowfraction_1_4" ptr="true" ref="id62" scope="" size="1" type="double"/>
+        <FunctionCall RefId="" _id="id5B" argCount="4" callee="id55" libFuncName="" statementIndex="0">
+          <ArgVal _id="id5C" arg="id56" argIndex="0" val="">
+            <BinaryExprs _id="id74" op=".">
+              <ArgDeclRef __child_as="rightexpr" _id="id75" argdecl="id73" unres=""/>
+              <ArgDeclRef __child_as="leftexpr" _id="id76" argdecl="id51" unres=""/>
+            </BinaryExprs>
+          </ArgVal>
+          <ArgVal _id="id5D" arg="id57" argIndex="2" val="">
+            <ArgDeclRef _id="id60" argdecl="id52" unres=""/>
+          </ArgVal>
+          <ArgVal _id="id5e" arg="id58" argIndex="3" val="">
+            <ArgDeclRef _id="id61" argdecl="id53" unres=""/>
+          </ArgVal>
+          <ArgVal _id="id5F" arg="id59" argIndex="4" val="">
+            <ArgDeclRef _id="id62" argdecl="id54" unres=""/>
+          </ArgVal>
+        </FunctionCall>
+      </Function>
+      <Function RefId="" _id="id77" annotation="" argCount="1" name="controller_100000002_init" returnType="void" scope="" statementCount="1" statementIndex="2">
+        <Arg RefId="" _id="id78" argIndex="0" dt="id4D" indexBase="" name="context" ptr="true" ref="id84" scope="" size="1" type=""/>
+        <FunctionCall RefId="" _id="id81" argCount="1" callee="id79" libFuncName="" statementIndex="0">
+          <ArgVal _id="id82" arg="id7A" argIndex="0" val="">
+            <BinaryExprs _id="id83" op=".">
+              <ArgDeclRef __child_as="leftexpr" _id="id84" argdecl="id78" unres=""/>
+              <ArgDeclRef __child_as="rightexpr" _id="id85" argdecl="id73" unres=""/>
+            </BinaryExprs>
+          </ArgVal>
+        </FunctionCall>
+      </Function>
+      <Struct RefId="" _id="id4D" indexBase="" memberCount="1" name="controller_100000002_context" scope="" statementIndex="0" te="id51 id78">
+        <LocalVar RefId="" Static="false" _id="id73" dt="id4F" indexBase="" initial="" name="proportionalGain_100000003_class_member0" ref="id75 id85" scope="" size="1" statementIndex="0" type=""/>
+      </Struct>
+    </Class>
+    <Class RefId="" _id="id4e" annotation="" name="proportionalGain_100000003_class" statementCount="3" statementIndex="1">
+      <Function RefId="" _id="id55" annotation="" argCount="4" caller="id5B" name="proportionalGain_100000003_main" returnType="void" scope="" statementCount="3" statementIndex="1">
+        <Arg RefId="" _id="id56" argIndex="0" dt="id4F" indexBase="" name="context" ptr="true" ref="id71" scope="" size="1" type="" val="id5C"/>
+        <Arg RefId="" _id="id57" argIndex="2" dt="id4A" indexBase="" name="Desired_L_2" ptr="false" ref="id67" scope="" size="1" type="double" val="id5D"/>
+        <Arg RefId="" _id="id58" argIndex="3" dt="id4A" indexBase="" name="measured_L_3" ptr="false" ref="id68" scope="" size="1" type="double" val="id5e"/>
+        <Arg RefId="" _id="id59" argIndex="4" dt="id4A" indexBase="" name="valve_Flowfraction_4" ptr="true" ref="id6D" scope="" size="1" type="double" val="id5F"/>
+        <LocalVar RefId="" Static="false" _id="id5A" dt="id4A" indexBase="" initial="" name="sig_0" ref="id65 id6F" scope="" size="1" statementIndex="0" type="double"/>
+        <UserCode RefId="" _id="id63" expr="" statementIndex="1">
+          <BinaryExprs _id="id64" op="=">
+            <ArgDeclRef __child_as="leftexpr" _id="id65" argdecl="id5A" unres=""/>
+            <BinaryExprs __child_as="rightexpr" _id="id66" op="-">
+              <ArgDeclRef __child_as="leftexpr" _id="id67" argdecl="id57" unres=""/>
+              <ArgDeclRef __child_as="rightexpr" _id="id68" argdecl="id58" unres=""/>
+            </BinaryExprs>
+          </BinaryExprs>
+        </UserCode>
+        <UserCode RefId="" _id="id6B" expr="" statementIndex="2">
+          <BinaryExprs _id="id6C" op="=">
+            <ArgDeclRef __child_as="leftexpr" _id="id6D" argdecl="id59" unres=""/>
+            <BinaryExprs __child_as="rightexpr" _id="id6e" op="*">
+              <ArgDeclRef __child_as="leftexpr" _id="id6F" argdecl="id5A" unres=""/>
+              <BinaryExprs __child_as="rightexpr" _id="id70" op=".">
+                <ArgDeclRef __child_as="leftexpr" _id="id71" argdecl="id56" unres=""/>
+                <ArgDeclRef __child_as="rightexpr" _id="id72" argdecl="id6A" unres=""/>
+              </BinaryExprs>
+            </BinaryExprs>
+          </BinaryExprs>
+        </UserCode>
+      </Function>
+      <Function RefId="" _id="id79" annotation="" argCount="1" caller="id81" name="proportionalGain_100000003_init" returnType="void" scope="" statementCount="1" statementIndex="2">
+        <Arg RefId="" _id="id7A" argIndex="0" dt="id4F" indexBase="" name="context" ptr="true" ref="id7e" scope="" size="1" type="" val="id82"/>
+        <UserCode RefId="" _id="id7B" expr="" statementIndex="0">
+          <BinaryExprs _id="id7C" op="=">
+            <BinaryExprs __child_as="leftexpr" _id="id7D" op=".">
+              <ArgDeclRef __child_as="leftexpr" _id="id7e" argdecl="id7A" unres=""/>
+              <ArgDeclRef __child_as="rightexpr" _id="id7F" argdecl="id6A" unres=""/>
+            </BinaryExprs>
+            <Double __child_as="rightexpr" _id="id80" val="1"/>
+          </BinaryExprs>
+        </UserCode>
+      </Function>
+      <Struct RefId="" _id="id4F" indexBase="" memberCount="1" name="proportionalGain_100000003_context" scope="" statementIndex="0" te="id56 id73 id7A">
+        <LocalVar RefId="" Static="false" _id="id6A" dt="id4A" indexBase="" initial="" name="Gain106" ref="id72 id7F" scope="" size="1" statementIndex="0" type=""/>
+      </Struct>
+    </Class>
+  </Program>
+
+</Project>

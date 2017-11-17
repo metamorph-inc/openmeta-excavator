@@ -1,0 +1,500 @@
+<ns0:Component xmlns:ns0="avm" ID="1d59e8a2b2" Name="panel__generic__steel_a572_gr50_5p1x2p4x0p016" SchemaVersion="2.5" Version="2014_03_13_09_46"><DomainModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UsesResource="manufacturing.path" xsi:type="ns2:ManufacturingModel">
+    <Parameter Name="procurement__cots_or_parametric" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.cots_or_parametric">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>COTS</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__make_or_buy" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.make_or_buy">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Buy</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.manufacturer_part_info.manufacturer">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer_part_description" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.manufacturer_part_info.manufacturer_part_description">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer_part_number" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.manufacturer_part_info.manufacturer_part_number">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__nsn" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.nsn">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__breakpoint_graph__dependents__acceleration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.breakpoint_graph.dependents.acceleration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__breakpoint_graph__independent__frequency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.breakpoint_graph.independent.frequency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__damping_ratio" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.damping_ratio">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__duration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.duration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__max_amplitude_zero_to_peak" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.max_amplitude_zero_to_peak">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__rrs_shape" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.rrs_shape">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__shape" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.shape">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__shock_qualification_type" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.shock_qualification_type">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__specifications_met" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.specifications_met">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__time_graph__dependents__acceleration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.time_graph.dependents.acceleration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__time_graph__independent__time" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.time_graph.independent.time">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__operating_temperature_high" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.operating_temperature_high">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__operating_temperature_low" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.operating_temperature_low">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__specifications_met" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.specifications_met">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__storage_temperature_high" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.storage_temperature_high">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__storage_temperature_low" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.storage_temperature_low">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__breakpoint_graph__dependents__acceleration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.breakpoint_graph.dependents.acceleration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__breakpoint_graph__independent__frequency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.breakpoint_graph.independent.frequency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__frequency_range" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.frequency_range">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__max_amplitude_rms" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.max_amplitude_rms">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__max_amplitude_zero_to_peak" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.max_amplitude_zero_to_peak">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__specifications_met" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.specifications_met">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__vibration_qualification_type" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.vibration_qualification_type">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_NRE__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_NRE.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_NRE__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_NRE.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_per_orderable_unit__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_per_orderable_unit.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>usd</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_per_orderable_unit__value" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_per_orderable_unit.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>2042.26</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_tooling__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_tooling.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_tooling__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_tooling.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__production_or_prototype" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.production_or_prototype">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Production</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_basis_part_cost" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.volume_basis_part_cost">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_production_quantity_max" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.volume_production_quantity_max">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>50</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_production_quantity_min" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.volume_production_quantity_min">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_NRE__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_NRE.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_NRE__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_NRE.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_per_orderable_unit__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_per_orderable_unit.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_per_orderable_unit__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_per_orderable_unit.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_tooling__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_tooling.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_tooling__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_tooling.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_leadtime_per_orderable_unit" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_leadtime_per_orderable_unit">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__production_or_prototype" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.production_or_prototype">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Production</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_basis_part_cost" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.volume_basis_part_cost">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_production_quantity_max" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.volume_production_quantity_max">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_production_quantity_min" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.volume_production_quantity_min">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__orderable_unit__quantity_parts_per_unit" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.orderable_unit.quantity_parts_per_unit">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1.0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__orderable_unit__unit_of_measure__unit_of_measure_other" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.orderable_unit.unit_of_measure.unit_of_measure_other">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Each</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__country_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.country_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__state_region_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.state_region_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__street_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.street_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__street_number" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.street_number">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__town_city_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.town_city_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__zip_postal_code" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.zip_postal_code">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__dunnage" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.dunnage">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__fob" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.fob">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping__condition_shipping" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.mass_shipping.condition_shipping">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Dry</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping__mass_shipping_condition" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.mass_shipping.mass_shipping_condition" Unit="kg">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1543.6614288</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__msds" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.msds">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__height" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipment_dimensions.height">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__length" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipment_dimensions.length">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__width" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipment_dimensions.width">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipping_cost__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipping_cost.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipping_cost__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipping_cost.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.supplier">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>supplier_domain.Generic</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier_part_description" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.supplier_part_description">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Panel, Steel A572 Gr50, 16.67 ft x 8.0 ft x 0.62 in.</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier_part_number" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.supplier_part_number">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>N/A</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+  </DomainModel>
+  </ns0:Component>

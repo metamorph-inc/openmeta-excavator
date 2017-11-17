@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="6efef939-8e9b-47dc-bac8-85be29e5131e" Name="Bucket_Assembly_2" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="modelica" xsi:type="q1:ModelicaModel" Author="" Notes="" XPosition="275" YPosition="900" Name="bucket" Class="excavator_cyphy.components.bucket" xmlns="">
+    <Parameter XPosition="50" YPosition="820" Locator="CAD_Bucket">
+      <Value ID="id-1ad885c6-a4c8-4f05-8435-803f27daaa12">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:FixedValue">
+          <Value>"modelica://OpenHydraulics/Resources/Shapes/Excavator/bucket.stl"</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="190" Locator="bucket_w_start">
+      <Value ID="id-d8a206e5-b490-451d-ba55-f060e6cfee37">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-17b7208b-62aa-4a9c-9333-24cb5b7bed0f" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="680" Locator="I_32_Bucket">
+      <Value ID="id-4b33c2cb-2c31-4bae-8045-38e8d4a72313">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-8c45c3ac-4b1d-42bd-8491-b296f56882ef" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="260" Locator="bucket_a_start">
+      <Value ID="id-5d41e680-9a5d-4c1a-a1cb-6fdeefeed392">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-029de0fc-8693-48fc-bbf5-b09c5f3d5af3" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="470" Locator="I_33_Bucket">
+      <Value ID="id-0c05fbe8-2243-41f3-96ec-38dce301847f">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-864721ef-3f6d-496d-89fe-bf41fd4c11a5" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="960" Locator="r_shape">
+      <Value ID="id-34844df9-924d-4fb4-aea1-9a776182ed4e">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:FixedValue">
+          <Value>{
+  0,
+  0,
+  0
+}</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="890" Locator="r_Bucket">
+      <Value ID="id-554bef99-2289-4d44-8a0d-58582c18cb49">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:FixedValue">
+          <Value>{
+  0.52,
+  0.07,
+  0
+}</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="50" Locator="bucket_initType">
+      <Value ID="id-8e89d5d8-7c82-4bbc-b655-667fc756973a">
+        <ValueExpression xmlns:q9="avm" xsi:type="q9:FixedValue">
+          <Value>Modelica.Mechanics.MultiBody.Types.Init.Free</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="1170" Locator="bucketTip">
+      <Value ID="id-6c8c24fc-ff63-4eb3-bd2b-3056fa6b6163">
+        <ValueExpression xmlns:q10="avm" xsi:type="q10:FixedValue">
+          <Value>{
+  0.12,
+  -1.35,
+  0
+}</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="750" Locator="r_CM_Bucket">
+      <Value ID="id-d9260495-8a56-43ea-a667-80dcc9f6e636">
+        <ValueExpression xmlns:q11="avm" xsi:type="q11:FixedValue">
+          <Value>{
+  0.5,
+  -0.6,
+  0
+}</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="610" Locator="I_31_Bucket">
+      <Value ID="id-0057ee1e-6d20-49c4-8626-182dc6e03a5a">
+        <ValueExpression xmlns:q12="avm" xsi:type="q12:DerivedValue" ValueSource="id-f4494f97-5408-4ff8-86a1-19cfc3d3723e" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="120" Locator="bucket_phi_start">
+      <Value ID="id-34a8f2d3-5f6d-4883-a6da-fa3ab3a12862">
+        <ValueExpression xmlns:q13="avm" xsi:type="q13:DerivedValue" ValueSource="id-8d9e2ad0-75a9-46a2-a4d1-c5f8d5d68dad" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="400" Locator="I_22_Bucket">
+      <Value ID="id-3bcca330-ffb2-4b48-8847-8c4c39f581f0">
+        <ValueExpression xmlns:q14="avm" xsi:type="q14:DerivedValue" ValueSource="id-0907820a-75fc-4e63-bc1b-ecaf716015fe" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="540" Locator="I_21_Bucket">
+      <Value ID="id-603401ff-41f6-4b28-86cf-09de01ce9a1d">
+        <ValueExpression xmlns:q15="avm" xsi:type="q15:DerivedValue" ValueSource="id-151d5541-41e9-4666-bc2d-ef0f5c98aef2" />
+      </Value>
+    </Parameter>
+    <Parameter XPosition="50" YPosition="330" Locator="I_11_Bucket">
+      <Value ID="id-e25886e1-4e3d-4397-9ec3-2a5a41a7b671">
+        <ValueExpression xmlns:q16="avm" xsi:type="q16:DerivedValue" ValueSource="id-e4cd022f-2899-4693-9c94-deaa587e18eb" />
+      </Value>
+    </Parameter>
+    <Connector ID="id-a9e530dd-864f-4706-a00f-b778d5e98772" PortMap="id-176cb51a-831c-4910-8060-9fef0ba8fda3" Notes="" XPosition="700" Definition="" YPosition="500" Name="bucket_tip" Locator="bucket_tip" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_b" />
+    <Connector ID="id-0a1500b6-77f7-4862-a39a-d75ede05c0ea" PortMap="id-c561e1db-aa39-4429-ada6-b4ef2e490fec" Notes="" XPosition="700" Definition="" YPosition="260" Name="frame_a" Locator="frame_a" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+    <Connector ID="id-e8e6afa2-7a3c-4699-af67-d38814cfb975" PortMap="" Notes="" XPosition="700" Definition="" YPosition="140" Name="frame_b" Locator="frame_b" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_b" />
+    <Connector ID="id-2d2105c8-9463-4f2c-8cd8-e6d5c6adc8c9" PortMap="id-0502e973-2697-4b09-acaf-39add4941b05" Notes="" XPosition="700" Definition="" YPosition="380" Name="load" Locator="load" Class="Modelica.Blocks.Interfaces.RealInput" />
+  </DomainModel>
+  <DomainModel xmlns:q17="cad" xsi:type="q17:CADModel" UsesResource="cad.path" Author="" Notes="" XPosition="775" YPosition="1025" Name="CADModel" xmlns="">
+    <Datum xsi:type="q17:CoordinateSystem" ID="cad.ASM_DEF_CSYS" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="ASM_DEF_CSYS" DatumName="ASM_DEF_CSYS" />
+    <Datum xsi:type="q17:Plane" ID="cad.ASM_RIGHT" PortMap="" Notes="" XPosition="325" Definition="" YPosition="25" Name="ASM_RIGHT" DatumName="ASM_RIGHT" SurfaceReverseMap="" />
+    <Datum xsi:type="q17:Plane" ID="cad.ASM_TOP" PortMap="" Notes="" XPosition="425" Definition="" YPosition="25" Name="ASM_TOP" DatumName="ASM_TOP" SurfaceReverseMap="" />
+    <Datum xsi:type="q17:Plane" ID="cad.ASM_FRONT" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="ASM_FRONT" DatumName="ASM_FRONT" SurfaceReverseMap="" />
+    <Datum xsi:type="q17:Plane" ID="id-c543071f-1ff5-4947-b023-035899bb5b6b" PortMap="id-4939265f-cdc6-4c19-92a2-a47c12026600 cad.CENTER_PLANE" Notes="" XPosition="525" Definition="" YPosition="25" Name="CENTER_PLANE" DatumName="CENTER_PLANE" SurfaceReverseMap="" />
+    <Datum xsi:type="q17:Plane" ID="cad.ARM_GUIDE" PortMap="id-0a11e1bf-174e-45ce-8e15-6cc564db0001" Notes="" XPosition="25" Definition="" YPosition="25" Name="ARM_GUIDE" DatumName="ARM_GUIDE" SurfaceReverseMap="" />
+    <Datum xsi:type="q17:Axis" ID="id-0d0f4c05-04ff-4673-9bd0-b8172af9c85a" PortMap="cad.UPPER_HOLE" Notes="" XPosition="25" Definition="" YPosition="150" Name="UPPER_HOLE" DatumName="UPPER_HOLE" />
+    <Datum xsi:type="q17:Axis" ID="id-4f455825-c207-431a-a2c8-4013fd2e78ef" PortMap="" Notes="" XPosition="875" Definition="" YPosition="25" Name="LOWER_HOLE" DatumName="LOWER_HOLE" />
+    <Parameter XPosition="625" YPosition="25" Name="DESCRIPTION">
+      <Value Unit="" DataType="String">
+        <ValueExpression xmlns:q18="avm" xsi:type="q18:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter XPosition="975" YPosition="25" Name="MODELED_BY">
+      <Value Unit="" DataType="String">
+        <ValueExpression xmlns:q19="avm" xsi:type="q19:FixedValue">
+          <Value />
+        </ValueExpression>
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <DomainModel xmlns:q20="manufacturing" xsi:type="q20:ManufacturingModel" UsesResource="id-7a58bdb2-48a6-407c-899d-72acd975c7c1" Author="" Notes="" XPosition="25" YPosition="1025" Name="eBOM" xmlns="">
+    <Parameter Notes="" XPosition="25" YPosition="25" Name="procurement__cots_or_parametric">
+      <Value>
+        <ValueExpression xmlns:q21="avm" xsi:type="q21:FixedValue">
+          <Value>COTS</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Notes="" XPosition="275" YPosition="25" Name="procurement__make_or_buy">
+      <Value>
+        <ValueExpression xmlns:q22="avm" xsi:type="q22:FixedValue">
+          <Value>Make</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <Property xmlns:q23="avm" xsi:type="q23:PrimitiveProperty" Name="I_11_Bucket" ID="property.id-e4cd022f-2899-4693-9c94-deaa587e18eb" XPosition="525" YPosition="150" xmlns="">
+    <Value ID="id-e4cd022f-2899-4693-9c94-deaa587e18eb" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q23:FixedValue">
+        <Value>2.165</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q24="avm" xsi:type="q24:PrimitiveProperty" Name="Cost" ID="property.id-c09e2b53-82a3-4cf8-bfb5-aa16c8dd1246" XPosition="805" YPosition="150" xmlns="">
+    <Value ID="id-c09e2b53-82a3-4cf8-bfb5-aa16c8dd1246" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q24:FixedValue">
+        <Value>16690.92</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q25="avm" xsi:type="q25:PrimitiveProperty" Name="bucket_w_start" ID="property.id-17b7208b-62aa-4a9c-9333-24cb5b7bed0f" XPosition="25" YPosition="275" xmlns="">
+    <Value ID="id-17b7208b-62aa-4a9c-9333-24cb5b7bed0f" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q25:FixedValue">
+        <Value>0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q26="avm" xsi:type="q26:PrimitiveProperty" Name="I_31_Bucket" ID="property.id-f4494f97-5408-4ff8-86a1-19cfc3d3723e" XPosition="305" YPosition="275" xmlns="">
+    <Value ID="id-f4494f97-5408-4ff8-86a1-19cfc3d3723e" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q26:FixedValue">
+        <Value>0.00</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q27="avm" xsi:type="q27:PrimitiveProperty" Name="I_22_Bucket" ID="property.id-0907820a-75fc-4e63-bc1b-ecaf716015fe" XPosition="585" YPosition="275" xmlns="">
+    <Value ID="id-0907820a-75fc-4e63-bc1b-ecaf716015fe" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q27:FixedValue">
+        <Value>2.317</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q28="avm" xsi:type="q28:PrimitiveProperty" Name="bucket_phi_start" ID="property.id-8d9e2ad0-75a9-46a2-a4d1-c5f8d5d68dad" XPosition="865" YPosition="275" xmlns="">
+    <Value ID="id-8d9e2ad0-75a9-46a2-a4d1-c5f8d5d68dad" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q28:FixedValue">
+        <Value>0.34906585039887</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q29="avm" xsi:type="q29:PrimitiveProperty" Name="I_21_Bucket" ID="property.id-151d5541-41e9-4666-bc2d-ef0f5c98aef2" XPosition="25" YPosition="400" xmlns="">
+    <Value ID="id-151d5541-41e9-4666-bc2d-ef0f5c98aef2" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q29:FixedValue">
+        <Value>0.465</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q30="avm" xsi:type="q30:PrimitiveProperty" Name="bucket_a_start" ID="property.id-029de0fc-8693-48fc-bbf5-b09c5f3d5af3" XPosition="305" YPosition="400" xmlns="">
+    <Value ID="id-029de0fc-8693-48fc-bbf5-b09c5f3d5af3" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q30:FixedValue">
+        <Value>0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q31="avm" xsi:type="q31:PrimitiveProperty" Name="Volume" ID="property.id-8bcdfc45-fd5f-4f5c-846e-54c66e7b3e6f" XPosition="585" YPosition="400" xmlns="">
+    <Value ID="id-8bcdfc45-fd5f-4f5c-846e-54c66e7b3e6f" DimensionType="Scalar" Dimensions="" Unit="m^3" DataType="String">
+      <ValueExpression xsi:type="q31:FixedValue">
+        <Value>3.72</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q32="avm" xsi:type="q32:PrimitiveProperty" Name="I_33_Bucket" ID="property.id-864721ef-3f6d-496d-89fe-bf41fd4c11a5" XPosition="865" YPosition="400" xmlns="">
+    <Value ID="id-864721ef-3f6d-496d-89fe-bf41fd4c11a5" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q32:FixedValue">
+        <Value>2.137</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q33="avm" xsi:type="q33:PrimitiveProperty" Name="I_32_Bucket" ID="property.id-8c45c3ac-4b1d-42bd-8491-b296f56882ef" XPosition="25" YPosition="525" xmlns="">
+    <Value ID="id-8c45c3ac-4b1d-42bd-8491-b296f56882ef" DimensionType="Scalar" Dimensions="" DataType="Real">
+      <ValueExpression xsi:type="q33:FixedValue">
+        <Value>0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="BUCKET_SCOOP_2.PRT" Path="CAD\BUCKET_SCOOP_2.PRT" Hash="" ID="id-fb2c04c7-16b2-464a-86e4-4df744635f57" Notes="" XPosition="305" YPosition="525" xmlns="" />
+  <ResourceDependency Name="BUCKET_BACK_3.PRT" Path="CAD\BUCKET_BACK_3.PRT" Hash="" ID="id-585c6bfa-bd2c-4491-9ac0-a481c5452624" Notes="" XPosition="555" YPosition="525" xmlns="" />
+  <ResourceDependency Name="BUCKET_ASSEMBLY.ASM" Path="CAD\BUCKET_ASSEMBLY.ASM" Hash="" ID="cad.path" Notes="" XPosition="805" YPosition="525" xmlns="" />
+  <ResourceDependency Name="BUCKET_BACK_2.PRT" Path="CAD\BUCKET_BACK_2.PRT" Hash="" ID="id-a47c568a-f45c-4ffa-a4e6-c22d0ab4b990" Notes="" XPosition="25" YPosition="650" xmlns="" />
+  <ResourceDependency Name="eBOM.xml" Path="MFG\eBOM.xml" Hash="" ID="id-7a58bdb2-48a6-407c-899d-72acd975c7c1" Notes="Manufacturing Model Import tool added this resource object" XPosition="275" YPosition="650" xmlns="" />
+  <ResourceDependency Name="BUCKET_SCOOP.PRT" Path="CAD\BUCKET_SCOOP.PRT" Hash="" ID="id-93ce9e85-6315-40e8-bc48-b169ab5ee6ba" Notes="" XPosition="525" YPosition="650" xmlns="" />
+  <ResourceDependency Name="BUCKET_BRACKET.PRT" Path="CAD\BUCKET_BRACKET.PRT" Hash="" ID="id-a0f734c7-cfee-4ff4-9651-5be45e5bcdda" Notes="" XPosition="775" YPosition="650" xmlns="" />
+  <ResourceDependency Name="BUCKET_SIDE.PRT" Path="CAD\BUCKET_SIDE.PRT" Hash="" ID="id-2851ef99-5221-4fd6-8a1d-f40ccd03f896" Notes="" XPosition="25" YPosition="775" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-5cc44708-e24c-4f83-a045-34a95173d252" ApplyJoinData="" XPosition="25" YPosition="25" Notes="" Definition="" Name="ARM_CONNECTOR" xmlns="">
+    <Role xmlns:q34="cad" xsi:type="q34:Plane" ID="id-4939265f-cdc6-4c19-92a2-a47c12026600" PortMap="" Notes="" XPosition="217" Definition="" YPosition="21" Name="PLANE" SurfaceReverseMap="" />
+    <Role xmlns:q35="cad" xsi:type="q35:Plane" ID="id-0a11e1bf-174e-45ce-8e15-6cc564db0001" PortMap="" Notes="" XPosition="266" Definition="" YPosition="518" Name="GUIDE" SurfaceReverseMap="" />
+    <Role xmlns:q36="cad" xsi:type="q36:Axis" ID="cad.UPPER_HOLE" PortMap="" Notes="" XPosition="112" Definition="" YPosition="147" Name="AXIS" />
+    <Role xmlns:q37="modelica" xsi:type="q37:Connector" ID="id-c561e1db-aa39-4429-ada6-b4ef2e490fec" PortMap="" Notes="" Definition="" Name="frame_a" Locator="frame_a" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_a" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-94edcb0c-7a05-4ae4-b36d-32efae8a895b" ApplyJoinData="" XPosition="275" YPosition="25" Notes="" Definition="" Name="bucket_tip" xmlns="">
+    <Role xmlns:q38="modelica" xsi:type="q38:Connector" ID="id-176cb51a-831c-4910-8060-9fef0ba8fda3" PortMap="" Notes="" Definition="" Name="bucket_tip" Locator="bucket_tip" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_b" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-3ea1a8b2-077e-4030-9922-94216d280c2a" ApplyJoinData="" XPosition="525" YPosition="25" Notes="" Definition="" Name="LINK_CONNECTOR" xmlns="">
+    <Role xmlns:q39="cad" xsi:type="q39:Plane" ID="cad.CENTER_PLANE" PortMap="" Notes="" Definition="" Name="PLANE" SurfaceReverseMap="" />
+    <Role xmlns:q40="cad" xsi:type="q40:Axis" ID="cad.LOWER_HOLE" PortMap="id-4f455825-c207-431a-a2c8-4013fd2e78ef" Notes="" XPosition="364" Definition="" YPosition="28" Name="AXIS" />
+    <Role xmlns:q41="modelica" xsi:type="q41:Connector" ID="id-69828ff3-37b6-4f4d-8377-4ae895bc1d6a" PortMap="id-e8e6afa2-7a3c-4699-af67-d38814cfb975" Notes="" Definition="" Name="frame_b" Locator="frame_b" Class="Modelica.Mechanics.MultiBody.Interfaces.Frame_b" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-e4a81015-88d5-4184-972a-df3e4766225d" ApplyJoinData="" XPosition="775" YPosition="25" Notes="" Definition="" Name="load" xmlns="">
+    <Role xmlns:q42="modelica" xsi:type="q42:Connector" ID="id-0502e973-2697-4b09-acaf-39add4941b05" PortMap="" Notes="" Definition="" Name="load" Locator="load" Class="Modelica.Blocks.Interfaces.RealInput" />
+  </Connector>
+  <Port xmlns:q43="cad" xsi:type="q43:Point" ID="APNT1" PortMap="" Notes="" XPosition="25" Definition="" YPosition="150" Name="APNT1" xmlns="" />
+  <Port xmlns:q44="cad" xsi:type="q44:Point" ID="APNT2" PortMap="" Notes="" XPosition="168" Definition="" YPosition="105" Name="APNT2" xmlns="" />
+  <Port xmlns:q45="cad" xsi:type="q45:Point" ID="APNT4" PortMap="" Notes="" XPosition="315" Definition="" YPosition="105" Name="APNT4" xmlns="" />
+  <Port xmlns:q46="cad" xsi:type="q46:Point" ID="APNT3" PortMap="" Notes="" XPosition="462" Definition="" YPosition="182" Name="APNT3" xmlns="" />
+  <Port xmlns:q47="cad" xsi:type="q47:Point" ID="APNT0" PortMap="" Notes="" XPosition="259" Definition="" YPosition="308" Name="APNT0" xmlns="" />
+  <Classifications xmlns="">Excavator_Bucket</Classifications>
+</Component>
