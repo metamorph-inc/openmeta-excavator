@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4048958" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4048958" creationTimeStamp="2017-10-31T18:55:20Z" lastUpdateTimeStamp="2017-10-31T18:55:20Z">
-	<assemblyIdentity name="Package_46_for_KB4048958" version="6.3.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
-	<package identifier="KB4048958" releaseType="Security Update" restart="possible" psfName="Windows8.1-KB4048958-x64.psf">
-		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
-			<assemblyIdentity name="Microsoft-Windows-CommonFoundation-LanguagePack-Package" language="ja-JP" version="6.3.9600.16384" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
-		</parent>
-		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
-		<update name="4048958-60_neutral_GDR">
-			<applicable disposition="staged">
-				<updateComponent elevate="distribution">
-					<assemblyIdentity name="Microsoft-Windows-TCPIP-MinWin.Resources" version="6.3.9600.18725
+
+DARPA Adaptive Vehicle Make Open Source license
+
+
+Copyright (c) 2014, Ricardo, Inc.
+
+
+Developed with the sponsorship of the Defense Advanced Research Projects Agency (DARPA) and delivered to the U.S. Government with Unlimited Rights as defined in DFARS 252.227-7013.
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this data, including any software or models in source or binary form, specifications, algorithms, and documentation (collectively "the Data"), to deal in the Data without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Data, and to permit persons to whom the Data is furnished to do so, subject to the following conditions:
+
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Data.
+
+
+THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS, SPONSORS, DEVELOPERS, CONTRIBUTORS, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE DATA OR THE USE OR OTHER DEALINGS IN THE DATA.

@@ -1,652 +1,500 @@
-</connection>
-		<connection name="ContentsToGeometry" metaref="60179">
-				<regnode name="sName" value="srcContentsToGeometry"/>
-				<regnode name="dName" value="dstContentsToGeometry"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="MaterialContents"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Extrusion"/>
-					<pointeritem desc="Face"/>
-					<pointeritem desc="Polygon"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="Cylinder2Forwarder" metaref="57074">
-				<regnode name="sName" value="srcExtrusion2Forwarder"/>
-				<regnode name="dName" value="dstExtrusion2Forwarder"/>
-				<regnode name="dRefParent" value="dstExtrusion2Forwarder_refport_parent"/>
-				<regnode name="sRefParent" value="srcExtrusion2Forwarder_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Component Cylinder"/>
-					<pointeritem desc="ComponentAssembly CylinderGeometryForwarder"/>
-					<pointeritem desc="ComponentRef Cylinder"/>
-					<pointeritem desc="ComponentRef CylinderGeometryForwarder"/>
-					<pointeritem desc="Cylinder"/>
-					<pointeritem desc="CylinderGeometryForwarder"/>
-					<pointeritem desc="DesignContainer CylinderGeometryForwarder"/>
-					<pointeritem desc="DesignSpaceRef CylinderGeometryForwarder"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Component Cylinder"/>
-					<pointeritem desc="ComponentAssembly CylinderGeometryForwarder"/>
-					<pointeritem desc="ComponentRef Cylinder"/>
-					<pointeritem desc="ComponentRef CylinderGeometryForwarder"/>
-					<pointeritem desc="Cylinder"/>
-					<pointeritem desc="CylinderGeometryForwarder"/>
-					<pointeritem desc="DesignContainer CylinderGeometryForwarder"/>
-					<pointeritem desc="DesignSpaceRef CylinderGeometryForwarder"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="DesignVariableConstraintMapping" metaref="60225">
-			<dispname>Design Variable Constraint Mapping</dispname>
-				<regnode name="sName" value="srcDesignVariableConstraintMapping"/>
-				<regnode name="dName" value="dstDesignVariableConstraintMapping"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Optimizer DesignVariable"/>
-					<pointeritem desc="ParameterStudy DesignVariable"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Optimizer OptimizerConstraint"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="Displacement2Geometry" metaref="57075">
-				<regnode name="sName" value="srcDisplacement2Geometry"/>
-				<regnode name="dName" value="dstDisplacement2Geometry"/>
-				<regnode name="dRefParent" value="dstDisplacement2Geometry_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="DisplacementConstraint"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Circle"/>
-					<pointeritem desc="ComponentAssemblyTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Face"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Sphere"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Face"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Sphere"/>
-					<pointeritem desc="CustomGeometry"/>
-					<pointeritem desc="Cylinder"/>
-					<pointeritem desc="DesignContainerTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="Extrusion"/>
-					<pointeritem desc="Face"/>
-					<pointeritem desc="Polygon"/>
-					<pointeritem desc="Sphere"/>
-					<pointeritem desc="TestInjectionPoint Circle"/>
-					<pointeritem desc="TestInjectionPoint CustomGeometry"/>
-					<pointeritem desc="TestInjectionPoint Cylinder"/>
-					<pointeritem desc="TestInjectionPoint Extrusion"/>
-					<pointeritem desc="TestInjectionPoint Face"/>
-					<pointeritem desc="TestInjectionPoint GeometryForwarder"/>
-					<pointeritem desc="TestInjectionPoint Polygon"/>
-					<pointeritem desc="TestInjectionPoint Sphere"/>
-					<pointeritem desc="TopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="TopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="TopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="TopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="TopLevelSystemUnderTest Face"/>
-					<pointeritem desc="TopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="TopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="TopLevelSystemUnderTest Sphere"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="DriveParameter" metaref="57076">
-				<regnode name="sName" value="srcDriveParameter"/>
-				<regnode name="dName" value="dstDriveParameter"/>
-				<regnode name="dRefParent" value="dstDriveParameter_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="PCCDriver PCCParameterBeta"/>
-					<pointeritem desc="PCCDriver PCCParameterLNormal"/>
-					<pointeritem desc="PCCDriver PCCParameterNormal"/>
-					<pointeritem desc="PCCDriver PCCParameterUniform"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="ExcelWrapper Parameter"/>
-					<pointeritem desc="MATLABWrapper Parameter"/>
-					<pointeritem desc="PythonWrapper Parameter"/>
-					<pointeritem desc="TestBenchRef Parameter"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="EDAModelParameterMap" metaref="37946">
-				<regnode name="sName" value="srcEDAModelParameterMap"/>
-				<regnode name="dName" value="dstEDAModelParameterMap"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ComplexityMetric"/>
-					<pointeritem desc="Constant"/>
-					<pointeritem desc="CustomFormula"/>
-					<pointeritem desc="Metric"/>
-					<pointeritem desc="Parameter"/>
-					<pointeritem desc="Property"/>
-					<pointeritem desc="SimpleFormula"/>
-					<pointeritem desc="ValueFlowTypeSpecification"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="EDAModel EDAModelParameter"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="ExtrusionOffset2Component" metaref="57077">
-				<regnode name="sName" value="srcExtrusionOffset2Component"/>
-				<regnode name="dName" value="dstExtrusionOffset2Component"/>
-				<regnode name="dRefParent" value="dstExtrusionOffset2Component_refport_parent"/>
-				<regnode name="sRefParent" value="srcExtrusionOffset2Component_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-				<regnode name="labelFormatStr" value="Offset"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="Extrusion"/>
-					<pointeritem desc="TestInjectionPoint Extrusion"/>
-					<pointeritem desc="TopLevelSystemUnderTest Extrusion"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="ComponentAssemblyTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="DesignContainerTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="TestComponent AnalysisPoint"/>
-					<pointeritem desc="TestComponentTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="TestInjectionPoint AnalysisPoint"/>
-					<pointeritem desc="TopLevelSystemUnderTest AnalysisPoint"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="ExtrusionSurface2Component" metaref="57078" attributes="PolygonOrdinalPosition">
-				<regnode name="sName" value="srcExtrusionSurface2Component"/>
-				<regnode name="dName" value="dstExtrusionSurface2Component"/>
-				<regnode name="dRefParent" value="dstExtrusionSurface2Component_refport_parent"/>
-				<regnode name="sRefParent" value="srcExtrusionSurface2Component_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-				<regnode name="labelFormatStr" value="Ordinal Position: %PolygonOrdinalPosition%"/>
-			<attrdef name="PolygonOrdinalPosition" metaref="57079" valuetype="integer" defvalue="1">
-				<dispname>Ordinal Position:</dispname>
-			</attrdef>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="Extrusion"/>
-					<pointeritem desc="TestInjectionPoint Extrusion"/>
-					<pointeritem desc="TopLevelSystemUnderTest Extrusion"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="ComponentAssemblyTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="DesignContainerTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="TestComponent AnalysisPoint"/>
-					<pointeritem desc="TestComponentTopLevelSystemUnderTest AnalysisPoint"/>
-					<pointeritem desc="TestInjectionPoint AnalysisPoint"/>
-					<pointeritem desc="TopLevelSystemUnderTest AnalysisPoint"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FEAComputation2Metric" metaref="57080">
-				<regnode name="sName" value="srcFEAComputation2Metric"/>
-				<regnode name="dName" value="dstFEAComputation2Metric"/>
-				<regnode name="dRefParent" value="dstFEAComputation2Metric_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="StructuralFEAComputation BearingStress"/>
-					<pointeritem desc="StructuralFEAComputation FactorOfSafety"/>
-					<pointeritem desc="StructuralFEAComputation HillCriteria"/>
-					<pointeritem desc="StructuralFEAComputation HoffmanCriteria"/>
-					<pointeritem desc="StructuralFEAComputation MaximumDisplacement"/>
-					<pointeritem desc="StructuralFEAComputation MaximumFailureCriteria"/>
-					<pointeritem desc="StructuralFEAComputation MisesStress"/>
-					<pointeritem desc="StructuralFEAComputation ShearStress"/>
-					<pointeritem desc="StructuralFEAComputation TsaiWuCriteria"/>
-					<pointeritem desc="ThermalFEAComputation MaximumTemperature"/>
-					<pointeritem desc="ThermalFEAComputation MinimumTemperature"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="ComponentAssemblyTopLevelSystemUnderTest Metric"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Metric"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Metric"/>
-					<pointeritem desc="Metric"/>
-					<pointeritem desc="TestComponent Metric"/>
-					<pointeritem desc="TestComponentTopLevelSystemUnderTest Metric"/>
-					<pointeritem desc="TestInjectionPoint Metric"/>
-					<pointeritem desc="TopLevelSystemUnderTest Metric"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FastenedConnector" metaref="57081">
-				<regnode name="sName" value="srcFastenedConnector"/>
-				<regnode name="dName" value="dstFastenedConnector"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Fastened"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Component Connector"/>
-					<pointeritem desc="ComponentAssembly Connector"/>
-					<pointeritem desc="ComponentRef Connector"/>
-					<pointeritem desc="Connector"/>
-					<pointeritem desc="DesignContainer Connector"/>
-					<pointeritem desc="DesignSpaceRef Connector"/>
-				</pointerspec>
-			</connjoint>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Component Connector"/>
-					<pointeritem desc="ComponentAssembly Connector"/>
-					<pointeritem desc="ComponentRef Connector"/>
-					<pointeritem desc="Connector"/>
-					<pointeritem desc="DesignContainer Connector"/>
-					<pointeritem desc="DesignSpaceRef Connector"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Fastened"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FastenerAxis" metaref="57082">
-				<regnode name="sName" value="srcFastenerAxis"/>
-				<regnode name="dName" value="dstFastenerAxis"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="FastenerInterfaceDefaultJoinData"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Axis"/>
-				</pointerspec>
-			</connjoint>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Axis"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="FastenerInterfaceDefaultJoinData"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FastenerDesc2Fastener" metaref="57083">
-				<regnode name="sName" value="srcFastenerDesc2Fastener"/>
-				<regnode name="dName" value="dstFastenerDesc2Fastener"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="FastenerDescription"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Component"/>
-					<pointeritem desc="ComponentAssembly"/>
-					<pointeritem desc="ComponentRef"/>
-					<pointeritem desc="DesignContainer"/>
-				</pointerspec>
-			</connjoint>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Component"/>
-					<pointeritem desc="ComponentAssembly"/>
-					<pointeritem desc="ComponentRef"/>
-					<pointeritem desc="DesignContainer"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="FastenerDescription"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FastenerDesc2Nut" metaref="57084">
-				<regnode name="sName" value="srcFastenerDesc2Nut"/>
-				<regnode name="dName" value="dstFastenerDesc2Nut"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-				</pointerspec>
-				<pointerspec name="dst">
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FastenerPlane" metaref="57085">
-				<regnode name="sName" value="srcFastenerPlane"/>
-				<regnode name="dName" value="dstFastenerPlane"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="FastenerInterfaceDefaultJoinData"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Surface"/>
-				</pointerspec>
-			</connjoint>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Surface"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="FastenerInterfaceDefaultJoinData"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FeatureMap" metaref="57086">
-				<regnode name="sName" value="srcFeatureMap"/>
-				<regnode name="dName" value="dstFeatureMap"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="butt"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<constraint name="ConnectedFeatures_HaveSameType" eventmask="0x80000000" depth="1" priority="2">
-				if (self.connectionPoint("src").target().kindName = "Point") then
- self.connectionPoint("dst").target().kindName = "PointGeometry"
-else if (self.connectionPoint("dst").target().kindName = "Point") then
- self.connectionPoint("src").target().kindName = "PointGeometry"
-else if (self.connectionPoint("src").target().kindName = "Axis") then
- self.connectionPoint("dst").target().kindName = "AxisGeometry"
-else if (self.connectionPoint("dst").target().kindName = "Axis") then
- self.connectionPoint("src").target().kindName = "AxisGeometry"
-else if (self.connectionPoint("src").target().kindName = "Surface") then
- self.connectionPoint("dst").target().kindName = "SurfaceGeometry"
-else if (self.connectionPoint("dst").target().kindName = "Surface") then
- self.connectionPoint("src").target().kindName = "SurfaceGeometry"
-else if (self.connectionPoint("src").target().kindName = "CoordinateSystem") then
- self.connectionPoint("dst").target().kindName = "CoordinateSystemGeometry"
-else if (self.connectionPoint("dst").target().kindName = "CoordinateSystem") then
- self.connectionPoint("src").target().kindName = "CoordinateSystemGeometry"
-else
- false
-endif
-endif
-endif
-endif
-endif
-endif
-endif
-endif
-				<dispname>Only Features of the same type(Point, Surface, Axis, etc) can be connected together.</dispname>
-			</constraint>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="Axis"/>
-					<pointeritem desc="CADModel Axis"/>
-					<pointeritem desc="CADModel AxisGeometry"/>
-					<pointeritem desc="CADModel CoordinateSystem"/>
-					<pointeritem desc="CADModel CoordinateSystemGeometry"/>
-					<pointeritem desc="CADModel Point"/>
-					<pointeritem desc="CADModel PointGeometry"/>
-					<pointeritem desc="CADModel Surface"/>
-					<pointeritem desc="CADModel SurfaceGeometry"/>
-					<pointeritem desc="Circle CircleCenter"/>
-					<pointeritem desc="Circle CircleEdge"/>
-					<pointeritem desc="Connector Axis"/>
-					<pointeritem desc="Connector CoordinateSystem"/>
-					<pointeritem desc="Connector Point"/>
-					<pointeritem desc="Connector Surface"/>
-					<pointeritem desc="CoordinateSystem"/>
-					<pointeritem desc="CustomGeometry AxisDatumForwarder"/>
-					<pointeritem desc="CustomGeometry CoordinateSystemDatumForwarder"/>
-					<pointeritem desc="CustomGeometry PointDatumForwarder"/>
-					<pointeritem desc="CustomGeometry SurfaceDatumForwarder"/>
-					<pointeritem desc="Cylinder CylinderEnd"/>
-					<pointeritem desc="Cylinder CylinderRadius"/>
-					<pointeritem desc="Cylinder CylinderStart"/>
-					<pointeritem desc="Extrusion AxisDatumForwarder"/>
-					<pointeritem desc="Extrusion CoordinateSystemDatumForwarder"/>
-					<pointeritem desc="Extrusion Direction_Reference_Point"/>
-					<pointeritem desc="Extrusion ExtrusionHeight"/>
-					<pointeritem desc="Extrusion PointDatumForwarder"/>
-					<pointeritem desc="Extrusion SurfaceDatumForwarder"/>
-					<pointeritem desc="Face Direction_Reference_Point"/>
-					<pointeritem desc="Face ReferencePoint"/>
-					<pointeritem desc="Face ReferenceSurface"/>
-					<pointeritem desc="MaterialContents End_Direction"/>
-					<pointeritem desc="MaterialContents Start_Direction"/>
-					<pointeritem desc="Point"/>
-					<pointeritem desc="Polygon Direction_Reference_Point"/>
-					<pointeritem desc="Sphere SphereCenter"/>
-					<pointeritem desc="Sphere SphereEdge"/>
-					<pointeritem desc="Surface"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Axis"/>
-					<pointeritem desc="CADModel Axis"/>
-					<pointeritem desc="CADModel AxisGeometry"/>
-					<pointeritem desc="CADModel CoordinateSystem"/>
-					<pointeritem desc="CADModel CoordinateSystemGeometry"/>
-					<pointeritem desc="CADModel Point"/>
-					<pointeritem desc="CADModel PointGeometry"/>
-					<pointeritem desc="CADModel Surface"/>
-					<pointeritem desc="CADModel SurfaceGeometry"/>
-					<pointeritem desc="Circle CircleCenter"/>
-					<pointeritem desc="Circle CircleEdge"/>
-					<pointeritem desc="Connector Axis"/>
-					<pointeritem desc="Connector CoordinateSystem"/>
-					<pointeritem desc="Connector Point"/>
-					<pointeritem desc="Connector Surface"/>
-					<pointeritem desc="CoordinateSystem"/>
-					<pointeritem desc="CustomGeometry AxisDatumForwarder"/>
-					<pointeritem desc="CustomGeometry CoordinateSystemDatumForwarder"/>
-					<pointeritem desc="CustomGeometry PointDatumForwarder"/>
-					<pointeritem desc="CustomGeometry SurfaceDatumForwarder"/>
-					<pointeritem desc="Cylinder CylinderEnd"/>
-					<pointeritem desc="Cylinder CylinderRadius"/>
-					<pointeritem desc="Cylinder CylinderStart"/>
-					<pointeritem desc="Extrusion AxisDatumForwarder"/>
-					<pointeritem desc="Extrusion CoordinateSystemDatumForwarder"/>
-					<pointeritem desc="Extrusion Direction_Reference_Point"/>
-					<pointeritem desc="Extrusion ExtrusionHeight"/>
-					<pointeritem desc="Extrusion PointDatumForwarder"/>
-					<pointeritem desc="Extrusion SurfaceDatumForwarder"/>
-					<pointeritem desc="Face Direction_Reference_Point"/>
-					<pointeritem desc="Face ReferencePoint"/>
-					<pointeritem desc="Face ReferenceSurface"/>
-					<pointeritem desc="MaterialContents End_Direction"/>
-					<pointeritem desc="MaterialContents Start_Direction"/>
-					<pointeritem desc="Point"/>
-					<pointeritem desc="Polygon Direction_Reference_Point"/>
-					<pointeritem desc="Sphere SphereCenter"/>
-					<pointeritem desc="Sphere SphereEdge"/>
-					<pointeritem desc="Surface"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="FileResultFlow" metaref="60366">
-			<dispname>File Result Flow</dispname>
-				<regnode name="sName" value="srcFileResultFlow"/>
-				<regnode name="dName" value="dstFileResultFlow"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ExcelWrapper FileOutput"/>
-					<pointeritem desc="MATLABWrapper FileOutput"/>
-					<pointeritem desc="PythonWrapper FileOutput"/>
-					<pointeritem desc="TestBenchRef FileOutput"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="ExcelWrapper FileInput"/>
-					<pointeritem desc="MATLABWrapper FileInput"/>
-					<pointeritem desc="Optimizer IntermediateVariable"/>
-					<pointeritem desc="Optimizer Objective"/>
-					<pointeritem desc="ParameterStudy Objective"/>
-					<pointeritem desc="PythonWrapper FileInput"/>
-					<pointeritem desc="TestBenchRef FileInput"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="Flow" metaref="57087">
-				<regnode name="sName" value="srcFlow"/>
-				<regnode name="dName" value="dstFlow"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ExecutionTask"/>
-					<pointeritem desc="Task"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="ExecutionTask"/>
-					<pointeritem desc="Task"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="Force2Geometry" metaref="57088">
-				<regnode name="sName" value="srcForce2Geometry"/>
-				<regnode name="dName" value="dstForce2Geometry"/>
-				<regnode name="dRefParent" value="dstForce2Geometry_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ForceLoad"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Circle"/>
-					<pointeritem desc="ComponentAssemblyTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Face"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Sphere"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Face"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Sphere"/>
-					<pointeritem desc="CustomGeometry"/>
-					<pointeritem desc="Cylinder"/>
-					<pointeritem desc="DesignContainerTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="Extrusion"/>
-					<pointeritem desc="Face"/>
-					<pointeritem desc="Polygon"/>
-					<pointeritem desc="Sphere"/>
-					<pointeritem desc="TestInjectionPoint Circle"/>
-					<pointeritem desc="TestInjectionPoint CustomGeometry"/>
-					<pointeritem desc="TestInjectionPoint Cylinder"/>
-					<pointeritem desc="TestInjectionPoint Extrusion"/>
-					<pointeritem desc="TestInjectionPoint Face"/>
-					<pointeritem desc="TestInjectionPoint GeometryForwarder"/>
-					<pointeritem desc="TestInjectionPoint Polygon"/>
-					<pointeritem desc="TestInjectionPoint Sphere"/>
-					<pointeritem desc="TopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="TopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="TopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="TopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="TopLevelSystemUnderTest Face"/>
-					<pointeritem desc="TopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="TopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="TopLevelSystemUnderTest Sphere"/>
-				</pointerspec>
-			</connjoint>
-		</connection>
-		<connection name="ForceLoadParam2Geometry" metaref="57089">
-				<regnode name="sName" value="srcForceLoadParam2Geomerty"/>
-				<regnode name="dName" value="dstForceLoadParam2Geomerty"/>
-				<regnode name="dRefParent" value="dstForceLoadParam2Geomerty_refport_parent"/>
-				<regnode name="color" value="0x000000"/>
-				<regnode name="dstStyle" value="arrow"/>
-				<regnode name="srcStyle" value="butt"/>
-				<regnode name="lineType" value="solid"/>
-			<connjoint>
-				<pointerspec name="src">
-					<pointeritem desc="ForceLoadParam"/>
-				</pointerspec>
-				<pointerspec name="dst">
-					<pointeritem desc="Circle"/>
-					<pointeritem desc="ComponentAssemblyTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Face"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="ComponentRefTopLevelSystemUnderTest Sphere"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Circle"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest CustomGeometry"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Cylinder"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Extrusion"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Face"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Polygon"/>
-					<pointeritem desc="ComponentTopLevelSystemUnderTest Sphere"/>
-					<pointeritem desc="CustomGeometry"/>
-					<pointeritem desc="Cylinder"/>
-					<pointeritem desc="DesignContainerTopLevelSystemUnderTest GeometryForwarder"/>
-					<pointeritem desc="Extrusion"/>
-					<pointeritem desc="Face"/>
-					<pointeritem desc="Polygon"/>
-					<pointeritem desc="
+<ns0:Component xmlns:ns0="avm" ID="1d59e8a2b2" Name="panel__generic__steel_a572_gr50_5p1x2p4x0p016" SchemaVersion="2.5" Version="2014_03_13_09_46"><DomainModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UsesResource="manufacturing.path" xsi:type="ns2:ManufacturingModel">
+    <Parameter Name="procurement__cots_or_parametric" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.cots_or_parametric">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>COTS</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__make_or_buy" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.make_or_buy">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Buy</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.manufacturer_part_info.manufacturer">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer_part_description" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.manufacturer_part_info.manufacturer_part_description">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__manufacturer_part_info__manufacturer_part_number" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.manufacturer_part_info.manufacturer_part_number">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__nsn" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.nsn">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__breakpoint_graph__dependents__acceleration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.breakpoint_graph.dependents.acceleration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__breakpoint_graph__independent__frequency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.breakpoint_graph.independent.frequency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__damping_ratio" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.damping_ratio">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__duration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.duration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__max_amplitude_zero_to_peak" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.max_amplitude_zero_to_peak">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__rrs_shape" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.rrs_shape">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__shape" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.shape">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__shock_qualification_type" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.shock_qualification_type">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__specifications_met" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.specifications_met">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__time_graph__dependents__acceleration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.time_graph.dependents.acceleration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__shock_qualification__time_graph__independent__time" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.shock_qualification.time_graph.independent.time">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__operating_temperature_high" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.operating_temperature_high">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__operating_temperature_low" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.operating_temperature_low">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__specifications_met" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.specifications_met">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__storage_temperature_high" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.storage_temperature_high">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__temperature_qualification__storage_temperature_low" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.temperature_qualification.storage_temperature_low">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__breakpoint_graph__dependents__acceleration" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.breakpoint_graph.dependents.acceleration">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__breakpoint_graph__independent__frequency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.breakpoint_graph.independent.frequency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__frequency_range" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.frequency_range">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__max_amplitude_rms" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.max_amplitude_rms">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__max_amplitude_zero_to_peak" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.max_amplitude_zero_to_peak">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__specifications_met" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.specifications_met">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__qualification_info__vibration_qualification__vibration_qualification_type" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.qualification_info.vibration_qualification.vibration_qualification_type">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_NRE__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_NRE.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_NRE__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_NRE.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_per_orderable_unit__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_per_orderable_unit.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>usd</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_per_orderable_unit__value" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_per_orderable_unit.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>2042.26</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_tooling__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_tooling.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__part_cost_tooling__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.part_cost_tooling.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__production_or_prototype" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.production_or_prototype">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Production</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_basis_part_cost" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.volume_basis_part_cost">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_production_quantity_max" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.volume_production_quantity_max">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>50</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_production__volume_production_quantity_min" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_production.volume_production_quantity_min">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_NRE__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_NRE.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_NRE__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_NRE.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_per_orderable_unit__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_per_orderable_unit.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_per_orderable_unit__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_per_orderable_unit.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_tooling__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_tooling.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_cost_tooling__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_cost_tooling.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__part_leadtime_per_orderable_unit" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.part_leadtime_per_orderable_unit">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__production_or_prototype" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.production_or_prototype">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Production</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_basis_part_cost" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.volume_basis_part_cost">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_production_quantity_max" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.volume_production_quantity_max">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__cost_leadtime_prototype__volume_production_quantity_min" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.cost_leadtime_prototype.volume_production_quantity_min">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__orderable_unit__quantity_parts_per_unit" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.orderable_unit.quantity_parts_per_unit">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1.0</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__orderable_unit__unit_of_measure__unit_of_measure_other" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.orderable_unit.unit_of_measure.unit_of_measure_other">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Each</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__country_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.country_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__state_region_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.state_region_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__street_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.street_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__street_number" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.street_number">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__town_city_name" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.town_city_name">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__default_ship_from_address__zip_postal_code" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.default_ship_from_address.zip_postal_code">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__dunnage" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.dunnage">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__fob" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.fob">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping__condition_shipping" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.mass_shipping.condition_shipping">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Dry</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__mass_shipping__mass_shipping_condition" Notes="">
+      <Value DataType="Real" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.mass_shipping.mass_shipping_condition" Unit="kg">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>1543.6614288</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__msds" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.msds">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__height" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipment_dimensions.height">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__length" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipment_dimensions.length">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipment_dimensions__width" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipment_dimensions.width">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipping_cost__currency" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipping_cost.currency">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__part_info__shipping_info__shipping_cost__value" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.part_info.shipping_info.shipping_cost.value">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>None</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.supplier">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>supplier_domain.Generic</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier_part_description" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.supplier_part_description">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>Panel, Steel A572 Gr50, 16.67 ft x 8.0 ft x 0.62 in.</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+    <Parameter Name="procurement__supplier_specific_part_info__supplier_part_number" Notes="">
+      <Value DataType="String" DimensionType="Scalar" Dimensions="1" ID="procurement.supplier_specific_part_info.supplier_part_number">
+        <ValueExpression xsi:type="ns1:FixedValue">
+          <Value>N/A</Value>
+        </ValueExpression>
+      </Value>
+    </Parameter>
+  </DomainModel>
+  </ns0:Component>
